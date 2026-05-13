@@ -1,0 +1,539 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "product",
+      "blocks": {
+        "related_collections_kDLQrk": {
+          "type": "related_collections",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "text_size": 8,
+            "product_show_cutline": true,
+            "show_rating": true,
+            "show_rating_count": false,
+            "padding_bottom": 20
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": 4,
+            "padding_bottom": 30
+          }
+        },
+        "liquid_e6Jwmh": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<h5 style=\"color:#85DAD1\">Free gift with every purchase - spend more, get more. <h5 style=\"color:blue\"<a href=\"https://www.triedequestrian.com/pages/friendsgiving-favors\">Details here.</a></h5>\n</br>"
+          }
+        },
+        "variants": {
+          "type": "variant-selectors",
+          "disabled": true,
+          "settings": {
+            "option_size_swatch": 34,
+            "option_size_radio": 50,
+            "option_space": 30,
+            "padding_bottom": 30
+          }
+        },
+        "subscriptions": {
+          "type": "subscription",
+          "settings": {
+            "subscriptions_enable_selectors": true,
+            "padding_bottom": 20
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "disabled": true,
+          "settings": {
+            "show_quantity": true,
+            "padding_bottom": 20
+          }
+        },
+        "sizes-remaining": {
+          "type": "size-remaining",
+          "disabled": true,
+          "settings": {
+            "info_page": "",
+            "title": "",
+            "show_remaining": true,
+            "show_remaining_style": "low",
+            "countdown": 10,
+            "padding_bottom": 0
+          }
+        },
+        "buttons": {
+          "type": "add-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "enable_gift_card_recipient": false,
+            "padding_bottom": 20
+          }
+        },
+        "product_color_AhPw3M": {
+          "type": "product_color",
+          "disabled": true,
+          "settings": {
+            "heading": "Color",
+            "padding_bottom": 20
+          }
+        },
+        "complimentary_kPhRKW": {
+          "type": "complimentary",
+          "settings": {
+            "title": "Bought together",
+            "complimentary_list_limit": 1,
+            "padding_bottom": 20
+          }
+        },
+        "features_kPMUdj": {
+          "type": "features",
+          "settings": {
+            "feature_1_text": "Quality Inspected",
+            "feature_1_image": "shopify://shop_images/thumbsup.svg",
+            "feature_2_text": "Best Retail Price",
+            "feature_2_image": "shopify://shop_images/pricetag.svg",
+            "feature_3_text": "Condition Guarantee",
+            "feature_3_image": "shopify://shop_images/badge.svg"
+          }
+        },
+        "icon_LbE9HP": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-fire",
+            "icon_color": "#4b4b4b",
+            "text": "<p>{{ product.metafields.custom.popular_text.value }}</p>",
+            "padding_bottom": 20
+          }
+        },
+        "popup_zjjyAp": {
+          "type": "popup",
+          "settings": {
+            "accordions": false,
+            "description_expanded": false,
+            "badge": "{{ product.metafields.custom.product_badge.value }}",
+            "text_size": 5,
+            "title": "Condition",
+            "text": "An item that in essence, looks like new and has no notable flaws.",
+            "button": "How We Define Condition",
+            "text_color": "#132c6a",
+            "bg_color": "#9cffd2",
+            "text_badge": "#000000",
+            "padding_bottom": 20
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "style": "accordions",
+            "enable_description": true,
+            "read_more": true,
+            "icon_description": "",
+            "description_expanded": true,
+            "title_1": "",
+            "icon_name_1": "",
+            "raw_content_1": "",
+            "title_2": "",
+            "icon_name_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "icon_name_3": "",
+            "raw_content_3": "",
+            "title_4": "",
+            "icon_name_4": "",
+            "raw_content_4": "",
+            "title_5": "",
+            "icon_name_5": "",
+            "raw_content_5": "",
+            "padding_bottom": 20
+          }
+        },
+        "popup_with_tabs_EWFagV": {
+          "type": "popup-with-tabs",
+          "settings": {
+            "accordions": true,
+            "description_expanded": false,
+            "text_size": 5,
+            "title": "Shipping & returns",
+            "text": "Free shipping on orders over $249. Return items within 14 days for a refund or store credit",
+            "button": "Details",
+            "title1": "Shipping",
+            "page1": "shipping-info",
+            "title2": "Returns",
+            "page2": "return-policy-1",
+            "text_color": "#132c6a",
+            "padding_bottom": 20
+          }
+        },
+        "payment_icon_7MW4aY": {
+          "type": "payment_icon",
+          "disabled": true,
+          "settings": {
+            "accordions": true,
+            "description_expanded": false,
+            "text_size": 5,
+            "title": "Payment Methods",
+            "padding_bottom": 20
+          }
+        },
+        "related_collections_qk4KHk": {
+          "type": "related_collections",
+          "settings": { "prefix": "See more " }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "title": "Buy it with",
+            "upsell_type": "product_single",
+            "product": "",
+            "upsell_product_list": [],
+            "upsell_list_limit": 1,
+            "padding_bottom": 20
+          }
+        },
+        "pickup": {
+          "type": "pickup",
+          "disabled": true,
+          "settings": {
+            "padding_bottom": 20
+          }
+        },
+        "sharing": {
+          "type": "sharing",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share",
+            "target_device": "",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "related_collections_kDLQrk",
+        "title",
+        "price",
+        "liquid_e6Jwmh",
+        "variants",
+        "subscriptions",
+        "quantity",
+        "sizes-remaining",
+        "buttons",
+        "product_color_AhPw3M",
+        "complimentary_kPhRKW",
+        "features_kPMUdj",
+        "icon_LbE9HP",
+        "popup_zjjyAp",
+        "description",
+        "popup_with_tabs_EWFagV",
+        "payment_icon_7MW4aY",
+        "related_collections_qk4KHk",
+        "upsell",
+        "pickup",
+        "sharing"
+      ],
+      "custom_css": [
+        "em {display: none;}"
+      ],
+      "settings": {
+        "layout": "thumbnails-below@slides",
+        "image_width": "wide",
+        "image_spacing": 10,
+        "align": "left",
+        "bg": "palette--light bg--neutral",
+        "mobile_layout": "carousel",
+        "enable_video_looping": true,
+        "zoom_enable": true,
+        "alt_text_enable": true,
+        "alt_text_icon": "icon-ruler",
+        "product_breadcrumbs_enable": false,
+        "product_breadcrumbs_list": [],
+        "width": "wrapper",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text": {
+      "type": "section-double",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "Image with text",
+            "title": "",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-2": {
+      "type": "section-double",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KLP_5566_copy.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#d4d0cd",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn-text-thick-line"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Quality You Can Trust. Style You Can Feel Good About.",
+            "text": "<p>We curate from thousands of riders, brands, and tack stores nationwide—from pre-owned and last-season favorites to short size runs and boutique overstock. Each piece is inspected, fairly priced, and ready for its next ride.</p>",
+            "font_size": 4,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Have pieces to sell? Learn about consignment here",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "text"
+      ],
+      "custom_css": [
+        ".section-padding {margin-top: 48px; margin-bottom: 48px;}",
+        ".image__hero__pane img {object-position: 50% 90% !important; border-radius: 5px;}"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "#f9f5f1",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "related": {
+      "type": "related",
+      "disabled": true,
+      "custom_css": [
+        "h2.standard__heading {font-size: 2.5rem;}"
+      ],
+      "settings": {
+        "heading": "Other riders also loved",
+        "bg": "palette--light bg--neutral",
+        "grid_large": 4,
+        "grid_medium": 3,
+        "grid_small": 1.2,
+        "related_products_enable": true,
+        "limit": 6,
+        "product_recommendations_heading": "Related products",
+        "show_recently_viewed": false,
+        "product_recently_limit": 6,
+        "product_recently_minimum": 1,
+        "product_recently_heading": "Recently viewed",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_collection_R86RUD": {
+      "type": "section-collection",
+      "custom_css": [
+        "h2 {font-size: 2.5rem;}"
+      ],
+      "settings": {
+        "title": "Other items in your size",
+        "collection": "size-small",
+        "grid": 4,
+        "rows": 3,
+        "grid_mobile": "2",
+        "bg": "palette--light bg--neutral",
+        "show_view_all": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_icons_j3hChn": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_HBxaV8": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_color": "#132c6a",
+            "title": "Free Shipping $249+",
+            "text": "<p>We offer free shipping on all orders over $249</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_z8ke4V": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_color": "#132c6a",
+            "title": "Easy Returns",
+            "text": "<p>Because you should love what you buy</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_8XV8MQ": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_color": "#132c6a",
+            "title": "Have questions?",
+            "text": "<p>Call or text us at <a href=\"tel:+16618775392\">661-877-5392</a></p><p><a href=\"https://www.triedequestrian.com/pages/contact-tte\">Available during business hours</a></p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_HBxaV8",
+        "icon_block_z8ke4V",
+        "icon_block_8XV8MQ"
+      ],
+      "custom_css": [
+        
+        "h2 {font-size: 32px;}"
+      ],
+      "name": "Icon columns",
+      "settings": {
+        "title": "Shop With Confidence",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 48,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1709670720337b0348": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_PcUQC6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "all",
+            "max_reviews": 20,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "icon",
+            "card_height": "medium",
+            "text_size": "small",
+            "stars_size": "medium",
+            "arrows_position": "bottom",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "quote_marks_style": "serif",
+            "card_color": "#f9f9f9",
+            "stars_and_quote_marks_color": "#108474",
+            "text_color": "#000000",
+            "arrows_color": "#000000",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "transition_speed": 5,
+            "header_text": "Customers are saying",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_PcUQC6"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 180,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image-with-text",
+    "image-with-text-2",
+    "related",
+    "section_collection_R86RUD",
+    "section_icons_j3hChn",
+    "1709670720337b0348"
+  ]
+}

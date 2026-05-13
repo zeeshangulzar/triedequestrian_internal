@@ -1,0 +1,48 @@
+<!-- /templates/page.liquid -->
+
+{% section 'page-images' %}
+
+<div class="wrapper page-margin">
+  <div class="grid">
+    <div class="grid__item large--two-thirds push--large--one-sixth">
+      <header class="section-header text-center waitlist-registered-container">
+        <img src="{{ 'horse.png' | asset_img_url: '2048x2048'}}" border="1" alt="Email image" width="400" height="300">
+        <h2 id="message">
+          YOUR WAITLIST IS STILL ACTIVE! </br></br> WAIT FOR NEW PRODUCTS.
+        </h2>
+        <hr class="hr--small">
+      </header>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function(){
+  var notification_id = getUrlParameter('data');
+    $.get( "https://te-waitlist-backend.herokuapp.com/waitlist", { notification_id: notification_id } )
+      .done(function( data ) {
+        console.log(data)
+        if (data.error != null) {
+          $("#message").text("Error when trying to remain the waitlist.")
+          $("#remain-icon").removeClass("fa fa-list-alt")
+          $("#remain-icon").addClass("fa fa-times-circle")
+        }
+    });
+  });
+
+  var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+</script>
+  

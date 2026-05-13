@@ -1,0 +1,90 @@
+<!-- /snippets/product-condition.liquid -->
+{%- liquid
+  assign description_parts = product.description | split: "<p>"
+  assign condition = product.metafields.custom.product_badge.value | strip | strip_newlines | downcase
+  assign condition_note = ""
+  assign condition_text = ""
+  
+  for line in description_parts
+    if line contains "Condition:"
+      assign condition_line = line | replace: "</p>", ""
+      assign condition_line_parts = condition_line | split: ":"
+      assign condition_parts = condition_line_parts[1] | split: ", "
+      if condition == blank
+        assign condition = condition_parts[0] | strip | strip_newlines | downcase
+      endif
+      assign condition_note = condition_parts[1] | replace: ".", "" | strip | strip_newlines | capitalize
+    endif
+  endfor
+
+  assign condition_class = "excellent"
+  
+  case condition
+    when "new with tags"
+      assign condition_class = "new-with-tags"
+      assign condition = "New With Tags"
+      assign condition_text = "Brand new item, never worn or used, and still has the original retail tags attached."
+    when "new without tags"
+      assign condition_class = "new-without-tags"
+      assign condition = "New Without Tags"
+      assign condition_text = "Unused and in perfect condition, but missing the original retail tags. May have been tried on or stored."
+    when "excellent"
+      assign condition_class = "excellent"
+      assign condition = "Excellent"
+      assign condition_text = "Looks and feels new. No visible signs of wear. Perfect condition, ready for its next ride."
+    when "great"
+      assign condition_class = "great"
+      assign condition = "Great"
+      assign condition_text = "Lightly loved with a few minor signs of wear that will be noted. Could include light wash wear or small imperfections that don’t affect performance or appearance."
+    when "good"
+      assign condition_class = "good"
+      assign condition = "Good"
+      assign condition_text = "Shows noticeable signs of wear that will be detailed in the description. Still fully functional and a great value for everyday use."
+    else
+      assign condition_class = "unknown"
+  endcase
+-%}
+
+{% if condition != blank %}
+  {% if show_section %}
+    <div class="popup_badge accordion__wrapper" style="--space-6:{{ block.settings.padding_bottom }}px;--PB: {{ block.settings.padding_bottom }}px;--text_color:{{ block.settings.text_color }}" {{ block.shopify_attributes }}>
+      {% assign heading_size_class = block.settings.text_size | prepend: 'heading-size-' %}                
+      {% if block.settings.accordions %}
+        <button class="title-with-badge accordion__title js{% if block.settings.description_expanded %} accordion-is-open{% endif %}" data-accordion-trigger="{{ block.id }}" aria-controls="{{ block.id }}" aria-haspopup="true" aria-expanded="{{ block.settings.description_expanded }}">
+          <h3 class="mb-0 {{ heading_size_class }}">{{ block.settings.title }}</h3>
+          <span class="badge_tag badge_tag--condition tag--condition-{{ condition_class }}">{{ condition }}</span>
+        </button>
+      {% else %}
+        <button class="title-with-badge custom-accordion accordion__title">
+          <h3 class="mb-0 {{ heading_size_class }}">{{ block.settings.title }}</h3>
+          {% if condition != blank %}
+            <span class="badge_tag badge_tag--condition tag--condition-{{ condition_class }}">
+              {{ condition }}
+            </span>
+          {% endif %}
+        </button>
+      {% endif %}
+      <div 
+        class="accordion__body no-js-accordion{% unless block.settings.accordions %} active{% endunless %}"
+        {% if block.settings.accordions %}id="{{ block.id }}" data-accordion-body{% endif %}
+      >
+        {% if condition_note != blank and condition_note != "" %}
+          <div class="rte">
+            <p>{{ condition_note }}</p>
+          </div>
+        {% else %}
+          <div class="rte">
+            <p>{{ condition_text }}</p>
+          </div>
+        {% endif %}
+        {% if block.settings.button != blank %}
+          <button type="button" class="popup_btn modal_btn" style="padding-top: 0.5rem">{{ block.settings.button }}</button>
+        {% endif %}
+      </div>              
+    </div>  
+  {% else %}
+    <div class="product__block__condition badge_tag badge_tag--condition tag--condition-{{ condition_class }}" {{ block.shopify_attributes }}>
+      {{ condition }}<br>
+    </div>
+  {% endif %}
+{%  endif %}

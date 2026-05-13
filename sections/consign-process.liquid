@@ -1,0 +1,93 @@
+<section class="consign-process section-container section-padding-consign">
+  <div class="page-width">
+    <div class="consign-process__header">
+      <h2 class="text-primary">
+        {{ section.settings.heading }}
+      </h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="consign-process__grid">
+      {% for block in section.blocks %}
+        <div class="consign-process__item" {{ block.shopify_attributes }}>
+          <div class="consign-process__icon bg-brand-blush">
+            {% if block.settings.icon != blank %}
+              {{ block.settings.icon
+                | image_url: width: 80
+                | image_tag:
+                  loading: 'lazy',
+                  widths: '48,64,80',
+                  sizes: '80px'
+              }}
+            {% endif %}
+          </div>
+
+          <h3 class="text-primary font-bold-primary-sm-mb-3">
+            {{ block.settings.title }}
+          </h3>
+
+          <p class="body-sm-muted text-sm-muted-relaxed-max-w-xs">
+            {{ block.settings.description }}
+          </p>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if section.settings.button_label != blank %}
+      <div class="consign-process__cta">
+        <a href="{{ section.settings.button_link }}" class="consign-process__button">
+          {{ section.settings.button_label }}
+        </a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Consign – Process",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "OUR PROCESS"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "CONSIGN NOW"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Process Step",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon",
+          "label": "Icon (SVG or PNG)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 6
+}
+{% endschema %}

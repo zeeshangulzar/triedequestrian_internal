@@ -1,0 +1,418 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading-about-block": {
+          "type": "heading",
+          "settings": {
+            "title": "Condition & Pricing Criteria",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading-about-block"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/feet.JPG",
+        "height": "use_pixels_500",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "preload_image": true,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "section_richtext_ec8UNV": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_DUNrNP": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONDITION",
+            "text_size": 8
+          }
+        },
+        "text_RDYFXd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A majority of our items on consignment here at TTE have been pre-loved, so we include a condition for each item in each listing! </p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_DUNrNP",
+        "text_RDYFXd"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 750,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_g87hMy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Condition__New_with_tags.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "custom-content-1-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "New with Tags",
+            "text": "<p><strong>New with tags:</strong> Brand new, with original tags. Please note some new with tags items may have some dust or marks from storage. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_g87hMy",
+        "custom-content-1-1"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "New without Tags",
+            "text": "<p><strong>New without tags:</strong> Brand new, never worn, but missing original tags. Some new without tags items may also have been in manufacturer packaging without tags having ever been attached to the garment itself. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_PTMMkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_7234a130-a71d-4973-8e5a-eb789428d32b.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0",
+        "image_PTMMkw"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_NHDjha": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_CpJ7Bn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_7b02eb16-1978-49fd-aac6-f1656e5aa42a.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_MCJAFX": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Excellent",
+            "text": "<p><strong>Excellent: </strong>An item that in essence, looks like new and has no notable flaws. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_CpJ7Bn",
+        "text_MCJAFX"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_8QEE4A": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_DkPkDA": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Great",
+            "text": "<p><strong>Great:</strong> An item that has a few small flaws, like a snag in the fabric or some light saddle staining. Items in great condition look great overall and are usually in show condition. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_dAgQnm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_8de21975-48df-439f-976e-ac98236d0e1d.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_DkPkDA",
+        "image_dAgQnm"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_GFfE7p": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_QD7nQB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_6ad69597-5460-4a36-8e94-c228979ae93d.webp",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_Dqa8BA": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Good",
+            "text": "<p><strong>Good: </strong>An item that has a few notable flaws, like stretched out fabric or noticeable marks. Items in good condition are generally in schooling condition.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_QD7nQB",
+        "text_Dqa8BA"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_6dgEjQ": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_bVicPG": {
+          "type": "heading",
+          "settings": {
+            "heading": "PRICING",
+            "text_size": 8
+          }
+        },
+        "text_hwUTLM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We work our hardest to make sure items are priced both fairly and competitively. We research all items and base our selling price on several things including:</p><ul><li>The original retail price of the item</li><li>The current retail price of the item (i.e. is it now on clearance everywhere?)</li><li>Condition of the item</li><li>Brand, style, and current demand for the item</li></ul>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_bVicPG",
+        "text_hwUTLM"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 750,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 66
+      }
+    },
+    "section_html_Gn4mM9": {
+      "type": "section-html",
+      "settings": {
+        "html": "<style>\nbody{\nbackground-color: #fff !important;\n}\n\n</style>",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "section_richtext_ec8UNV",
+    "custom-content-1",
+    "custom-content-2",
+    "section_custom_content_NHDjha",
+    "section_custom_content_8QEE4A",
+    "section_custom_content_GFfE7p",
+    "section_richtext_6dgEjQ",
+    "section_html_Gn4mM9"
+  ]
+}

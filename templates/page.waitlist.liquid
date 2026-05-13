@@ -1,0 +1,367 @@
+<!-- /templates/page.liquid -->
+
+<div class="grid">
+  <div class="grid__item large--five-sixths push--large--one-twelfth">
+
+    <header class="section-header text-center">
+      <h2>{{ page.content }}</h2>
+      <hr class="hr--small">
+    </header>
+    
+  </div>
+</div>
+<div class="waitlist-container">
+  <select id="menu_select" class="waitlist-select">
+    <option value="-">-</option>
+  </select>
+
+  <select id="sub_menu_select" class="waitlist-select">
+ 	<option value="-">-</option>
+  </select>
+
+  <select id="sub_menu_vendors_select" class="waitlist-select">
+    <option value="-">-</option>
+  </select>
+  
+  <br/ class="size-image-tables">
+  <img id="women-size-image" class="size-image-tables" src="{{ 'women-size.png' | asset_img_url: '2048x2048'}}" style="display: none;"/>
+  <img id="kids-size-image" class="size-image-tables" src="{{ 'kids-size.png' | asset_img_url: '2048x2048'}}" style="display: none;"/>
+  <br/ class="size-image-tables">
+  
+  <select id="size_select" class="waitlist-select">
+    <option value="-">-</option>
+  </select>
+  
+  <select id="size_height_select" class="waitlist-select" hidden>
+    <option value="-">-</option>
+  </select>
+  
+  <select id="size_width_select" class="waitlist-select" hidden>
+    <option value="-">-</option>
+  </select>
+  
+  <select id="color_select" class="waitlist-select" hidden>
+    <option value="-">-</option>
+  </select>
+
+  <input type="email" id="waitlist_email" class="waitlist-input" autocomplete="nope" placeholder="your@email.com" value="" name="contact[email]" required>
+</div>
+<div class="waitlist-container">
+  <button type="button" id="requestButton" class="btn newsletter__submit">Notify me!</button>
+</div>
+
+<script>
+
+jQuery(document).ready(function($){
+   console.log('{{customer.email}}')
+  // Save sub menu
+  var menuData = [{ "title": ["Select category"], "value": ["Select category"] }];
+  var subMenuData = { "Select category" : [{ "title": ["-"], "value": ["-"] }] };
+  var subMenuVendorsData = { "Select collection" : [{ "title": ["-"], "value": ["-"] }] };
+  var genericSize = [{ "title": "Select size", "value": "Select size" },
+               { "title": "X-Small", "value": "size-x-small" },
+               { "title": "Small", "value": "size-small" },
+               { "title": "Medium", "value": "size-medium" },
+               { "title": "Large", "value": "size-large" },
+               { "title": "X-Large", "value": "size-x-large" }];
+  var footwearSize = [{ "title": "Select size", "value": "Select size" }];
+  var sizeHeight = [{ "title": "Select size height", "value": "Select size height" },
+               { "title": "Short", "value": "short" },
+               { "title": "Regular", "value": "regular" },
+               { "title": "Tall", "value": "tall" }];
+  var sizeWidth = [{ "title": "Select size width", "value": "Select size width" },
+               { "title": "Slim", "value": "slim" },
+               { "title": "Medium/Regular", "value": "medium" },
+               { "title": "Wide", "value": "wide" }];
+  var tackSizes = [{ "title": "Select size", "value": "Select size" },
+               { "title": "Pony", "value": "pony" },
+               { "title": "Cob", "value": "cob" },
+               { "title": "Horse", "value": "horse" },
+               { "title": "Oversize", "value": "oversize" }];
+  var blanketsSize = [{ "title": "Select size", "value": "Select size" }];
+  var oneSize = [{ "title": "Select size", "value": "Select size" },
+               { "title": "One size", "value": "one_size" }];
+  const colors = [{ "title": "Select color", "value": "Select color" },
+               { "title": "Any Color", "value": "" },
+               { "title": "Black", "value": "black" },
+               { "title": "Tan", "value": "tan" },
+               { "title": "White", "value": "white" },
+               { "title": "Grey", "value": "grey" },
+               { "title": "Burgundy", "value": "burgundy" },
+               { "title": "Navy", "value": "navy" },
+               { "title": "Red", "value": "red" },
+               { "title": "Blue", "value": "blue" },
+               { "title": "Brown", "value": "brown" },
+               { "title": "Green", "value": "green" },
+               { "title": "Orange", "value": "orange" },
+               { "title": "Purple", "value": "purple" },
+               { "title": "Pink", "value": "pink" },
+               { "title": "Yellow", "value": "yellow" },
+               { "title": "Multi", "value": "multi" }];
+               
+  // Cicles to get the menu and vendors data
+  {% assign menu = linklists.main-menu-new %}
+  {% for link in menu.links %}
+    if ("{{ link.title }}" != "Brands" && "{{ link.title }}" != "Wishlist" && 
+        "{{ link.title }}" != "Shop All" &&
+        "{{ link.title }}" != "Calendar" && "{{ link.title }}" != "Waitlist" && 
+        "{{ link.title }}" != "New Arrivals" && "{{ link.title }}" != "Clearance") {
+       menuData.push({ "title": "{{ link.title }}", "value": "{{ link.object.id }}"})
+    }
+    subMenuTempData = [{ "title": "Select collection", "value": "Select collection" }]  
+    {% if link.links != blank %}
+      {% for sub_link in link.links %}
+        subMenuTempData.push({ "title": "{{ sub_link.title }}", "value": "{{ sub_link.object.id }}"})
+        subMenuVendorsTempData = [{ "title": "Select brand", "value": "Select brand" }]
+
+          {% if sub_link.object != blank and sub_link.object.all_vendors != blank %}
+            {% for vendor in sub_link.object.all_vendors %}
+              subMenuVendorsTempData.push({ "title": "{{ vendor }}", "value": "{{ vendor}}"})
+            {% endfor %}
+            subMenuVendorsData["{{ sub_link.object.id }}"] = subMenuVendorsTempData
+          {% endif %}
+        
+      {% endfor %}
+    {% endif %}
+    subMenuData['{{ link.object.id }}'] = subMenuTempData
+  {% endfor %}
+  for (cont = 8; cont <= 13; cont++ ) {
+     footwearSize.push({ "title": cont, "value": cont})
+  }
+  for (cont = 1; cont <= 5; cont++ ) {
+     footwearSize.push({ "title": cont, "value": cont})
+  }
+  for (cont = 5; cont <= 12; cont += 0.5 ) {
+     
+     footwearSize.push({ "title": cont, "value": cont})
+  }
+  for (cont = 66; cont <= 86; cont += 2 ) {
+     
+     blanketsSize.push({ "title": cont, "value": cont})
+  }
+               
+  // Load the menu select
+  optionSelect = [''];
+  menuData.forEach(function(element) {   
+    optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+  });
+  $('#menu_select').html(optionSelect.join(''));
+  
+  
+  // Events to load the content of the selects
+  $('#menu_select').on('change', function () {
+	let option = $(this).val(); // get selected value
+	if (option) { // require a URL
+      	optionSelect = [];
+		subMenuData[option].forEach(function(element) {   
+     	  optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+        });
+      	$('#sub_menu_select').html(optionSelect.join(''));
+      	$('#sub_menu_vendors_select').html('<option value="-">-</option>')
+      	$('#size_select').html('<option value="-">-</option>')
+        $('#color_select').html('<option value="-">-</option>')
+        $('#size_height_select').html('<option value="-">-</option>').hide()
+        $('#size_width_select').html('<option value="-">-</option>').hide()
+        $(".size-image-tables").hide()
+	} return false;
+
+  });
+  
+  $('#sub_menu_select').on('change', function () {
+	let option = $(this).val(); // get selected value
+	if (option) { // require a URL
+      	optionSelect = [];
+		subMenuVendorsData[option].forEach(function(element) {   
+     	  optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+        });
+      	$('#sub_menu_vendors_select').html(optionSelect.join(''));
+      	$('#size_select').html('<option value="-">-</option>')
+        $('#color_select').html('<option value="-">-</option>')
+        if ($("#sub_menu_select option:selected").text() == "Tall Boots") {
+          $('#size_height_select').show()
+          $('#size_width_select').show()
+        } else {
+          $('#size_height_select').html('<option value="-">-</option>').hide()
+          $('#size_width_select').html('<option value="-">-</option>').hide()
+        }
+        $(".size-image-tables").hide()
+	} return false;
+
+  });
+  
+  $('#sub_menu_vendors_select').on('change', function () {
+	let option = $(this).val(); // get selected value
+	if (option) { // require a URL
+      if (option != "Select brand") {
+        optionSelect = [];
+        if ($("#menu_select option:selected").text() == "Apparel") {
+          size = genericSize;
+        } else {
+          switch($("#sub_menu_select option:selected").text()) {
+            case "Paddock Boots": 
+            case "Tall Boots":
+            case "Casual":
+            case "Kids":
+              size = footwearSize;
+              break;
+            case "Bridles & Reins": 
+            case "Martingales & Breastplace":
+            case "Saddle Pads":
+            case "Horse Boots":
+            case "Bits":
+              size = tackSizes;
+              break;
+            case "Blankets":
+              size = blanketsSize;
+              break;
+            case "Accessories For The Horse":
+            case "Bags":
+            case "Miscellaneous":
+              size = oneSize;
+              break;
+            default:
+              size = genericSize;
+          }
+        }
+              
+        size.forEach(function(element, index) {
+          if (element.value == 8 && index < 11) optionSelect.push('<optgroup label="US Children&apos;s Sizes">')
+          if (element.value == 5 && index > 11) optionSelect.push('</optgroup><optgroup label="US Women&apos;s Sizes">')
+     	  optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+          if (element.value == 12 && index > 11) optionSelect.push('</optgroup>')
+          
+        });
+        $('#size_select').html(optionSelect.join(''));
+        $('#size_height_select').html('<option value="-">-</option>')
+        $('#size_width_select').html('<option value="-">-</option>')
+      }
+      else { 
+        $('#size_select').html('<option value="-">-</option>');
+        $('#size_height_select').html('<option value="-">-</option>')
+        $('#size_width_select').html('<option value="-">-</option>')
+        $('#color_select').html('<option value="-">-</option>')
+      }
+      if ($("#menu_select option:selected").text() == "Apparel") $(".size-image-tables").show()
+      else $(".size-image-tables").hide()
+	} return false;
+
+  });
+  
+  $('#size_select').on('change', function () {
+	let option = $(this).val(); // get selected value
+	if (option) { // require a URL
+      if (option != "Select size" && $("#sub_menu_select option:selected").text() == "Tall Boots") {
+		    optionSelect = [];
+        sizeHeight.forEach(function(element) {   
+     	  optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+        });
+       $('#size_height_select').html(optionSelect.join(''));
+       $('#size_width_select').html('<option value="-">-</option>');
+       $('#color_select').html('<option value="-">-</option>');
+      } else if (option != "Select size" && $("#sub_menu_select option:selected").text() != "Tall Boots") {
+        optionSelect = [];
+        colors.forEach(function(element) {   
+     	    optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+        });
+       $('#color_select').html(optionSelect.join(''));
+       $('#color_select').attr("hidden",false);
+      }
+      else {
+        $('#size_height_select').html('<option value="-">-</option>')
+        $('#size_width_select').html('<option value="-">-</option>')
+        $('#color_select').html('<option value="-">-</option>')
+      }
+	} return false;
+
+  });
+  
+  
+  $('#size_height_select').on('change', function () {
+	let option = $(this).val(); // get selected value
+	if (option) { // require a URL
+      if (option != "Select size height" && $("#sub_menu_select option:selected").text() == "Tall Boots") {
+		optionSelect = [];
+        sizeWidth.forEach(function(element) {   
+     	  optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+        });
+       $('#size_width_select').html(optionSelect.join(''));
+      }
+      else {
+        $('#size_width_select').html('<option value="-">-</option>');
+        $('#color_select').html('<option value="-">-</option>');
+      }
+	} return false;
+
+  });
+  
+  $('#size_width_select').on('change', function () {
+	let option = $(this).val(); // get selected value
+	if (option) { // require a URL
+      if (option != "Select size width") {
+		optionSelect = [];
+        colors.forEach(function(element) {   
+     	  optionSelect.push('<option value="'+ element.value +'">'+ element.title +'</option>');
+        });
+       $('#color_select').html(optionSelect.join(''));
+      }
+      else $('#color_select').html('<option value="-">-</option>');
+	} return false;
+
+  });
+  
+  // Request for the external application
+  $( "#requestButton" ).click(function() {
+    if ($('#size_height_select').is(":hidden")) {
+      console.log("Size hidden", $('#size_select').val(),  $('#color_select'))
+      if ($('#size_select').val() != "-" && $('#size_select').val() != "Select size" &&
+          $('#color_select').val() != "-" && $('#color_select').val() != "Select color") {
+        formValidation();
+      }
+      else {
+       
+          alert("The product selection is not completed, please review it.")
+      }
+    }
+    else {
+      if ($('#size_select').val() != "-" && $('#size_select').val() != "Select size" &&
+    	  $('#size_height_select').val() != "-" && $('#size_height_select').val() != "Select size height" &&
+          $('#size_width_select').val() != "-" && $('#size_width_select').val() != "Select size width" &&
+          $('#color_select').val() != "-" && $('#color_select').val() != "Select color") {
+        formValidation();
+      } else {
+        
+        console.log("Size Show")
+          alert("The product selection is not completed, please review it.")
+      }                     
+    }
+    
+  });
+});
+  
+function formValidation(){
+  if (isEmail($('#waitlist_email').val())) {
+    var email = $('#waitlist_email').val();
+    var collection_name = $("#sub_menu_select option:selected").text();
+    var collection_id = $("#sub_menu_select ").val();
+    var vendor_name = $("#sub_menu_vendors_select option:selected").text();
+    var size = $("#size_select").val();
+    var size_height = $("#size_height_select").val();
+    var size_width = $("#size_width_select").val();
+    var color = $("#color_select").val();
+    $.post("https://te-waitlist-backend.herokuapp.com/waitlist", { email: email, collection_name : collection_name, collection_id: collection_id, vendor_name: vendor_name, size: size, size_height: size_height, size_width: size_width, color: color}
+           , function(data, status){
+      if (status == "success") window.location.href =`/pages/waitlist-registered?product=${vendor_name}`;
+    });
+//     window.location.href =`/pages/waitlist-registered?product=${vendor_name}`;
+  } 
+  else {
+    alert("The email address '"+$('#waitlist_email').val()+"' is incorrect, please write it correctly.")
+  }
+}
+function isEmail(email) {
+  email = email.replace(/\s/g,'')
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(email);
+}
+
+</script>

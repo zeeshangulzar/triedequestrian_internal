@@ -1,0 +1,513 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_WLA7wq": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_w8de7C": {
+          "type": "heading",
+          "settings": {
+            "title": "SPRING FLING",
+            "text_size": 10
+          }
+        },
+        "text_j9RJnh": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>GET MORE FOR LESS THIS SPRING! </p><p>Weekly drops of trending brands and styles over 30% off</p>",
+            "text_size": 6
+          }
+        },
+        "button_xYc8C4": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop All",
+            "link_1": "shopify://collections/spring-fling",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w8de7C",
+        "text_j9RJnh",
+        "button_xYc8C4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20220402_TriedEquestrian_0681.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_aXXqkR": {
+      "type": "section-double",
+      "blocks": {
+        "image_aa4wBh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_banners_2_257d96a1-a7ef-4f37-9ebf-20cd1cf5e952.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop ALL SPRING FLING DROPS",
+            "link": "shopify://collections/spring-fling",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "image_aa4wBh"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_4rXqTf": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_44CVBD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/FB_ADS_copy.png",
+            "shape_class": "",
+            "title": "KASTEL SUNSHIRTS",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-kastel",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_PVbcAx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/FB_ADS.png",
+            "shape_class": "",
+            "title": "LEMIEUX",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/shop-lemieux",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_8itxAt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_8948.heic",
+            "shape_class": "",
+            "title": "DY'ON",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-dyon",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_pYgaNb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IG_Post_copy.png",
+            "shape_class": "",
+            "title": "VESTRUM",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-vestrum",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_GqpTmW": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/FB_ADS_c5f65d2f-9ab0-47b5-86fd-b0fb61b9187e.png",
+            "shape_class": "",
+            "title": "EQUILINE",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-equiline",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_rqbRGf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IG_Post.png",
+            "shape_class": "",
+            "title": "CAVALLERIA TOSCANA",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-cavalleria-toscana",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_J38aez": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/brand_photos_5_c531dde6-960f-4e60-8493-002f8e7cd1ba.png",
+            "shape_class": "",
+            "title": "KASK",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/kask",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_TRig4x": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/brand_photos_5.png",
+            "shape_class": "",
+            "title": "PARLANTI",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-parlanti",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_xTKtRB": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3_2dbaf231-5b01-465a-bed5-80e2623d19e6.png",
+            "shape_class": "",
+            "title": "ANIMO",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-animo",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_44CVBD",
+        "text_block_PVbcAx",
+        "text_block_8itxAt",
+        "text_block_pYgaNb",
+        "text_block_GqpTmW",
+        "text_block_rqbRGf",
+        "text_block_J38aez",
+        "text_block_TRig4x",
+        "text_block_xTKtRB"
+      ],
+      "settings": {
+        "title": "SHOP BRANDS",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_JrJg6X": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_rURhAk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/image00133_97ac7c95-ef99-48ad-9b65-30549d3d8c77.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP SHOW JACKETS",
+            "button_link": "shopify://collections/spring-fling-show-jackets",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--neutral"
+          }
+        },
+        "text_block_Hhi3mg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/brandphotos_13_ae52c849-a7b5-4f8a-9f29-0c054b599194.png",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP TACK",
+            "button_link": "shopify://collections/spring-fling-tack",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_ENmfR8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/image00030_7f49e9ac-a39f-4675-b98f-832ac3bbf35e.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP BREECHES",
+            "button_link": "shopify://collections/spring-fling-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_mUewUt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/image00064_cdd02690-e692-4742-8c75-aded20815132.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP TOPS",
+            "button_link": "shopify://collections/spring-fling-tops",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_VYFhye": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/kaskdogma_170ecb7a-2337-4691-a2aa-2de9a900134c.jpg",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP HELMETS",
+            "button_link": "shopify://collections/spring-fling-helmets",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_GUmLPH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_5617_8a389df0-32d5-48c1-8c14-8abd977e04dd.jpg",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP TALL BOOTS",
+            "button_link": "shopify://collections/spring-fling-helmets-1",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rURhAk",
+        "text_block_Hhi3mg",
+        "text_block_ENmfR8",
+        "text_block_mUewUt",
+        "text_block_VYFhye",
+        "text_block_GUmLPH"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_yDpCLe": {
+      "type": "section-double",
+      "blocks": {
+        "text_PXmmzD": {
+          "type": "text",
+          "settings": {
+            "kicker": "Spring Fling Weekly Drops",
+            "title": "NEXT WEEK:",
+            "text": "<p>Kastel Sunshirts & LeMieux saddle pads, base layers, horse boots and more!</p><p></p><p>Be quick - quantities are ultra limited! </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#efe1d9"
+          }
+        },
+        "image_Fadh6U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220402_TriedEquestrian_0989.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_PXmmzD",
+        "image_Fadh6U"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_newsletter_VicpaX": {
+      "type": "section-newsletter",
+      "settings": {
+        "title": "DON'T WANT TO MISS OUT?",
+        "richtext": "<p>Sign up to receive instant email & SMS notifications when each brand drops and be one of the first to the party!</p>",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_WLA7wq",
+    "section_double_aXXqkR",
+    "section_columns_4rXqTf",
+    "section_columns_JrJg6X",
+    "section_double_yDpCLe",
+    "section_newsletter_VicpaX"
+  ]
+}

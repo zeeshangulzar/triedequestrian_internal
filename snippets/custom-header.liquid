@@ -1,0 +1,555 @@
+ 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div class="mega-menu-container">
+  <nav class="page-width">
+    <ul class="mega-menu">
+      {% for block in section.blocks %}
+        <li class="menu-item"  id="menu-{{ forloop.index0 }}">
+          <a href="{{ block.settings.menuurl}}" class="menu-link">
+            <div class="menu-icon-title">
+               {% if block.settings.menuicon %}
+              <img src="{{ block.settings.menuicon | img_url:'master' }}" alt="{{ block.settings.menuname }}">
+              {% endif %}
+              <span>{{ block.settings.menuname }}</span>
+            </div>
+          </a>
+
+
+
+
+ {% if block.settings.megamenu1 == true %}
+          
+          <div class="submenu-wrapper">
+            <div class="submenu-content">
+
+
+              {% if block.settings.menuoneheading %}
+              <div class="submenu-column {% if block.settings.megamenu12 == false %} custom-1 {% endif %}{% if block.settings.footwear_submenu_show %} submenu-column--stacked{% endif %}">
+                <h3>{{ block.settings.menuoneheading }}</h3>
+                <ul>
+                  {% assign menu_items = linklists[block.settings.menu].links %}
+                  {% for item in menu_items %}
+                    <li><a href="{{ item.url }}"  {% if item.active  %} class="active" {% endif %}>{{ item.title }}</a></li>
+                  {% endfor %}
+                </ul>
+                {% if block.settings.footwear_submenu_show %}
+                  {% if block.settings.footwear_heading != blank or block.settings.footwear_menu != blank %}
+                    <div id="mega-menu-footwear" class="submenu-footwear" data-mega-section="footwear">
+                      <h3 class="submenu-footwear__title">
+                        {% if block.settings.footwear_heading_url != blank %}
+                          <a href="{{ block.settings.footwear_heading_url }}">{{ block.settings.footwear_heading | default: 'Footwear' | escape }}</a>
+                        {% else %}
+                          {{ block.settings.footwear_heading | default: 'Footwear' | escape }}
+                        {% endif %}
+                      </h3>
+                      {% if block.settings.footwear_menu != blank %}
+                        {% assign footwear_links = linklists[block.settings.footwear_menu].links %}
+                        {% if footwear_links.size > 0 %}
+                          <ul class="submenu-footwear__list">
+                            {% for item in footwear_links %}
+                              <li><a href="{{ item.url }}"{% if item.active %} class="active"{% endif %}>{{ item.title }}</a></li>
+                            {% endfor %}
+                          </ul>
+                        {% endif %}
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                {% endif %}
+              </div>
+              <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const condition = true; // Update as needed
+                const containerId = 'menu-three-container1'; // Change for each case
+              
+                const menuContainer = document.getElementById(containerId);
+              
+                if (menuContainer && condition) {
+                  menuContainer.style.display = 'block';
+                }
+              });
+              </script>
+              {% endif %}
+
+
+
+              
+
+            {% if block.settings.menutwoheading %}
+  <div class="submenu-column {% if block.settings.megamenu120  == false %} custom-2 {% endif %} ">
+    <h3>{{ block.settings.menutwoheading }}</h3>
+    <ul>
+      {% assign menu_items = linklists[block.settings.menu2].links %}
+      {% for item in menu_items %}
+        <li><a href="{{ item.url }}" {% if item.active  %} class="active" {% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+
+    {% if block.settings.menuthreeheading  %}
+  <div class="submenu-column {% if block.settings.megamenu121  == false %} custom-3 {% endif %}" >
+    <h3>{{ block.settings.menuthreeheading }}</h3>
+    <ul>
+      {% assign menu_items = linklists[block.settings.menu3].links %}
+      {% for item in menu_items %}
+        <li><a href="{{ item.url }}"  {% if item.active  %} class="active" {% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
+
+
+
+
+              
+
+              {% if block.settings.productimage %}
+             <div class="submenu-column image-column {% if block.settings.megamenu122  == false %} custom-4 {% endif %}">
+         <a href="{{ block.settings.producturl1 }}">  
+           <img src="{{ block.settings.productimage | img_url:'master' }}" alt="Featured product" class="lazy2">
+                <h2>{{ block.settings.productheading1 }}</h2>
+                 <p>{{ block.settings.producttext1 }}</p>
+           </a>
+              </div>
+              <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const condition = true; // Update as needed
+                const containerId = 'menu-three-container4'; // Change for each case
+              
+                const menuContainer = document.getElementById(containerId);
+              
+                if (menuContainer && condition) {
+                  menuContainer.style.display = 'block';
+                }
+              });
+              </script>
+{% endif %}
+
+
+              {% if block.settings.productimage2 %}
+             <div class="submenu-column image-column {% if block.settings.megamenu123  == false %} custom-5 {% endif %}">
+         <a href="{{ block.settings.producturl2 }}">  
+           <img src="{{ block.settings.productimage2 | img_url:'master' }}" alt="Featured product" class="lazy2">
+                <h2>{{ block.settings.productheading2 }}</h2>
+                 <p>{{ block.settings.producttext2 }}</p>
+           </a>
+              </div>
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const condition = true; // Update as needed
+                const containerId = 'menu-three-container5'; // Change for each case
+              
+                const menuContainer = document.getElementById(containerId);
+              
+                if (menuContainer && condition) {
+                  menuContainer.style.display = 'block';
+                }
+              });
+              </script>
+{% endif %}
+
+              
+              {% if block.settings.productimage3 %}
+             <div class="submenu-column image-column {% if block.settings.megamenu1233  == false %} custom-5 {% endif %}">
+         <a href="{{ block.settings.producturl3 }}">  
+           <img src="{{ block.settings.productimage3 | img_url:'master' }}" alt="Featured product" class="lazy2">
+                <h2>{{ block.settings.productheading3 }}</h2>
+                 <p>{{ block.settings.producttext3 }}</p>
+           </a>
+              </div>
+              <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const condition = true; // Update as needed
+                const containerId = 'menu-three-container5'; // Change for each case
+              
+                const menuContainer = document.getElementById(containerId);
+              
+                if (menuContainer && condition) {
+                  menuContainer.style.display = 'block';
+                }
+              });
+              </script>
+{% endif %}
+
+                
+            </div>
+          </div>
+         
+{% endif %}
+
+          
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</div>
+
+<style>
+
+  .custom-1 {
+     display: none;
+  }
+  .custom-2 {
+     display: none;
+  }
+  .custom-3 {
+     display: none;
+  }
+  .custom-4 {
+     display: none;
+  }
+  .custom-5 {
+     display: none;
+  }
+  /* Base styles */
+  .mega-menu-container {
+  
+    z-index: 100;
+  }
+  .destopmenu {
+    display: flex;
+    align-items:  center;
+}
+  
+  .mega-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+  }
+  
+  /* .menu-item {
+    position: relative;
+  } */
+  .header__wrapper .wrapper--full {
+    position: relative;
+}
+  .menu-link {
+    text-decoration: none;
+    color: #253d4e;
+    padding: 1em;
+    display: block;
+    font-weight: 700;
+    font-size: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-link:hover {
+    color: #000;
+  }
+  
+  .menu-icon-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .menu-icon-title img {
+    width: 35px;
+    height: auto;
+  }
+  
+  /* Submenu styles */
+.submenu-wrapper {
+    position: absolute;
+    left: 0%;
+    top: 96%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #c3b9b9;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 1000;
+    min-width: 800px;
+    padding: 20px;
+    padding-bottom: 39px;
+}
+  
+  .menu-item:hover .submenu-wrapper {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+  }
+  
+  .submenu-content {
+    display: flex;
+    align-items: stretch;
+    /* justify-content: space-between; */
+    gap: 20px;
+    justify-content: center;
+}
+  .submenu-column.submenu-column--stacked {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+  }
+  /* Push Footwear block toward column bottom (Socks lower); padding-top = min gap after Outerwear when column has no extra height. */
+  .submenu-column.submenu-column--stacked .submenu-footwear {
+    margin-top: auto;
+    padding-top: 28px;
+  }
+  .submenu-column h2 {
+    margin: 0;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    text-transform:uppercase;
+}
+
+  
+  /* Column titles (Women's Apparel, Footwear, etc.): same as header nav text. */
+.submenu-column h3 {
+    border-bottom: 1px solid #eee;
+    margin: 0 0 12px 0;
+    padding: 0 0 10px 0;
+    font-weight: 700;
+    font-size: 14px;
+    height: 33px;
+    line-height: 1.2;
+   text-transform:uppercase;
+    color: var(--COLOR-NAV-TEXT, #2a3142);
+  }
+  /* Global theme custom_css uses `a { color: #132c6a !important; }` — that turns the Footwear
+     heading (an <a>) blue. Force column heading links to match plain h3 text. */
+  .submenu-wrapper .submenu-column h3 a {
+    color: var(--COLOR-NAV-TEXT, #2a3142) !important;
+    text-decoration: none !important;
+    font: inherit;
+    line-height: inherit;
+  }
+  .submenu-wrapper .submenu-column h3 a:hover {
+    color: var(--COLOR-NAV-TEXT, #2a3142) !important;
+    text-decoration: none !important;
+  }
+  .submenu-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .submenu-column ul li {
+    margin-bottom: 8px;
+  }
+  
+.submenu-column ul li a {
+    color: #3e3939cf !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 5px 0;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    font-weight: 600;
+}
+.submenu-column ul li a:hover{
+  text-decoration: underline;
+}
+
+.submenu-column.image-column p {
+  color: #3e3939cf !important;
+}
+
+  
+  .submenu-column ul li a:hover {
+    color: #000 !important;
+  }
+
+  .submenu-footwear {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+  /* Space below Footwear heading border: list padding avoids margin-collapse with h3;
+     height:auto overrides .submenu-column h3 fixed 33px for this title. */
+  .submenu-wrapper .submenu-column .submenu-footwear .submenu-footwear__title {
+    margin-bottom: 20px !important;
+    height: auto !important;
+  }
+  .submenu-footwear__list {
+    list-style: none;
+    padding: 16px 0 0 0;
+    margin: 0;
+  }
+  .submenu-footwear__list li {
+    margin-bottom: 8px;
+  }
+  .submenu-footwear__list li a {
+    color: #3e3939cf !important;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .submenu-footwear__list li a:hover {
+    color: #000 !important;
+    text-decoration: underline;
+  }
+  
+.image-column {
+    display: flex;
+    justify-content: ;
+    align-items: normal;
+}
+  
+  .image-column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .mobilemenu {
+    display: none;
+}
+ header.theme__header {
+    
+}
+  /* Mobile styles */
+  .submenu-content {
+    width: 97%;
+    margin: 0 auto;
+}
+
+  .submenu-column {
+    width: 20%;
+}
+  .submenu-column img {
+    width: 100%;
+    height: 349px!important;
+    object-fit: cover;
+}
+  .submenu-column a {
+    width: 100%;
+}
+  @media only screen and (max-width: 767px) {
+    .mega-menu-container {
+      display: none;
+    }
+  }
+</style>
+
+ <script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Handle menu item hover
+  const menuItems = document.querySelectorAll('.menu-item');
+  
+  menuItems.forEach(item => {
+    // Desktop hover
+    item.addEventListener('mouseenter', function() {
+      // Close any other open menus
+      document.querySelectorAll('.submenu-wrapper').forEach(menu => {
+        if (menu !== this.querySelector('.submenu-wrapper')) {
+          menu.style.opacity = '0';
+          menu.style.visibility = 'hidden';
+          menu.style.transform = 'translateY(10px)';
+        }
+      });
+      
+      // Open this menu
+      const submenu = this.querySelector('.submenu-wrapper');
+      if (submenu) {
+        submenu.style.opacity = '1';
+        submenu.style.visibility = 'visible';
+        submenu.style.transform = 'translateY(0)';
+      }
+    });
+    
+    // Keep menu open when hovering over submenu
+    const submenu = item.querySelector('.submenu-wrapper');
+    if (submenu) {
+      submenu.addEventListener('mouseenter', function() {
+        this.style.opacity = '1';
+        this.style.visibility = 'visible';
+        this.style.transform = 'translateY(0)';
+      });
+      
+      submenu.addEventListener('mouseleave', function() {
+        this.style.opacity = '0';
+        this.style.visibility = 'hidden';
+        this.style.transform = 'translateY(10px)';
+      });
+    }
+  });
+  
+  // Close all menus when clicking anywhere
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.menu-item')) {
+      document.querySelectorAll('.submenu-wrapper').forEach(menu => {
+        menu.style.opacity = '0';
+        menu.style.visibility = 'hidden';
+        menu.style.transform = 'translateY(10px)';
+      });
+    }
+  });
+}); </script>
+
+ <script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Handle menu item hover
+  const menuItems = document.querySelectorAll('.menu-item');
+  const wrapperFull = document.querySelector('.wrapper--full');
+  
+  menuItems.forEach(item => {
+    // Desktop hover
+    item.addEventListener('mouseenter', function() {
+      // Close any other open menus
+      document.querySelectorAll('.submenu-wrapper').forEach(menu => {
+        if (menu !== this.querySelector('.submenu-wrapper')) {
+          menu.style.opacity = '0';
+          menu.style.visibility = 'hidden';
+          menu.style.transform = 'translateY(10px)';
+        }
+      });
+      
+      // Open this menu
+      const submenu = this.querySelector('.submenu-wrapper');
+      if (submenu) {
+        submenu.style.opacity = '1';
+        submenu.style.visibility = 'visible';
+        submenu.style.transform = 'translateY(0)';
+      }
+    });
+    
+    // Keep menu open when hovering over submenu
+    const submenu = item.querySelector('.submenu-wrapper');
+    if (submenu) {
+      submenu.addEventListener('mouseenter', function() {
+        this.style.opacity = '1';
+        this.style.visibility = 'visible';
+        this.style.transform = 'translateY(0)';
+      });
+      
+      submenu.addEventListener('mouseleave', function() {
+        this.style.opacity = '0';
+        this.style.visibility = 'hidden';
+        this.style.transform = 'translateY(10px)';
+      });
+    }
+  });
+  
+  // Close all menus when mouse leaves the .wrapper--full container
+  wrapperFull.addEventListener('mouseleave', function(e) {
+    // Check if we're leaving to go to a child element
+    if (!this.contains(e.relatedTarget)) {
+      document.querySelectorAll('.submenu-wrapper').forEach(menu => {
+        menu.style.opacity = '0';
+        menu.style.visibility = 'hidden';
+        menu.style.transform = 'translateY(10px)';
+      });
+    }
+  });
+});
+</script> 

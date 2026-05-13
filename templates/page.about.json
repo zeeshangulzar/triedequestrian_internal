@@ -1,0 +1,332 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading-about-block": {
+          "type": "heading",
+          "settings": {
+            "title": "The Tried Equestrian Story",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading-about-block"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2f613847-bf3a-42b8-a05a-7fb208b7feee.jpg",
+        "height": "use_image",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "preload_image": true,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "custom-content-1": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_g87hMy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20221009_TriedEquestrian_0028.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "custom-content-1-1": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Our Mission",
+            "text": "<p>With a focus on transparency, ease of use, and a curated selection of inventory (that challenges even the most skeptical consignment shoppers!), The Tried Equestrian is a powerful tool in every rider’s back pocket. </p><p><br/>TTE believes in creating ways to make the sport more inclusive with lower barriers to entry. We champion a circular economy that allows riders to save money, make money, and contribute to a greener future.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_g87hMy",
+        "custom-content-1-1"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "custom-content-2": {
+      "type": "section-custom-content",
+      "blocks": {
+        "custom-content-2-0": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Experience",
+            "text": "<p>Our team's equestrian knowledge varies between the Hunters, Jumpers, Western, Three-Day Eventing, and Dressage disciplines. We have a combined 90 years experience in the industry, riding and working for other equestrian retailers and companies.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_PTMMkw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4F53EAF5-D2AA-4A46-94B5-000F9BF773FC.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "custom-content-2-0",
+        "image_PTMMkw"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_GFfE7p": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_QD7nQB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_c2606645-72d4-4c8a-8490-7533f4107d5d.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_Dqa8BA": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Our Promise",
+            "text": "<p>To bring you an ever-changing curated selection of products we'd recommend to our friends, at prices that can't be beat. We guarantee products will arrive in the condition stated.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_QD7nQB",
+        "text_Dqa8BA"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_8QEE4A": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_DkPkDA": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Our Impact",
+            "text": "<p>We're helping lead the way to a future with less waste. We're saying goodbye to the days of fast fashion and hello to the days of owning products you love that last.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_dAgQnm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_7861a140-9a02-42c4-80ce-6ffbc64996ad.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_DkPkDA",
+        "image_dAgQnm"
+      ],
+      "settings": {
+        "height": "use_pixels_500",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 66
+      }
+    },
+    "170967139579c63b65": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_PcUQC6": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "all",
+            "max_reviews": 20,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "icon",
+            "card_height": "medium",
+            "text_size": "small",
+            "stars_size": "medium",
+            "arrows_position": "bottom",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "quote_marks_style": "serif",
+            "card_color": "#f9f9f9",
+            "stars_and_quote_marks_color": "#108474",
+            "text_color": "#000000",
+            "arrows_color": "#000000",
+            "show_border": false,
+            "border_color": "#108474",
+            "show_drop_shadow": false,
+            "transition_speed": 5,
+            "header_text": "Customers are saying",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_PcUQC6"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "custom-content-1",
+    "custom-content-2",
+    "section_custom_content_GFfE7p",
+    "section_custom_content_8QEE4A",
+    "170967139579c63b65"
+  ]
+}

@@ -1,0 +1,385 @@
+<div class="tab-block" id="tab-block">
+  <ul class="tab-mnu">
+    <li class="active">{{ section.settings.hmmtbheading }}</li>
+    {% if section.settings.hmmtbheading2 != blank %}
+      <li>{{ section.settings.hmmtbheading2 }}</li>
+    {% endif %}
+    {% if section.settings.hmmtbheading3 != blank %}
+      <li>{{ section.settings.hmmtbheading3 }}</li>
+    {% endif %}
+  </ul>
+
+  <div class="tab-cont">
+    <div class="tab-pane">
+      {% if section.settings.mobile_menu_linklist != blank %}
+        {% assign mobile_menu_linklist = section.settings.mobile_menu_linklist %}
+        {% assign menu_index = 0 %}      
+        <div class="drawer__menu" data-stagger-animation data-sliderule-pane="0">
+          {% for link in linklists[mobile_menu_linklist].links %}
+            {% render 'nav-item-mobile', link: link, section: section, index: forloop.index %}
+            {% assign menu_index = forloop.index %}
+          {% endfor %}
+          {% if drawer_links %}
+            {% assign secondary_index = menu_index | plus: 1 %}
+            {% for link in linklists[toolbar_links].links %}
+              {% render 'nav-item-mobile', link: link, section: section, index: secondary_index, secondary_menu: true %}
+              {% assign secondary_index = secondary_index | plus: forloop.index %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}      
+    </div>    
+    <div class="tab-pane">
+      {% if section.settings.mobile_menu_linklist2 != blank %}
+        {% assign second_menu = section.settings.mobile_menu_linklist2 %}
+        {% assign menu_index = 0 %}      
+        <div class="drawer__menu second-menu" data-stagger-animation data-sliderule-pane="0">
+          {% for link in linklists[second_menu].links %}
+            {% render 'nav-item-mobile', link: link, section: section, index: forloop.index %}
+            {% assign menu_index = forloop.index %}
+          {% endfor %}
+          {% if drawer_links %}
+            {% assign secondary_index = menu_index | plus: 1 %}
+            {% for link in linklists[toolbar_links].links %}
+              {% render 'nav-item-mobile', link: link, section: section, index: secondary_index, secondary_menu: true %}
+              {% assign secondary_index = secondary_index | plus: forloop.index %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+    
+    <div class="tab-pane">
+      {% if section.settings.mobile_menu_linklist3 != blank %}
+        {% assign third_menu = section.settings.mobile_menu_linklist3 %}
+        {% assign menu_index = 0 %}      
+        <div class="drawer__menu second-menu" data-stagger-animation data-sliderule-pane="0">
+          {% for link in linklists[third_menu].links %}
+            {% render 'nav-item-mobile', link: link, section: section, index: forloop.index %}
+            {% assign menu_index = forloop.index %}
+          {% endfor %}
+          {% if drawer_links %}
+            {% assign secondary_index = menu_index | plus: 1 %}
+            {% for link in linklists[toolbar_links].links %}
+              {% render 'nav-item-mobile', link: link, section: section, index: secondary_index, secondary_menu: true %}
+              {% assign secondary_index = secondary_index | plus: forloop.index %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<style>
+    .daccordian {
+      background-color: #f4f4f4;
+  }
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .accordion-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+  }
+
+  .accordion-content {
+    display: none;
+    padding: 10px 0;
+  }
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
+    .daccordian .dtriad {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 18px;
+      font-size: 14px;
+      text-decoration: underline;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('.accordion-header').forEach(button => {
+    button.addEventListener('click', () => {
+      const accordionItem = button.parentElement;
+      const icon = button.querySelector('.accordion-icon');
+
+      accordionItem.classList.toggle('active');
+
+      // Toggle plus/minus
+      if (accordionItem.classList.contains('active')) {
+        icon.textContent = '−';
+      } else {
+        icon.textContent = '+';
+      }
+    });
+  });
+</script>
+
+<script>
+  $(".submenu-open").on("click", function (){
+    $(this).parent().toggleClass("active");
+  })
+</script>
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+  .tab-block{
+    width:$tabwidth;
+    height:auto;
+    margin:0px auto;
+    .tab-mnu{
+      display:block;
+      list-style:none;
+      &:after{
+        content:'';
+        display:table;
+        clear:both;
+      }
+      li{
+        box-sizing:border-box;
+        float:left;
+        background-color: $tabc;
+        color:$tabfontc;
+        width:$tabwidth/5;
+        text-align:center;
+        padding-top:13px;
+        padding-bottom:13px;
+        cursor:pointer;
+        &:not(:last-child){
+          border-right:1px solid $bgc;
+        }
+        &:hover:not(.active){
+          background-color: lighten($tabc,5%);
+        }
+      }
+      .active{
+          background-color: #fff;
+          color:$fontc;
+          border-bottom:1px solid lighten($fontc,55%);
+        cursor:default;
+        }
+    }
+
+    .tab-cont{
+      box-sizing:border-box;
+      border-top:1px solid white;
+      background-color:$tabfontc;
+      color:darken($fontc,20%);
+      .tab-pane{
+        padding:10px 2px!important;
+      }
+    }
+
+  }
+    .tab-block {
+      width: $tabwidth;
+      height: auto!important;
+      margin: 0!important;
+  }
+  .mobile-menu-drawer {
+      width: 100%!important;
+      background: #fff;
+      height: 85vh!important;
+      /* overflow: hidden; */
+      position: relative;
+  }
+    .tab-mnu li {
+      width: 33%;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      padding-block: 5px!important;
+      padding-bottom: 8px!important;
+  }
+    .tab-mnu li.active {
+      border-bottom: 2px solid black;
+      color: black;
+  }
+    ul.tab-mnu {
+      padding-inline: 17px!important;
+      margin-top: 11px!important;
+  }
+    ul.tab-mnu {
+      margin-bottom: 0!important;
+  }
+</style>
+
+<script>
+  $(document).ready(function(){
+
+    var tabWrapper = $('#tab-block'),
+        tabMnu = tabWrapper.find('.tab-mnu  li'),
+        tabContent = tabWrapper.find('.tab-cont > .tab-pane');
+
+    tabContent.not(':first-child').hide();
+
+    tabMnu.each(function(i){
+      $(this).attr('data-tab','tab'+i);
+    });
+    tabContent.each(function(i){
+      $(this).attr('data-tab','tab'+i);
+    });
+
+    tabMnu.click(function(){
+      var tabData = $(this).data('tab');
+      tabWrapper.find(tabContent).hide();
+      tabWrapper.find(tabContent).filter('[data-tab='+tabData+']').show();
+    });
+
+    $('.tab-mnu > li').click(function(){
+      var before = $('.tab-mnu li.active');
+      before.removeClass('active');
+      $(this).addClass('active');
+     });
+
+  });
+</script>
+<style>
+  .mobile-menu-drawer {
+    width: 300px;
+    background: #fff;
+    height: 100vh;
+    /* overflow: hidden; */
+    position: relative;
+  }
+
+  .menu-item .menu-level {
+    width: 100%;
+    background: #fff;
+    z-index: 1;
+    display:none;
+  }
+  .menu-item.active{
+    position:relative;
+  }
+  .child-menu.active>.menu-level,
+   .menu-item.active>.menu-level {
+    display:block;
+     margin: 0;
+     padding-left: 10px;
+  }
+   .menu-item .arrow {
+     transform: rotate(90deg);
+     transition: all 0.5s;
+    }
+  .child-menu.active>.button>.arrow,
+    .menu-item.active>button>.arrow{
+     transform: rotate(-90deg);
+      transition: all 0.5s;
+    }
+  .menu-header {
+    font-weight: bold;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  /*.menu-item {
+    border-bottom: 1px solid #f1f1f1;
+  }*/
+
+  .menu-item a,
+  .menu-item button {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+  }
+    .menu-item.active a{
+      padding: 0.5rem 1rem;
+    }
+
+  .submenu-back {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: auto;
+    display: flex;
+      gap: 10px;
+    align-items:center;
+  }
+
+  .arrow {
+    color: #999;
+    width:16px;
+  }
+</style>
+<style>
+  /* Mobile-specific styles */
+  @media only screen and (max-width: 767px) {
+    .tab-cont {
+      height: 85vh; /* Fixed height for scrollable area */
+      overflow-y: auto; /* Enable scrolling */
+      -webkit-overflow-scrolling: touch; /* Smooth iOS scrolling */
+    }
+
+
+
+  }
+</style>
+
+<style>
+    .accordion {
+    max-width: 600px;
+    margin: 20px auto;
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+  }
+  .accordion-header {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background: #f5f5f5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  .accordion-header:hover {
+    background: #eaeaea;
+  }
+  .accordion-content {
+    padding: 15px;
+    display: none;
+    background: #fff;
+    border-top: 1px solid #ccc;
+  }
+  .accordion-content.open {
+    display: block;
+  }
+  .accordion {
+      margin: 0;
+      padding-inline: 2px;
+  }
+</style>
+
+<script>
+    document.querySelectorAll('.accordion-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      content.classList.toggle('open');
+    });
+  });
+</script>

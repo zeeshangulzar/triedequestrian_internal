@@ -1,0 +1,264 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_richtext_gk3Vb8": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_VwwJXq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Accepted Brands",
+            "text_size": 8
+          }
+        },
+        "text_PPraVV": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Here is the current List of Brands we are accepting.</h4><p>This list is curated to represent brands we know our customers are looking to buy and are infrequently returned for issues with fit </p><p><em>Please note we will only take styles relevant to the last 3 years (older saddles are OK)</em></p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_VwwJXq",
+        "text_PPraVV"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_faq_kMNjVG": {
+      "type": "section-faq",
+      "blocks": {
+        "text_qHiLL6": {
+          "type": "text",
+          "settings": {
+            "title": "A",
+            "content": "<ul><li>AA Platinum</li><li>Acavallo</li><li>Alessandro Albanese</li><li>American Equus</li><li>Amerigo</li><li>Animo</li><li>Anique</li><li>Antares</li><li>Ariat</li><li>Arista</li><li>Asmar Equestrian</li><li>Aztec Diamond</li></ul>"
+          }
+        },
+        "text_Uah4ji": {
+          "type": "text",
+          "settings": {
+            "title": "B",
+            "content": "<ul><li>B Vertigo</li><li>Baker</li><li>Beval</li><li>Bobby's English Tack</li><li>Bomber Bits</li><li>Botori</li><li>Bruno Delgrange</li><li>Butet</li></ul>"
+          }
+        },
+        "text_WEQpTD": {
+          "type": "text",
+          "settings": {
+            "title": "C",
+            "content": "<ul><li>CALLIDAE</li><li>Cavalleria Toscana</li><li>Cavallo</li><li>Centaur</li><li>Clever with Leather</li><li>CRINIĒRE</li><li>CWD</li></ul>"
+          }
+        },
+        "text_dAhbFN": {
+          "type": "text",
+          "settings": {
+            "title": "D",
+            "content": "<ul><li>Dada Sport</li><li>Dapplebay Co.</li><li>Davinci</li><li>DeNiro</li><li>Devoucoux</li><li>Dublin</li><li>Dy'on</li></ul>"
+          }
+        },
+        "text_KkRgxp": {
+          "type": "text",
+          "settings": {
+            "title": "E",
+            "content": "<ul><li>EcoGold</li><li>Edgewood</li><li>Ego7</li><li>EIS</li><li>Ellany Equestrian</li><li>Equestrian Atelier</li><li>Equestrian Stockholm</li><li>EquiFit</li><li>Equiline</li><li>Equipe</li><li>Equusport</li><li>Eskadron</li><li>Essex Classics</li><li>Euphoric</li></ul>"
+          }
+        },
+        "text_zb9gQ9": {
+          "type": "text",
+          "settings": {
+            "title": "F",
+            "content": "<ul><li>Fabbri</li><li>FITS</li><li>Fleeceworks</li><li>For Horses</li><li>FreeJump</li><li>Free Ride Equestrian</li></ul>"
+          }
+        },
+        "text_BrKXwF": {
+          "type": "text",
+          "settings": {
+            "title": "G",
+            "content": "<ul><li>GhoDho</li><li>Goode Rider</li><li>Grand Prix *excluding TechLite*</li></ul>"
+          }
+        },
+        "text_TfXD9L": {
+          "type": "text",
+          "settings": {
+            "title": "H",
+            "content": "<ul><li>Halter Ego</li><li>Hannah Child's</li><li>Happy Mouth</li><li>Harcour</li><li>Herm Sprenger</li><li>Horse|Man</li><li>Horseware</li><li>Horse Pilot</li><li>Horze</li></ul>"
+          }
+        },
+        "text_HWVYc7": {
+          "type": "text",
+          "settings": {
+            "title": "I",
+            "content": "<ul><li>Iago</li><li>Irideon</li></ul>"
+          }
+        },
+        "text_QRGxAW": {
+          "type": "text",
+          "settings": {
+            "title": "J",
+            "content": "<ul><li>Jimmy's 21st Century</li><li>Jin Stirrups</li><li>JOTT</li></ul>"
+          }
+        },
+        "text_RJEXPX": {
+          "type": "text",
+          "settings": {
+            "title": "K",
+            "content": "<ul><li>Kastel</li><li>Kensington</li><li>Kerrits</li><li>Kingsland</li><li>Korsteel</li></ul>"
+          }
+        },
+        "text_hUMfLj": {
+          "type": "text",
+          "settings": {
+            "title": "L",
+            "content": "<ul><li>Lami-Cell</li><li>LeMieux</li><li>Lorenzini</li><li>Lululemon *Riding Appropriate Tops Only*</li></ul>"
+          }
+        },
+        "text_xYDmaj": {
+          "type": "text",
+          "settings": {
+            "title": "M",
+            "content": "<ul><li>Makebe</li><li>Mane Jane</li><li>Mastermind</li><li>Mattes</li><li>MDC stirrups</li><li>Metalab</li><li>Montar</li><li>Mountain Horse</li></ul>"
+          }
+        },
+        "text_A73iLN": {
+          "type": "text",
+          "settings": {
+            "title": "N",
+            "content": "<ul><li>Noble Outfitters</li><li>Noel Asmar</li><li>Nunn Finer</li></ul>"
+          }
+        },
+        "text_fzMYBW": {
+          "type": "text",
+          "settings": {
+            "title": "O",
+            "content": "<ul><li>Ogilvy</li><li>Ovation </li></ul>"
+          }
+        },
+        "text_inmKp6": {
+          "type": "text",
+          "settings": {
+            "title": "P",
+            "content": "<ul><li>Patagonia *Outerwear Only*</li><li>Parlanti</li><li>Perri's</li><li>Pessoa</li><li>Pikeur</li><li>Professional's Choice</li><li>PS of Sweden</li></ul>"
+          }
+        },
+        "text_mrNqbC": {
+          "type": "text",
+          "settings": {
+            "title": "R",
+            "content": "<ul><li>Red Barn</li><li>RJ Classics</li><li>Romfh *excluding the International line*</li><li>Ronner Design</li><li>Royal Rider</li><li>Ruespari</li><li>Riviera Equisports</li></ul>"
+          }
+        },
+        "text_FkDw8Q": {
+          "type": "text",
+          "settings": {
+            "title": "S",
+            "content": "<ul><li>Samshield</li><li>Sandy Duftler</li><li>Sarm Hippique</li><li>SCHOCKEMŌHLE</li><li>Sergio Grasso</li><li>Smartpak</li><li>Solid Citizen</li><li>Sport Horse Lifestyle</li><li>SSG</li><li>Struck Apparel</li><li>Stubben</li></ul>"
+          }
+        },
+        "text_ckHVRG": {
+          "type": "text",
+          "settings": {
+            "title": "T",
+            "content": "<ul><li>Tailored Sportsman</li><li>Tech Stirrups</li><li>Tekna</li><li>ThinLine</li><li>TKEQ</li><li>Toklat</li><li>Tory Leather</li><li>Tredstep</li><li>Total Saddle Fit</li><li>Tucci</li></ul>"
+          }
+        },
+        "text_9FDhEJ": {
+          "type": "text",
+          "settings": {
+            "title": "U",
+            "content": "<ul><li>USG</li></ul>"
+          }
+        },
+        "text_J8KcxK": {
+          "type": "text",
+          "settings": {
+            "title": "V",
+            "content": "<ul><li>Veredus</li><li>Vespucci</li><li>Voltaire</li></ul>"
+          }
+        },
+        "text_pMmfAT": {
+          "type": "text",
+          "settings": {
+            "title": "W",
+            "content": "<ul><li>Walsh</li><li>Weatherbeeta</li><li>Winston Equestrian</li><li>Wintec</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "text_qHiLL6",
+        "text_Uah4ji",
+        "text_WEQpTD",
+        "text_dAhbFN",
+        "text_KkRgxp",
+        "text_zb9gQ9",
+        "text_BrKXwF",
+        "text_TfXD9L",
+        "text_HWVYc7",
+        "text_QRGxAW",
+        "text_RJEXPX",
+        "text_hUMfLj",
+        "text_xYDmaj",
+        "text_A73iLN",
+        "text_fzMYBW",
+        "text_inmKp6",
+        "text_mrNqbC",
+        "text_FkDw8Q",
+        "text_ckHVRG",
+        "text_9FDhEJ",
+        "text_J8KcxK",
+        "text_pMmfAT"
+      ],
+      "settings": {
+        "title": "",
+        "title_align": "text-left",
+        "title_size": 4,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "section_richtext_gk3Vb8",
+    "section_faq_kMNjVG",
+    "main"
+  ]
+}

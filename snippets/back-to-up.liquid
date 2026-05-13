@@ -1,0 +1,85 @@
+{% if template contains 'collection' %}
+<style>
+         .back-to-top {
+      background-color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    width: 46px;
+    height: 46px;
+    z-index: 98;
+    position: fixed;
+    right: 32px;
+    bottom: 90px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 100%;
+    box-shadow: 0 4px 16px 0 rgb(0 0 0 / 15%);
+}
+.back-to-top:hover {
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 25%);
+}
+.back-to-top:active {
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 25%);
+}
+.back-to-top svg.icon__arrow-up {
+  fill: #000;
+  width: 32px;
+  height: 32px;
+} 
+  #backToTop span{ display:none;} 
+  
+  @media (max-width: 768px){
+     #backToTop{
+       background-color:#000;
+       color:#fff !important;
+       right: unset;
+       bottom: unset;
+       left:50%;
+       transform:translate(-50%,0);
+       padding :8px 20px;
+       text-align:center;
+       font-size:12px;
+       width:auto;
+       height:auto;
+       border-radius:25px;
+       top:230px;
+     }
+    #backToTop span{
+       display:block;
+    } 
+    .back-to-top svg.icon__arrow-up{
+      display:none !important;
+    } 
+  }
+       </style> 
+  <a href="javascript:void(0)" id="backToTop" class="back-to-top" style="display:none;">
+      <span>Back to Top</span>
+          <svg class="icon__arrow-up" viewBox="0 0 24 24">
+            <title>Back to top</title>
+            <path d="M18.71,11.71a1,1,0,0,1-1.42,0L13,7.41V19a1,1,0,0,1-2,0V7.41l-4.29,4.3a1,1,0,0,1-1.42-1.42l6-6a1,1,0,0,1,1.42,0l6,6A1,1,0,0,1,18.71,11.71Z"/>
+          </svg>
+        </a>
+  <script>
+    $(document).ready(() => {
+  
+            const backToTop = $('#backToTop')
+            const amountScrolled = 600
+            
+            $(window).scroll(() => {
+              $(window).scrollTop() >= amountScrolled 
+                ? backToTop.fadeIn('fast') 
+                : backToTop.fadeOut('fast')
+            })
+            
+            backToTop.click(() => {
+              $('body, html').animate({
+                scrollTop: 0
+              }, 600)
+              return false
+            })
+          })
+  </script>
+{%  endif %}

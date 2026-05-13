@@ -1,0 +1,163 @@
+<section class="consign-pricing section-container section-padding-consign">
+  <div class="page-width">
+    <div class="consign-pricing__header">
+      <h2 class="consign-pricing__title">
+        {{ section.settings.title | default: 'HOW WE PRICE' }}
+      </h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="consign-pricing__cards">
+      <div class="consign-pricing__card box-shadow">
+        <div class="consign-pricing__icon bg-brand-blush">
+          {% if section.settings.icon_resale != blank %}
+            {{ section.settings.icon_resale
+              | image_url: width: 32
+              | image_tag:
+                loading: 'lazy',
+                widths: '32,48,64',
+                sizes: '32px'
+            }}
+          {% endif %}
+        </div>
+        <h3 class="ont-bold-primary-sm-mb-3">Resale Value</h3>
+        <p class="text-sm-muted-relaxed-max-w-xs">
+          Our pricing is based on original retail value, brand desirability, current demand, and competitive resale market analysis. We aim to price items to sell quickly while maximizing your payout.
+        </p>
+      </div>
+
+      <div class="consign-pricing__card">
+        <div class="consign-pricing__icon bg-brand-blush">
+          {% if section.settings.icon_market != blank %}
+            {{ section.settings.icon_market
+              | image_url: width: 32
+              | image_tag:
+                loading: 'lazy',
+                widths: '32,48,64',
+                sizes: '32px'
+            }}
+          {% endif %}
+        </div>
+        <h3 class="ont-bold-primary-sm-mb-3">Market Trends</h3>
+        <p class="text-sm-muted-relaxed-max-w-xs">
+          We continuously monitor the secondary market to adjust pricing based on seasonality, buyer behavior, and inventory levels. This helps ensure your items move quickly.
+        </p>
+      </div>
+    </div>
+
+    <div class="consign-pricing__table-wrap">
+      <h3 class="font-bold-text-primary-xl-center-mb-2">Item Condition Classification</h3>
+      <p class="text-sm-text-muted-foreground-text-center-mb-8">
+        We follow NARTS industry standards for condition classification.
+      </p>
+
+      <div class="consign-pricing__table-card">
+        <div class="consign-pricing__table-header bg-brand-blush">
+          <h4 class="consign-pricing__table-title">
+            Pricing: % off current retail price based on condition
+          </h4>
+        </div>
+
+        <table class="consign-pricing__table">
+          <thead>
+            <tr>
+              <th>Condition</th>
+              <th>Tack</th>
+              <th>Apparel</th>
+              <th>Footwear</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for block in section.blocks %}
+              <tr class="{% cycle 'is-even', 'is-odd' %}">
+                <td class="col-condition">{{ block.settings.condition }}</td>
+                <td>{{ block.settings.tack }}</td>
+                <td>{{ block.settings.apparel }}</td>
+                <td>{{ block.settings.footwear }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Consign – Pricing",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "HOW WE PRICE"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_resale",
+      "label": "Resale Value Icon"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_market",
+      "label": "Market Trends Icon"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Pricing Row",
+      "settings": [
+        { "type": "text", "id": "condition", "label": "Condition" },
+        { "type": "text", "id": "tack", "label": "Tack" },
+        { "type": "text", "id": "apparel", "label": "Apparel" },
+        { "type": "text", "id": "footwear", "label": "Footwear" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Consign – Pricing",
+      "blocks": [
+        {
+          "type": "row",
+          "settings": {
+            "condition": "New with Tags",
+            "tack": "25%+ off",
+            "apparel": "30%+ off",
+            "footwear": "30%+ off"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "condition": "Excellent",
+            "tack": "30%+ off",
+            "apparel": "30%+ off",
+            "footwear": "30%+ off"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "condition": "Great",
+            "tack": "45%+ off",
+            "apparel": "40%+ off",
+            "footwear": "35%+ off"
+          }
+        },
+        {
+          "type": "row",
+          "settings": {
+            "condition": "Good",
+            "tack": "55%+ off",
+            "apparel": "60%+ off",
+            "footwear": "55%+ off"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

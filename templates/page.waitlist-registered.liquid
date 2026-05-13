@@ -1,0 +1,42 @@
+<!-- /templates/page.liquid -->
+
+<div class="grid">
+  <div class="grid__item large--five-sixths push--large--one-twelfth">
+
+    <header class="section-header text-center waitlist-registered-container">
+      <img src="{{ 'horse.png' | asset_img_url: '2048x2048'}}" border="1" style="margin:auto" alt="Email image" width="400" height="300">
+      <h2 id="product-name"></h2>
+      <hr class="hr--small">
+      <button type="button" class="btn newsletter__submit" style="margin-bottom: 2rem" onclick="goBack()">Add Another Item</button>
+    </header>
+    
+  </div>
+</div>
+
+<script>
+
+$(function(){
+  var product = getUrlParameter('product');
+  var message = `Expect an email when ${product} becomes available`;
+  $("#product-name").html(message);
+});
+
+var getUrlParameter = function getUrlParameter(sParam) {
+    var sPageURL = window.location.search.substring(1),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+        }
+    }
+};
+
+function goBack() {
+    window.history.back();
+}  
+</script>

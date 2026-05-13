@@ -1,0 +1,341 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_hgYHe7": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_6EYimK": {
+          "type": "heading",
+          "settings": {
+            "title": "Brands We're Proud to Partner With.",
+            "text_size": 10
+          }
+        },
+        "text_CyPJdH": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Whether they're sample pieces, incomplete size runs or discontinued collections, TTE is proud to partner with equestrian brands to offer their unique take on the classics. Find your new favorites, new-with-tags, always at TTE discounts.</p>",
+            "text_size": 6
+          }
+        }
+      },
+      "block_order": [
+        "heading_6EYimK",
+        "text_CyPJdH"
+      ],
+      "custom_css": [
+        ".hero__content {max-width: 100%;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_-_2024-05-01T162615.239.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 55,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_columns_YdHi9k": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_WJYPLR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T155521.195.png",
+            "shape_class": "",
+            "title": "BOTORI",
+            "text": "<p>With a focus on technical fabrics and a dynamic fit, Botori will be your go-to for long days and a comfy fit. Based in Philadelphia, Botori's small team of creatives designs for the modern, active rider - YOU!</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/botori",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_HGke3q": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T155401.126.png",
+            "shape_class": "",
+            "title": "CALLIDAE",
+            "text": "<p>Tradition unbridled. CALLIDAE bridges the gap between the traditional and modern equestrian worlds, Callidae offers a fresh take on the storied equestrian lifestyle. Designed locally in Los Angeles.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/callidae",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_b48WGh": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T155623.211.png",
+            "shape_class": "",
+            "title": "Hunt Seat Paper Co.",
+            "text": "<p>Witty and whimsical, HSPC goods were created to unite the world of rider's. Crafted in a barn in sunny California, founder, Amy designs and hand packages every item. Keep your heels down, these are paper goods with a forward seat!</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/hunt-seat-paper-co",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_c7rxGi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T155441.974.png",
+            "shape_class": "",
+            "title": "Anique",
+            "text": "<p>Pretty girls like to play in the dirt, too, and with Anique there's no need to sacrifice style for comfort. Anique's quality activewear tops blend style, function, and thoughtful details to wear in and out of the barn.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/anique",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_6KAzfk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T160415.141.png",
+            "shape_class": "",
+            "title": "The FitEq",
+            "text": "<p>FitEq was founded by Lauren Mahr to combine her passion for horses and fashion. Her goal was to create stylish, high quality riding clothes that could be worn for years.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/fiteq",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_J9eTJV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T160123.237.png",
+            "shape_class": "",
+            "title": "Dapplebay Co.",
+            "text": "<p>Horse girls just *get* eachother a little better and that's why Dapplebay exists. Dapplebay creates fun, conversation starting designs, so you can show off             your sport with style ...and a little sass.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/dapplebay",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_KE4E3t": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T160826.356.png",
+            "shape_class": "",
+            "title": "Halter Ego",
+            "text": "<p>At Halter Ego they design for riders who are  adventurers, trailblazers, and competitors, distinguished by their boldness and creativity. A brand created by a horse woman, for horse women. We believe that horse riding is more than just a sport or a hobby - it's a lifestyle. </p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/halter-ego",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_PLDEYL": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T161439.343.png",
+            "shape_class": "",
+            "title": "Calverro",
+            "text": "<p>Calverro designs modern equestrian classics using the highest quality fabrics with design details that fit, flatter, and function in and out of the show ring. </p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/calverro",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_7WV3X4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2024-05-01T161942.119.png",
+            "shape_class": "",
+            "title": "Euphoric Equestrian",
+            "text": "<p>Euphoric was launched after not being able to find cute riding clothes that would double from the barn to daily life. Alexa, the owner, never felt her best going from the barn to work or to lunch with girlfriends on the weekend after lessons.  Every piece is made in Los Angeles.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/euphoric-equestrian",
+            "button_color": "btn--neutral",
+            "button_style": "btn--outline",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_WJYPLR",
+        "text_block_HGke3q",
+        "text_block_b48WGh",
+        "text_block_c7rxGi",
+        "text_block_6KAzfk",
+        "text_block_J9eTJV",
+        "text_block_KE4E3t",
+        "text_block_PLDEYL",
+        "text_block_7WV3X4"
+      ],
+      "custom_css": [
+        ".column__image {box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.05);}",
+        ".accent-title-large {font-size: 1.5em;}",
+        "p {font-size: 1.2em;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_ETC7pf": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_XGebWW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interested in Partnering with TTE?",
+            "text_size": 8
+          }
+        },
+        "text_7gKW3d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At The Tried Equestrian we're always looking for cutting edge and unique brands to offer to our customers. We pride ourselves on spreading your brand's story through our own lens to our engaged audience via email, social media and our website.</p><p>Reach out to us below if you are interested in learning more.</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_XGebWW",
+        "text_7gKW3d"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "content_width": 1000,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_contact_rR8kMt": {
+      "type": "section-contact",
+      "blocks": {
+        "text_QEcmbJ": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email_BwKDnP": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "body_FkfHKA": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "text_QEcmbJ",
+        "email_BwKDnP",
+        "body_FkfHKA"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "button_size": "btn--long",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "width": "wrapper--narrow",
+        "padding_top": 66,
+        "padding_bottom": 66
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_hgYHe7",
+    "section_columns_YdHi9k",
+    "section_richtext_ETC7pf",
+    "section_contact_rR8kMt"
+  ]
+}

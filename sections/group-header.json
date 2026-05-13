@@ -1,0 +1,345 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "text_4dePPe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Free shipping over $249 | Easy returns</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_GdqNqq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Up to 80% off retail </p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text_DWgTkY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1000's of monthly new arrivals</p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_4dePPe",
+        "text_GdqNqq",
+        "text_DWgTkY"
+      ],
+      "custom_css": [
+        "p,strong {font-weight: 100;}"
+      ],
+      "settings": {
+        "text_size": 4,
+        "layout": "slider",
+        "speed": 2,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "group_8CTyY4": {
+          "type": "group",
+          "settings": {
+            "megamenu1": false,
+            "menuurl": "shopify://collections/na",
+            "menuname": "New Arrivals",
+            "megamenu12": true,
+            "menuoneheading": "Shop Category",
+            "menu": "apparel-menu-1",
+            "megamenu120": true,
+            "menutwoheading": "Top Searches",
+            "menu2": "apparel-menu-2",
+            "megamenu121": false,
+            "menuthreeheading": "",
+            "menu3": "",
+            "footwear_submenu_show": false,
+            "footwear_heading": "Footwear",
+            "footwear_heading_url": "",
+            "footwear_menu": "",
+            "megamenu122": true,
+            "productimage": "shopify://shop_images/Tried_Eq_Social_Media_Designs_13_47b98840-450b-4b56-90f1-986c0dbc8bb1.png",
+            "productheading1": "Most Wanted",
+            "producttext1": "Our current bestsellers- tried, tested, and trending.",
+            "producturl1": "shopify://collections/trending-apparel",
+            "megamenu123": true,
+            "productimage2": "shopify://shop_images/Tried_Eq_Social_Media_Designs_13_copy.png",
+            "productheading2": "BREECHES UNDER $75",
+            "producttext2": "High-quality riding breeches — without the high price tag.",
+            "producturl2": "shopify://collections/breeches-under-75",
+            "megamenu1233": false,
+            "productheading3": "",
+            "producttext3": "",
+            "producturl3": ""
+          }
+        },
+        "group_JnB7Qg": {
+          "type": "group",
+          "settings": {
+            "megamenu1": false,
+            "menuurl": "shopify://collections/all",
+            "menuname": "Shop All",
+            "megamenu12": true,
+            "menuoneheading": "Shop Category",
+            "menu": "apparel-menu-1",
+            "megamenu120": true,
+            "menutwoheading": "Top Searches",
+            "menu2": "apparel-menu-2",
+            "megamenu121": false,
+            "menuthreeheading": "",
+            "menu3": "",
+            "footwear_submenu_show": false,
+            "footwear_heading": "Footwear",
+            "footwear_heading_url": "",
+            "footwear_menu": "",
+            "megamenu122": true,
+            "productimage": "shopify://shop_images/Tried_Eq_Social_Media_Designs_13_47b98840-450b-4b56-90f1-986c0dbc8bb1.png",
+            "productheading1": "Most Wanted",
+            "producttext1": "Our current bestsellers- tried, tested, and trending.",
+            "producturl1": "shopify://collections/trending-apparel",
+            "megamenu123": true,
+            "productimage2": "shopify://shop_images/Tried_Eq_Social_Media_Designs_13_copy.png",
+            "productheading2": "BREECHES UNDER $75",
+            "producttext2": "High-quality riding breeches — without the high price tag.",
+            "producturl2": "shopify://collections/breeches-under-75",
+            "megamenu1233": false,
+            "productheading3": "",
+            "producttext3": "",
+            "producturl3": ""
+          }
+        },
+        "group_QYLGtw": {
+          "type": "group",
+          "settings": {
+            "megamenu1": true,
+            "menuurl": "shopify://collections/apparel",
+            "menuname": "For The Rider",
+            "megamenu12": true,
+            "menuoneheading": "Women's Apparel",
+            "menu": "womens-apparel",
+            "megamenu120": true,
+            "menutwoheading": "Kids Apparel",
+            "menu2": "kids-apparel",
+            "megamenu121": true,
+            "menuthreeheading": "RIDER STAPLES",
+            "menu3": "rider-staples",
+            "footwear_submenu_show": true,
+            "footwear_heading": "Footwear",
+            "footwear_heading_url": "shopify://collections/footwear",
+            "footwear_menu": "footware-menu-2",
+            "megamenu122": false,
+            "productimage": "shopify://shop_images/Tried_Eq_Social_Media_Designs_27_9fc71380-2e8a-480c-ad48-5a75e0e6022f.png",
+            "productheading1": "RJ Classics",
+            "producttext1": "The brand loved by, well… everyone.",
+            "producturl1": "shopify://collections/rj-classics-1",
+            "megamenu123": true,
+            "productimage2": "shopify://shop_images/GRID_-_Tried_Eq_Social_Media_Designs_4.png",
+            "productheading2": "Equestrian Stockholm",
+            "producttext2": "Minimalist design meets rider-tested function at Tried prices.",
+            "producturl2": "shopify://collections/equestrian-stockholm-womens-apparel",
+            "megamenu1233": false,
+            "productheading3": "",
+            "producttext3": "",
+            "producturl3": ""
+          }
+        },
+        "group_gfbH3h": {
+          "type": "group",
+          "settings": {
+            "megamenu1": true,
+            "menuurl": "shopify://collections/for-the-horse",
+            "menuname": "For The Horse",
+            "megamenu12": true,
+            "menuoneheading": "Tack",
+            "menu": "tack-1",
+            "megamenu120": true,
+            "menutwoheading": "Grooming + Care",
+            "menu2": "grooming-care",
+            "megamenu121": true,
+            "menuthreeheading": "Shop Category",
+            "menu3": "tack-3",
+            "footwear_submenu_show": false,
+            "footwear_heading": "Footwear",
+            "footwear_heading_url": "",
+            "footwear_menu": "",
+            "megamenu122": true,
+            "productimage": "shopify://shop_images/Tried_Eq_Social_Media_Designs_15.png",
+            "productheading1": "WELL EQUIPPED",
+            "producttext1": "The most in-demand tack — top brands, fast movers, and your next favorite piece.",
+            "producturl1": "shopify://collections/top-tier-tack",
+            "megamenu123": true,
+            "productimage2": "shopify://shop_images/Tried_Eq_Social_Media_Designs_27.png",
+            "productheading2": "Butet Tack Room",
+            "producttext2": "Luxury leather from one of the most iconic French tack brands.",
+            "producturl2": "shopify://collections/butet-tack-room",
+            "megamenu1233": false,
+            "productheading3": "",
+            "producttext3": "",
+            "producturl3": ""
+          }
+        },
+        "group_6FUfi9": {
+          "type": "group",
+          "settings": {
+            "megamenu1": true,
+            "menuurl": "shopify://collections/lifestyle",
+            "menuname": "Lifestyle",
+            "megamenu12": true,
+            "menuoneheading": "Gifts",
+            "menu": "gifts",
+            "megamenu120": true,
+            "menutwoheading": "Lifestyle",
+            "menu2": "lifestyle",
+            "megamenu121": false,
+            "menuthreeheading": "RIDER STAPLES",
+            "menu3": "rider-staples",
+            "footwear_submenu_show": false,
+            "footwear_heading": "Footwear",
+            "footwear_heading_url": "",
+            "footwear_menu": "",
+            "megamenu122": false,
+            "productimage": "shopify://shop_images/GRID_-_Tried_Eq_Social_Media_Designs_6.png",
+            "productheading1": "Tucker Tweed",
+            "producttext1": "The horsegirl daily carry. Heritage styles 40-70%off.",
+            "producturl1": "shopify://collections/the-tucker-tweed-heritage-drop",
+            "megamenu123": false,
+            "productimage2": "shopify://shop_images/GRID_-_Tried_Eq_Social_Media_Designs_6_ac554488-54a9-4873-ac33-daad8c6183a3.png",
+            "productheading2": "Mane Jane Straps + Dreamers Socks",
+            "producttext2": "Just the right amount of personality. Add your touch.",
+            "producturl2": "shopify://collections/dreamers-schemers",
+            "megamenu1233": false,
+            "productheading3": "",
+            "producttext3": "",
+            "producturl3": ""
+          }
+        },
+        "group_Vxgt7J": {
+          "type": "group",
+          "settings": {
+            "megamenu1": true,
+            "menuurl": "/collections/deals?tab=products&sort_by=discount&sort_order=desc&page=1",
+            "menuname": "Deals",
+            "megamenu12": true,
+            "menuoneheading": "Value Picks",
+            "menu": "value-picks",
+            "megamenu120": true,
+            "menutwoheading": "On Sale",
+            "menu2": "sale",
+            "megamenu121": false,
+            "menuthreeheading": "",
+            "menu3": "",
+            "footwear_submenu_show": false,
+            "footwear_heading": "Footwear",
+            "footwear_heading_url": "",
+            "footwear_menu": "",
+            "megamenu122": false,
+            "productheading1": "",
+            "producttext1": "",
+            "producturl1": "",
+            "megamenu123": false,
+            "productheading2": "",
+            "producttext2": "",
+            "producturl2": "",
+            "megamenu1233": false,
+            "productheading3": "",
+            "producttext3": "",
+            "producturl3": ""
+          }
+        }
+      },
+      "block_order": [
+        "group_8CTyY4",
+        "group_JnB7Qg",
+        "group_QYLGtw",
+        "group_gfbH3h",
+        "group_6FUfi9",
+        "group_Vxgt7J"
+      ],
+      "custom_css": [
+        ".navtext {font-weight: 700; font-size: 1em;}",
+        ".toolbar__navlink .navtext {font-weight: 400; font-size: 0.8em; text-transform: capitalize;}",
+        ".header__inner {background: white;}",
+        "div:nth-child(7) .navlink--toplevel {color: #ef3a41 !important;}"
+      ],
+      "settings": {
+        "header_style": "menu_center",
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_limit": 115,
+        "logo_padding": 13,
+        "logo_text_size": 6,
+        "main_menu_linklist": "about-us",
+        "hmmtbheading": "SHOP",
+        "mobile_menu_linklist": "main-menu-new",
+        "hmmtbheading2": "CONSIGN",
+        "mobile_menu_linklist2": "consign-menu",
+        "hmmtbheading3": "",
+        "mobile_menu_linklist3": "vendor",
+        "hmmilaccount1": "My Tried",
+        "hmmilaccount2": "Sign In",
+        "hmmilaccountlink": "https://www.triedequestrian.com/account/login",
+        "accord1title1": "Customer Care",
+        "mobile_menu_linklist4": "main-menu-new",
+        "accord2title2": "Information",
+        "mobile_menu_linklist5": "show",
+        "full_width": true,
+        "underline_current": false,
+        "enable_search": true,
+        "enable_account": true,
+        "use_icons": true,
+        "icons_type": "classic",
+        "cart_icon": "bag",
+        "header_sticky": "sticky",
+        "transparent_home": false,
+        "transparent_collection": false,
+        "transparent_blog": false,
+        "transparent_article": false,
+        "transparent_page": false,
+        "transparent_text_color": "#ffffff",
+        "show_collection_images": false,
+        "collection_wh_ratio": 2.5
+      }
+    },
+    "custom_header_kh8hpV": {
+      "type": "custom-header",
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "announcement",
+    "header",
+    "custom_header_kh8hpV"
+  ]
+}

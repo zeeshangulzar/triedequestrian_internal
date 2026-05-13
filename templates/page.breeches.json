@@ -1,0 +1,1049 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_WLA7wq": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_w8de7C": {
+          "type": "heading",
+          "settings": {
+            "title": "BREECHES",
+            "text_size": 10
+          }
+        },
+        "text_j9RJnh": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Your perfect pair is in here somewhere. Discover pre-owned and discounted breeches from top equestrian brands—tailored for the saddle, priced for the smart shopper. Inventory changes fast, so don’t wait to add to cart.</p>",
+            "text_size": 6
+          }
+        },
+        "button_xYc8C4": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop All Breeches",
+            "link_1": "shopify://collections/shop-all-breeches",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "SHOP ALL WOMEN'S BREECHES",
+            "link_2": "shopify://collections/womens-breeches",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn",
+            "button_color_2": "btn--white",
+            "link_text_3": "SHOP ALL KIDS BREECHES",
+            "link_3": "shopify://collections/kids-breeches",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w8de7C",
+        "text_j9RJnh",
+        "button_xYc8C4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_24_799053dd-53f2-4ade-a365-07bd7511c443.png",
+        "height": "use_screen_one_third",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_4rXqTf": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_8itxAt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1.svg",
+            "shape_class": "",
+            "title": "KNEE PATCH",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/womens-knee-patch-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_PVbcAx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2.svg",
+            "shape_class": "",
+            "title": "FULL SEAT",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/womens-full-seat-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_44CVBD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3.svg",
+            "shape_class": "",
+            "title": "TIGHTS",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/tights",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_pYgaNb": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IG_Post_copy.png",
+            "shape_class": "",
+            "title": "Shadbellies",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/shadbelly",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_GqpTmW": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/FB_ADS_c5f65d2f-9ab0-47b5-86fd-b0fb61b9187e.png",
+            "shape_class": "",
+            "title": "Luxe Coats",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/luxe-show-jackets",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_rqbRGf": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IG_Post.png",
+            "shape_class": "",
+            "title": "Deals Under $199",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/show-jackets-under-199",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_J38aez": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/brand_photos_5_c531dde6-960f-4e60-8493-002f8e7cd1ba.png",
+            "shape_class": "",
+            "title": "TAILORED",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/kask",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_TRig4x": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/brand_photos_5.png",
+            "shape_class": "",
+            "title": "CUFFED",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-parlanti",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_xTKtRB": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3_2dbaf231-5b01-465a-bed5-80e2623d19e6.png",
+            "shape_class": "",
+            "title": "COVERED ZIP",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-animo",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8itxAt",
+        "text_block_PVbcAx",
+        "text_block_44CVBD",
+        "text_block_pYgaNb",
+        "text_block_GqpTmW",
+        "text_block_rqbRGf",
+        "text_block_J38aez",
+        "text_block_TRig4x",
+        "text_block_xTKtRB"
+      ],
+      "settings": {
+        "title": "TAKE YOUR PICK",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 0.5,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 2.1,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 22,
+        "padding_bottom": 6
+      }
+    },
+    "section_double_yDpCLe": {
+      "type": "section-double",
+      "blocks": {
+        "text_PXmmzD": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "SHOP KIDS",
+            "button_url": "shopify://collections/kids-show-coats",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#efe1d9"
+          }
+        },
+        "image_Fadh6U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_23_772e5863-b66c-488f-a07f-29a649e7332c.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_PXmmzD",
+        "image_Fadh6U"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_kphqbf": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_fMhM6V": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find Your Perfect Fit",
+            "text_size": 8
+          }
+        },
+        "text_qWhF4y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We carry dozens of brand names, and our inventory is always changing. You're bound to find something you love!</p>",
+            "text_size": 6,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_fMhM6V",
+        "text_qWhF4y"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--accent",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 14,
+        "padding_bottom": 14
+      }
+    },
+    "section_columns_zU7f76": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_hehiEx": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/FB_ADS.png",
+            "shape_class": "",
+            "title": "The Traditionalist",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/the-traditionalist",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_UaNx9F": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_8948.heic",
+            "shape_class": "",
+            "title": "Perforated & Mesh",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/perforated-and-mesh-show-jackets",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_zjnrNB": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/FB_ADS_copy.png",
+            "shape_class": "",
+            "title": "Pop of Color",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/pop-of-color-show-jackets",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_cVDTGG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/4.svg",
+            "shape_class": "",
+            "title": "SHOW",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/womens-show-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_c6PAL4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/5.svg",
+            "shape_class": "",
+            "title": "KIDS",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/kids-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_RMGzgR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/6.svg",
+            "shape_class": "",
+            "title": "DISCOUNTS AUTO APPLIED AT CHECKOUT",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/sale-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_3A8Dwf": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/brand_photos_5_c531dde6-960f-4e60-8493-002f8e7cd1ba.png",
+            "shape_class": "",
+            "title": "TAILORED",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/kask",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_bWeNwV": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/brand_photos_5.png",
+            "shape_class": "",
+            "title": "CUFFED",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-parlanti",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_8TNFHA": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3_2dbaf231-5b01-465a-bed5-80e2623d19e6.png",
+            "shape_class": "",
+            "title": "COVERED ZIP",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/spring-fling-animo",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_hehiEx",
+        "text_block_UaNx9F",
+        "text_block_zjnrNB",
+        "text_block_cVDTGG",
+        "text_block_c6PAL4",
+        "text_block_RMGzgR",
+        "text_block_3A8Dwf",
+        "text_block_bWeNwV",
+        "text_block_8TNFHA"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 0.5,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 2.1,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 64,
+        "padding_bottom": 18
+      }
+    },
+    "section_columns_JrJg6X": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_ENmfR8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1_f2e72c8b-3992-4373-8d23-bf02d1ccf667.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP TAN",
+            "button_link": "shopify://collections/tan-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_mUewUt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/4_fa6a3a92-83d0-4d97-a6c5-e1d340b461fd.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP NAVY",
+            "button_link": "shopify://collections/navy-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_GUmLPH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2_8fd1fc84-daf3-4be5-b182-438f853db82d.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP BLACK",
+            "button_link": "shopify://collections/black-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_VYFhye": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_24.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP COLOR",
+            "button_link": "shopify://collections/breeches-multi-test",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_rURhAk": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/image00001_44aad631-0284-44d4-a115-ab6126a7c027.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP GLOVES",
+            "button_link": "shopify://collections/gloves",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--neutral"
+          }
+        },
+        "text_block_Hhi3mg": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_5724_041ee108-8ccb-43de-9fbb-5b1ef27fd6ba.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP ACCESSORIES",
+            "button_link": "shopify://collections/show-accessories",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_ENmfR8",
+        "text_block_mUewUt",
+        "text_block_GUmLPH",
+        "text_block_VYFhye",
+        "text_block_rURhAk",
+        "text_block_Hhi3mg"
+      ],
+      "settings": {
+        "title": "SHOP BY COLOR",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 4,
+        "grid_medium": 4,
+        "grid_mobile": 2.1,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 14
+      }
+    },
+    "section_double_ff4bTh": {
+      "type": "section-double",
+      "blocks": {
+        "text_rqwYN9": {
+          "type": "text",
+          "settings": {
+            "kicker": "Goes great with...",
+            "title": "TOPS",
+            "text": "<p>Don't let your breeches do all the work. Pair them with one of our amazing training tops or show shirts.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_6n4Emx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220714_Tried-Equestrian_0031.jpg",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop Now",
+            "link": "shopify://collections/shirts",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_rqwYN9",
+        "image_6n4Emx"
+      ],
+      "settings": {
+        "height": "use_screen_one_third",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_nWN6mA": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_3mzeA4": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/image00030_7f49e9ac-a39f-4675-b98f-832ac3bbf35e.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP SHOW BREECHES",
+            "button_link": "shopify://collections/womens-show-breeches",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_Nh4exr": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/image00064_cdd02690-e692-4742-8c75-aded20815132.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP SHOW TOPS",
+            "button_link": "shopify://collections/show-shirt-collection",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_ckAmiK": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_5617_8a389df0-32d5-48c1-8c14-8abd977e04dd.jpg",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP TALL BOOTS",
+            "button_link": "shopify://collections/tall-boots",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_T6YAe3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ScreenShot2022-10-28at4.26.44PM_9b25b4eb-f654-4188-b8ba-24c3d0c958a0.png",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP HELMETS",
+            "button_link": "shopify://collections/helmets-1",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_6AMM6B": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1_b375abec-7941-4dcf-89c0-e18c85883a57.png",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP GLOVES",
+            "button_link": "shopify://collections/gloves",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--neutral"
+          }
+        },
+        "text_block_xAMFUA": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_5724_041ee108-8ccb-43de-9fbb-5b1ef27fd6ba.jpg",
+            "shape_class": "",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP ACCESSORIES",
+            "button_link": "shopify://collections/show-accessories",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_3mzeA4",
+        "text_block_Nh4exr",
+        "text_block_ckAmiK",
+        "text_block_T6YAe3",
+        "text_block_6AMM6B",
+        "text_block_xAMFUA"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 2.1,
+        "progress_bar_mobile": true,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 14
+      }
+    },
+    "section_double_AWi8MF": {
+      "type": "section-double",
+      "blocks": {
+        "image_RAkfeQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_24_99d0ae11-aff2-4213-a4c2-5cc78d7ed57d.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Shop ALL BREECHES",
+            "link": "shopify://collections/shop-all-breeches",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "image_RAkfeQ"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_UmHNLq": {
+      "type": "section-double",
+      "blocks": {
+        "text_bRjGCJ": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "SHOP FOR THE SHOW",
+            "text": "<p>Need the whole outfit? Check out our selection of tan breeches and show tops. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-center",
+            "button_text": "SHOP FOR THE SHOW",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": "#dff3fd"
+          }
+        },
+        "image_QiWRHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220402_TriedEquestrian_0989.jpg",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_bRjGCJ",
+        "image_QiWRHF"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_P8Hcah": {
+      "type": "section-hero",
+      "blocks": {
+        "kicker_Fg9GKb": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Introducing",
+            "enable_line": false,
+            "text_size": 4
+          }
+        },
+        "heading_FNrH4Q": {
+          "type": "heading",
+          "settings": {
+            "title": "Image banner",
+            "text_size": 10
+          }
+        },
+        "text_z87yKD": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>This area is used to describe your store.</p>",
+            "text_size": 6
+          }
+        },
+        "button_UkxbtY": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "View products",
+            "link_1": "",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "Learn more",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "kicker_Fg9GKb",
+        "heading_FNrH4Q",
+        "text_z87yKD",
+        "button_UkxbtY"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_WLA7wq",
+    "section_columns_4rXqTf",
+    "section_double_yDpCLe",
+    "section_richtext_kphqbf",
+    "section_columns_zU7f76",
+    "section_columns_JrJg6X",
+    "section_double_ff4bTh",
+    "section_columns_nWN6mA",
+    "section_double_AWi8MF",
+    "section_double_UmHNLq",
+    "section_hero_P8Hcah"
+  ]
+}

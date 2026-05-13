@@ -1,0 +1,403 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_WLA7wq": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_w8de7C": {
+          "type": "heading",
+          "settings": {
+            "title": "ANIQUE BLOWOUT SALE",
+            "text_size": 10
+          }
+        },
+        "text_j9RJnh": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Shop tops 50% off + receive a FREE pair of leggings with every 3 shirts purchased.</p>",
+            "text_size": 6
+          }
+        },
+        "button_xYc8C4": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop All",
+            "link_1": "shopify://collections/anique-blowout-sale",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w8de7C",
+        "text_j9RJnh",
+        "button_xYc8C4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Website_banners_2000_x_1300_px_copy.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_4rXqTf": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_rqbRGf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3_20aa843d-1ae7-4488-895c-4a36fc9f08e7.png",
+            "shape_class": "",
+            "title": "Short Sleeve Crews",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/short-sleeve-anique-blowout",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_PVbcAx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2_7282b012-cb9c-4ca5-9887-1e641371f587.png",
+            "shape_class": "",
+            "title": "Long Sleeve Crews",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/long-crew-anique-blowout",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_J38aez": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1_8db9370a-948c-4098-917d-cea47af8b7ef.png",
+            "shape_class": "",
+            "title": "Signature Sunshirts",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/anique-signature-sunshirts",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rqbRGf",
+        "text_block_PVbcAx",
+        "text_block_J38aez"
+      ],
+      "settings": {
+        "title": "WHAT'S YOUR VIBE?",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_image_Vngdnz": {
+      "type": "section-image",
+      "settings": {
+        "image": "shopify://shop_images/Website_banners_2000_x_1300_px.png",
+        "mobile_image": "shopify://shop_images/Ultra_Comfortable_Zipper_Garage.png",
+        "max_width": 100,
+        "x_align": "center",
+        "color_bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_JrJg6X": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_rURhAk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1_42e535fc-a820-4818-af61-ce1b546c51a4.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP PINK",
+            "button_link": "shopify://collections/pink-anique",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_Hhi3mg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2_298af9a4-6273-4eb6-bf94-24ff13f0c8aa.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP WHITE",
+            "button_link": "shopify://collections/white-anique",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_ENmfR8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/3_ddba6612-e214-43cc-9874-cf8b9ca3a61f.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP BLUE",
+            "button_link": "shopify://collections/blue-anique",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_mUewUt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/6_9ec54324-2f94-4762-ac4f-459bea273c7d.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP BLACK",
+            "button_link": "shopify://collections/black-anique",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_VYFhye": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/5_3f7536ac-6b28-4246-87d7-edaeff441c8b.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP PURPLE",
+            "button_link": "shopify://collections/purple-anique",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_GUmLPH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/4_ffea306d-1d0b-4bd5-a0f4-ae1920162fe0.png",
+            "shape_class": "radius-blob-1",
+            "title": "",
+            "text": "",
+            "button_label": "SHOP GREY",
+            "button_link": "shopify://collections/grey-anique",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rURhAk",
+        "text_block_Hhi3mg",
+        "text_block_ENmfR8",
+        "text_block_mUewUt",
+        "text_block_VYFhye",
+        "text_block_GUmLPH"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_yDpCLe": {
+      "type": "section-double",
+      "blocks": {
+        "text_PXmmzD": {
+          "type": "text",
+          "settings": {
+            "kicker": "SNAG YOUR FREE PAIR OF ANIQUE LEGGINGS",
+            "title": "",
+            "text": "<p>Be quick! This deal is available while supplies last. </p><p>Add your selected color and size of Anique leggings to cart with your 3 Anique tops and it will be automatically deducted from the total!</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_Fadh6U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_22_f81dbcf7-0138-43f4-9c17-8c24b7783e9e.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Grab Yours",
+            "link": "shopify://collections/blowout-anique-leggings",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_PXmmzD",
+        "image_Fadh6U"
+      ],
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_g7DJjR": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_atLWgV": {
+          "type": "collection",
+          "settings": {
+            "collection": "anique-blowout-sale",
+            "title": "JUST A FEW OF OUR FAVORITES",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_atLWgV"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_WLA7wq",
+    "section_columns_4rXqTf",
+    "section_image_Vngdnz",
+    "section_columns_JrJg6X",
+    "section_double_yDpCLe",
+    "section_list_collections_products_g7DJjR"
+  ]
+}

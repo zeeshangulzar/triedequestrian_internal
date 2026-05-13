@@ -1,0 +1,152 @@
+<section class="consign consign-payout section-container section-padding-consign">
+  <div class="page-width">
+
+    <!-- Header -->
+    <div class="consign-payout__header">
+      <h2>{{ section.settings.title }}</h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="consign-payout__grid">
+
+      <!-- Payout Table -->
+      <div class="consign-payout__table-card">
+        <table class="consign-payout__table">
+          <thead>
+            <tr>
+              <th>Selling Price</th>
+              <th>Cash Payout</th>
+              <th>Store Credit</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for block in section.blocks %}
+              {% if block.type == 'payout_row' %}
+                {% assign is_even = forloop.index0 | modulo: 2 %}
+                <tr class="{% if is_even == 0 %}is-even{% else %}is-odd{% endif %}">
+                  <td class="col-price">{{ block.settings.price }}</td>
+                  <td class="col-cash">{{ block.settings.cash }}</td>
+                  <td class="col-credit">{{ block.settings.credit }}</td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Notes Card -->
+      <div class="consign-payout__notes bg-brand-blush">
+        <h3 class="consign-payout__notes-title d-flex">
+          {% if section.settings.notice_icon != blank %}
+            {{ section.settings.notice_icon | image_url: width: 24 | image_tag: loading: 'lazy' }}
+          {% endif %}
+          {{ section.settings.notice_title }}
+        </h3>
+
+        <div class="consign-payout__notes-body">
+          {{ section.settings.notice_text }}
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Payment Options -->
+    <div class="consign-payout__payment-card box-shadow">
+      <h3>How You'll Get Paid</h3>
+      <p class="consign-payout__payment-desc">
+        {{ section.settings.payment_description }}
+      </p>
+
+      <p class="consign-payout__payment-label">Options to Receive Payment:</p>
+      <div class="payment-options-container">
+        <div class="payment-option">
+          <span class="option-name">Mailed Check</span>
+        </div>
+        <div class="payment-option">
+          <span class="option-name">PayPal</span>
+        </div>
+        <div class="payment-option highlighted">
+          <span class="option-name">Store Credit</span>
+          <span class="bonus">+10%</span>
+        </div>
+        <div class="payment-option">
+          <span class="option-name">Donate to Charity</span>
+        </div>
+      </div>
+    </div>
+    <div class="consign-process__cta">
+      <a href="{{ section.settings.cta_link }}" class="consign-process__button">
+        {{ section.settings.cta_text }}
+      </a>
+    </div>
+
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Consign – Payout",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section Title",
+      "default": "WHAT YOU’LL EARN"
+    },
+    {
+      "type": "image_picker",
+      "id": "notice_icon",
+      "label": "Notice Icon (Optional)"
+    },
+    {
+      "type": "text",
+      "id": "notice_title",
+      "label": "Notice Title",
+      "default": "Please Keep in Mind..."
+    },
+    {
+      "type": "richtext",
+      "id": "notice_text",
+      "label": "Notice Text",
+      "default": "<p>Our pricing guidelines are rough estimates. Seasonality and style affect payouts.</p><p>Items under $20 are ineligible for consignment.</p><p>You may send them for donation or recycling.</p>"
+    },
+    {
+      "type": "textarea",
+      "id": "payment_description",
+      "label": "Payment Description",
+      "default": "Checks are sent monthly with an invoice breakdown. Payments are delayed one month to account for returns."
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA Button Text",
+      "default": "CONSIGN NOW"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA Button Link"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "payout_row",
+      "name": "Payout Row",
+      "settings": [
+        { "type": "text", "id": "price", "label": "Selling Price", "default": "$1000+" },
+        { "type": "text", "id": "cash", "label": "Cash %", "default": "80%" },
+        { "type": "text", "id": "credit", "label": "Store Credit %", "default": "85%" }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Consign – Payout",
+      "blocks": [
+        { "type": "payout_row" },
+        { "type": "payout_row" },
+        { "type": "payout_row" }
+      ]
+    }
+  ]
+}
+{% endschema %}

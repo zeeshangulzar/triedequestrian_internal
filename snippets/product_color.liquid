@@ -1,0 +1,25 @@
+{% if product.metafields.custom.color_link %}
+  <div class="product__block__title" style="--PB: {{ block.settings.padding_bottom }}px;">
+    {% if block.settings.heading != blank %}
+      <label class="webyzeProductColorsLabel">{{ block.settings.heading }}</label>
+    {% endif %}
+    <ul class="color-swatch-list">
+      {% for color_group in product.metafields.custom.color_link.value %}
+        {% assign label = color_group.ref_color.value %}
+        {% assign swatch_color = color_group.color_picker.value %}
+        {% assign linked_product = color_group.color_product.value %}
+        
+        {% assign is_active = false %}
+        {% if linked_product.id == product.id %} {% assign is_active = true %}{% endif %}
+
+        <li class="color-swatch-item {% if is_active %}active{% endif %}">
+          {% if linked_product %}<a href="{{ linked_product.url }}" title="{{ label }}">{% endif %}
+            <div class="color-swatch-circle" style="background-color: {{ swatch_color }};" title="{{ label }}"> </div>
+          {% if linked_product %}
+            </a>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}

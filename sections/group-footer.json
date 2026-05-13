@@ -1,0 +1,99 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "linklist-1": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "about-us",
+            "title": "",
+            "accordion_default": ""
+          }
+        },
+        "linklist-2": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "account",
+            "title": "",
+            "accordion_default": ""
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "settings": {
+            "title": "The Tried Approach",
+            "text": "<p>We have the brands and items you look for. Just priced differently.</p><p>We source premium equestrian pieces riders already want, and make them easier to own.<br/></p>",
+            "text_size": 4,
+            "accordion_default": ""
+          }
+        },
+        "social": {
+          "type": "social",
+          "settings": {
+            "title": "Stay in touch.",
+            "text_size": 8,
+            "enable_follow_on_shop": true
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "show_image": false,
+            "wh_ratio": 2,
+            "newsletter_enable": true,
+            "recaptcha_enabled": false,
+            "kicker": "",
+            "heading": "Rein Supreme.",
+            "richtext": "<p>Never miss a great find. Get first access to new arrivals</p>",
+            "text_size": 4,
+            "background_color": "#2a3142",
+            "text_color_value": "#f5f3ef"
+          }
+        }
+      },
+      "block_order": [
+        "linklist-1",
+        "linklist-2",
+        "text-3",
+        "social",
+        "newsletter"
+      ],
+      "settings": {
+        "menu_position": "left",
+        "logo_max_limit": 120,
+        "width": "wrapper--full",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "subfooter": {
+      "type": "subfooter",
+      "settings": {
+        "footer_secondary_linklist": "policies",
+        "footer_payment_enable": false,
+        "footer_social_enable": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "width": "wrapper--full",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "subfooter"
+  ]
+}

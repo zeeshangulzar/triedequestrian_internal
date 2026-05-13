@@ -1,0 +1,20 @@
+<!-- /snippets/product-related-collections.liquid -->
+
+{% liquid
+  # Put a comma separated list of collection titles here
+  assign brand_collections = "" | split: ","
+  assign col = blank
+  for item in product.collections
+    for brand_col in brand_collections
+      if item.title == brand_col
+        assign col = item
+      endif
+    endfor
+  endfor
+%}
+
+{% if col != blank %}
+  <div style="padding-top: 1rem">
+    <a href="{{ col.url }}">{{ block.settings.prefix }} {{ col.title }}</a>
+  </div>
+{% endif %}

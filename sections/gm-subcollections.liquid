@@ -1,0 +1,339 @@
+{% comment %}
+
+---------------------------------------------------------
+Copyright © 2025 Genius Maker. All rights reserved.
+Unauthorized copying, modification, distribution, or use
+of this code or any portion of it, is strictly prohibited.
+Violators will be prosecuted to the fullest extent of the law.
+For inquiries or permissions, contact +91 9672 366 086
+---------------------------------------------------------
+
+{% endcomment %}
+
+<style>
+  .gm-subcollections-container {
+    width: 100%;
+    margin: {{ section.settings.margin_block }}px auto;
+    padding: 1.5rem 1.35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 0px;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .gm-subcollections-container {
+      flex-direction: row;
+      padding: 1.5rem;
+      gap: 1.5rem;
+    }
+  }
+
+  .collection-slider-wrapper--gm {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: relative;
+    padding-left: inherit;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .collection-slider-wrapper--gm {
+      max-width: 790px;
+      gap: 3rem;
+    }
+  }
+
+  .collection-slider-wrapper--gm::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Scroll Indicator Wrapper */
+  .scroll-indicator-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .scroll-indicator-wrapper {
+      width: auto;
+    }
+  }
+
+  /* Scroll Indicators */
+  .scroll-indicator {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .scroll-indicator.visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .scroll-indicator:hover {
+    transform: translateY(-50%) scale(1.1);
+    background: rgba(255, 255, 255, 1);
+  }
+
+  .scroll-indicator.left {
+    left: -20px;
+  }
+
+  .scroll-indicator.right {
+    right: -20px;
+  }
+
+  .scroll-indicator svg {
+    width: 20px;
+    height: 20px;
+    fill: #1e293b;
+  }
+
+  /* Show indicators on hover or when scrollable */
+  .scroll-indicator-wrapper:hover .scroll-indicator.visible,
+  .scroll-indicator-wrapper.has-overflow .scroll-indicator.visible {
+    opacity: 1;
+  }
+
+  .collection-reset-button--gm {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    width: 100%;
+    margin-top: auto;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .collection-reset-button--gm {
+      width: auto;
+      justify-content: flex-start;
+      padding-right: 0;
+      padding-top: 5px;
+    }
+  }
+
+  .collection-reset-button--gm a {
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #1e293b;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .collection-reset-button--gm a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .collection-reset-button--gm a:active {
+    transform: scale(0.98);
+  }
+</style>
+
+<div class="gm-subcollections-container">
+
+  {% assign reset_url = '' %}
+
+  <div class="scroll-indicator-wrapper" data-scroll-wrapper>
+    <!-- Left Scroll Indicator -->
+    <div class="scroll-indicator left" data-scroll-left>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+      </svg>
+    </div>
+
+    <div class="collection-slider-wrapper--gm" data-slider>
+      {% for subcollection in section.settings.subcollections %}
+
+        {% if subcollection.image != blank %}
+          {% render 'gm-collection-slider',
+            collection_url: subcollection.url,
+            collection_image: subcollection.image | image_url,
+            collection_name: subcollection.name,
+            gradient_color: section.settings.gradient_color,
+            collection_width: section.settings.collection_width,
+            scrollbar_color: section.settings.scrollbar_color,
+            margin_block: section.settings.margin_block
+          %}
+        {% else %}
+          {% assign reset_url = subcollection.url %}
+        {% endif %}
+
+      {% endfor %}
+    </div>
+
+    <!-- Right Scroll Indicator -->
+    <div class="scroll-indicator right" data-scroll-right>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+      </svg>
+    </div>
+  </div>
+
+  {% if reset_url != '' %}
+    <div class="collection-reset-button--gm">
+      <a href="{{ reset_url }}">Display All Items</a>
+    </div>
+  {% endif %}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.querySelector('[data-scroll-wrapper]');
+  const slider = document.querySelector('[data-slider]');
+  const leftIndicator = document.querySelector('[data-scroll-left]');
+  const rightIndicator = document.querySelector('[data-scroll-right]');
+
+  if (!slider || !leftIndicator || !rightIndicator || !wrapper) return;
+
+  function updateIndicators() {
+    const isScrollable = slider.scrollWidth > slider.clientWidth;
+    const isAtStart = slider.scrollLeft <= 5;
+    const isAtEnd = slider.scrollLeft + slider.clientWidth >= slider.scrollWidth - 5;
+
+    // Add has-overflow class if scrollable
+    if (isScrollable) {
+      wrapper.classList.add('has-overflow');
+    } else {
+      wrapper.classList.remove('has-overflow');
+    }
+
+    // Show/hide left indicator
+    if (isScrollable && !isAtStart) {
+      leftIndicator.classList.add('visible');
+    } else {
+      leftIndicator.classList.remove('visible');
+    }
+
+    // Show/hide right indicator
+    if (isScrollable && !isAtEnd) {
+      rightIndicator.classList.add('visible');
+    } else {
+      rightIndicator.classList.remove('visible');
+    }
+  }
+
+  // Scroll left
+  leftIndicator.addEventListener('click', function() {
+    slider.scrollBy({
+      left: -200,
+      behavior: 'smooth'
+    });
+  });
+
+  // Scroll right
+  rightIndicator.addEventListener('click', function() {
+    slider.scrollBy({
+      left: 200,
+      behavior: 'smooth'
+    });
+  });
+
+  // Update indicators on scroll
+  slider.addEventListener('scroll', updateIndicators);
+
+  // Update indicators on load and resize
+  updateIndicators();
+  window.addEventListener('resize', updateIndicators);
+});
+</script>
+
+{% schema %}
+{
+  "name": "GM Subcollections",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "metaobject_list",
+      "id": "subcollections",
+      "label": "Select Subcollections",
+      "metaobject_type": "subcollections",
+      "limit": 50
+    },
+    {
+      "type": "url",
+      "id": "reset_url",
+      "label": "Reset Button URL",
+      "default": "/collections/all"
+    },
+    {
+      "type": "text",
+      "id": "reset_text",
+      "label": "Reset Button Text",
+      "default": "Reset"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_color",
+      "label": "Gradient border color",
+      "default": "linear-gradient(90deg, rgba(121,251,251,1) 0%, rgba(68,117,249,1) 48%, rgba(249,72,63,0.7595413165266106) 100%)"
+    },
+    {
+      "type": "range",
+      "id": "collection_width",
+      "label": "Collection Width",
+      "min": 100,
+      "max": 500,
+      "step": 50,
+      "unit": "px",
+      "info": "Whatever width you will add here will be divided by 1.5 on tablet and by 2 on mobile screens. For eg. 200px here means 200/1.5 on tablet and 200/2 on mobile",
+      "default": 200
+    },
+    {
+      "type": "color",
+      "id": "scrollbar_color",
+      "label": "Scrollbar color",
+      "default": "#FF6347"
+    },
+    {
+      "type": "range",
+      "id": "margin_block",
+      "label": "Top Bottom Space",
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "info": "Margin Top and Bottom",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "GM Subcollections"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,64 @@
+<section class="consign-hero bg-brand-blush d-center section-padding-consign">
+  <div class="page-width">
+    <div class="consign-hero__heading text-primary ">
+      <h1>{{ section.settings.heading_line_1 }}</h1>
+      <h2>{{ section.settings.heading_line_2 }}</h2>
+    </div>
+
+    {% if section.settings.hero_image != blank %}
+      <div class="consign-hero__image">
+        {{ section.settings.hero_image
+          | image_url: width: 1600
+          | image_tag:
+            loading: 'lazy',
+            widths: '600,800,1000,1200,1600',
+            sizes: '(min-width: 990px) 760px, 100vw'
+        }}
+      </div>
+    {% endif %}
+
+
+
+    <div class="consign-hero__content text-primary">
+      <h3>{{ section.settings.subheading }}</h3>
+      <p class="text-muted-foreground-lg-relaxed">{{ section.settings.description }}</p>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Consign – Hero",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading_line_1",
+      "label": "Heading line 1",
+      "default": "Consign with"
+    },
+    {
+      "type": "text",
+      "id": "heading_line_2",
+      "label": "Heading line 2",
+      "default": "The Tried Equestrian"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image",
+      "label": "Hero image"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Sell with TriedEq. It's easy!"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Our specialty is helping to extend the lifecycle of items in production."
+    }
+  ]
+}
+{% endschema %}

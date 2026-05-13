@@ -1,0 +1,607 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_WLA7wq": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_w8de7C": {
+          "type": "heading",
+          "settings": {
+            "title": "Friendsgiving Favors",
+            "text_size": 10
+          }
+        },
+        "button_xYc8C4": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "",
+            "link_1": "shopify://collections/stocking-stuffers",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w8de7C",
+        "button_xYc8C4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/JR_2024_RIDEEVERYSTRIDE_RAWF_520_1.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--top-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_ybJXV3": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_YQfgDp": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "FREE WITH EVERY ORDER",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "heading_3h6Jgk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Friendsgiving Favors",
+            "text_size": 10
+          }
+        },
+        "text_KbQRND": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We've teamed up with some of our favorite small businesses to offer a FREE gift with every purchase (while supplies last) during Black Weekend. All favors will be added automatically as we fulfill orders.</p>",
+            "text_size": 7,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_YQfgDp",
+        "heading_3h6Jgk",
+        "text_KbQRND"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_announcement_Ah8fXV": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_rzxzyJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GRATEFUL FOR YOU | Free gift with every purchase.</p>"
+          }
+        },
+        "icon_block_B9xKbE": {
+          "type": "icon_block",
+          "settings": {
+            "text": "<p><strong>FRIENDS SUPPORTING FRIENDS</strong>| Curated favors from our fave small businesses.</p>",
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "icon_alt_width": 33
+          }
+        }
+      },
+      "block_order": [
+        "text_rzxzyJ",
+        "icon_block_B9xKbE"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f7f7f7",
+        "color": "#132c6a",
+        "text_size": 7,
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    },
+    "section_double_B4CEW3": {
+      "type": "section-double",
+      "blocks": {
+        "text_ChQ6jL": {
+          "type": "text",
+          "settings": {
+            "kicker": "Orders $74.99 & Below",
+            "title": "",
+            "text": "<p>Receive a 1/2 lb. of Boogie Bite Horse Treats. Boogie Bites are made locally in small batches.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_xwk7cD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SQUARE_IMAGES_1200_2.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_ChQ6jL",
+        "image_xwk7cD"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_PLWp7B": {
+      "type": "section-double",
+      "blocks": {
+        "image_TfppUr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SQUARE_IMAGES_1200_1_copy.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_JMd8jz": {
+          "type": "text",
+          "settings": {
+            "kicker": "Orders $75-$149.99",
+            "title": "",
+            "text": "<p>Receive a 1/2 lb. of Boogie Bites Horse Treats + a Hunt Seat paper Co. Swedish Dish Towel. These dish towels are sustainable and adorable.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TfppUr",
+        "text_JMd8jz"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_Hwx36P": {
+      "type": "section-double",
+      "blocks": {
+        "text_8q7CCm": {
+          "type": "text",
+          "settings": {
+            "kicker": "Orders $150-$299.99",
+            "title": "",
+            "text": "<p>Receive a 1/2 lb. of Boogie Bites Horse Treats, HSPC Swedish Dish Towel + Snowman Tack Butter and Sponge. Natural and effective, tack butter has quickly become a customer and employee must-have.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_pdH9kB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SQUARE_IMAGES_1200_1_a2102409-eca8-4df0-a3cc-d830592b35f8.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_8q7CCm",
+        "image_pdH9kB"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_e7LGQE": {
+      "type": "section-double",
+      "blocks": {
+        "image_QHbpmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SQUARE_IMAGES_1200_1.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_x9pm9p": {
+          "type": "text",
+          "settings": {
+            "kicker": "Orders $300-$499.99",
+            "title": "",
+            "text": "<p>Receive a 1/2 lb. of Boogie Bites Horse Treats, a HSPC Swedish Dish Towel, Tack Butter Snowman + Stable Style Tin Candle. Stable Style candles are a shop fave with luxurious equestrian inspired scents.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QHbpmR",
+        "text_x9pm9p"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_double_aDP4BB": {
+      "type": "section-double",
+      "blocks": {
+        "text_KKYUQ3": {
+          "type": "text",
+          "settings": {
+            "kicker": "Orders $500+",
+            "title": "",
+            "text": "<p>Receive a 1/2 lb. of Boogie Bite Horse Treats, HSPC Swedish Dish Towel, Snowman Tack Butter and Sponge, Stable Style Candle + Equestrian Wellness Helmet Spray. Equestrian Wellness is a modern apothecary featuring organic products designed to elevate the well-being of the equestrian athlete. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_tQ4xgK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SQUARE_IMAGES_1200_copy_2.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_KKYUQ3",
+        "image_tQ4xgK"
+      ],
+      "settings": {
+        "height": "use_screen_one_fifth",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_4rXqTf": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_rqbRGf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2_846eb602-8152-41a6-bd6c-8f84f2bce0ad.png",
+            "shape_class": "",
+            "title": "New Rider",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/short-sleeve-anique-blowout",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_PVbcAx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1_1eee828f-4420-4fe6-bdca-6f542d04cf77.png",
+            "shape_class": "",
+            "title": "Enthusiast",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/long-crew-anique-blowout",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_J38aez": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/show_junkie.webp",
+            "shape_class": "",
+            "title": "Show Junkie",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/anique-signature-sunshirts",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rqbRGf",
+        "text_block_PVbcAx",
+        "text_block_J38aez"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 20px;}"
+      ],
+      "settings": {
+        "title": "GIFTS FOR THE...",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_yDpCLe": {
+      "type": "section-double",
+      "blocks": {
+        "text_PXmmzD": {
+          "type": "text",
+          "settings": {
+            "kicker": "SNAG YOUR FREE PAIR OF ANIQUE LEGGINGS",
+            "title": "",
+            "text": "<p>Be quick! This deal is available while supplies last. </p><p>Add your selected color and size of Anique leggings to cart with your 3 Anique tops and it will be automatically deducted from the total!</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_Fadh6U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_22_f81dbcf7-0138-43f4-9c17-8c24b7783e9e.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Grab Yours",
+            "link": "shopify://collections/blowout-anique-leggings",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_PXmmzD",
+        "image_Fadh6U"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_g7DJjR": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_atLWgV": {
+          "type": "collection",
+          "settings": {
+            "collection": "show-accessories",
+            "title": "ON OUR WISHLISTS",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_atLWgV"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_WLA7wq",
+    "section_richtext_ybJXV3",
+    "section_announcement_Ah8fXV",
+    "section_double_B4CEW3",
+    "section_double_PLWp7B",
+    "section_double_Hwx36P",
+    "section_double_e7LGQE",
+    "section_double_aDP4BB",
+    "section_columns_4rXqTf",
+    "section_double_yDpCLe",
+    "section_list_collections_products_g7DJjR"
+  ]
+}

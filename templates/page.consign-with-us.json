@@ -1,0 +1,610 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_izBcqw": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_6yYqBg": {
+          "type": "heading",
+          "settings": {
+            "title": "SELL WITH <p>THE TRIED EQUESTRIAN</p>",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_6yYqBg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_22_62435499-e1d1-4dd3-9bf2-46ce7ccf5d75.png",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_jb4pWj": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_KcMExc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Selling as Smooth as a McLain Ward Jump Off",
+            "text_size": 9
+          }
+        },
+        "text_dEYr4t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>...or a Charlotte Dujardin Freestyle or maybe a Tami Smith cross country round.</p><p>Whatever your style, we'll help you seamlessy sell your tack & apparel.</p>",
+            "text_size": 5,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "heading_KcMExc",
+        "text_dEYr4t"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_xRwBzE": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_4B8yNN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FB_ADS_-_Story_-_Reviews_Pinterest_Pin.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_VWcWbp": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Top Sellers",
+            "text": "<p><strong>Our customer base is always on the lookout for their next find!</strong></p><p>Below are the items that sell out quickly and are always waitlisted.</p><ul><li>Bomber, Trust, Fager, and Popincini Bits</li><li>MDC, Jin, FreeJump, and Tech Stirrups</li><li>Struck, For Horses, Free Ride, Harcour and Samshield Breeches</li><li>Tailored Sportsman Trophy Hunter Boot Sock Breeches & Sunshirts</li><li>Dy'on, Edgewood, Red Barn, CWD, Voltaire and Butet Bridles</li><li>Equifit D-Teq and Eq-Teq Boots</li><li>Pessoa Pony saddles</li><li>Back on Track wraps, hock boots, and sheets</li><li>Equestrian Stockholm, PS of Sweden, Ogilvy, and Mattes Saddle Pads</li><li>Parlanti, Tucci and Ariat Tall Boots</li></ul>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4B8yNN",
+        "text_VWcWbp"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 68,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_zmXCgD": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_DNwfhj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Process",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "heading_DNwfhj"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_QghCKF": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_zXyVL3": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify://shop_images/4_7d26614f-6e6d-4c8b-87a3-b71d9400b5e2.png",
+            "icon_color": "#aaaaaa",
+            "title": "Choose What To Consign",
+            "text": "<p>We specialize in English tack and apparel, from a variety of brands.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "shopify://pages/brands-we-currently-accept"
+          }
+        },
+        "icon_block_VA94xW": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/5_06146007-6108-4938-85f5-e810b2ac4164.png",
+            "icon_color": "#aaaaaa",
+            "title": "Pick Your Mailing Method",
+            "text": "<p>We'll email you a prepaid shipping label.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "https://www.triedequestrian.com/pages/request#:~:text=START%20SELLING%20TODAY,Full%20Name"
+          }
+        },
+        "icon_block_tGUnhz": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify://shop_images/6_fb33ef91-1158-4328-966c-05cc915661cc.png",
+            "icon_color": "#aaaaaa",
+            "title": "Leave The Hard Work To Us",
+            "text": "<p>We use targeted marketing to get your items sold FAST.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "https://cdn.shopify.com/s/files/1/1735/6525/files/2024_Consignment_Agreement.pdf?v=1708016300"
+          }
+        },
+        "icon_block_JwKmWx": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify://shop_images/7.png",
+            "icon_color": "#aaaaaa",
+            "title": "Choose A Payout Method",
+            "text": "<p>Chose to receive payment via check, PayPal, or Store Credit.<br/><br/></p>",
+            "link_text": "",
+            "link_url": "shopify://pages/commission-payouts-and-fees"
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_zXyVL3",
+        "icon_block_VA94xW",
+        "icon_block_tGUnhz",
+        "icon_block_JwKmWx"
+      ],
+      "custom_css": [
+        "a {color: #354671; font-weight: 700; border: 1px solid black; padding: 5%; display: flex; justify-content: center;}",
+        ".icon__column__heading {font-size: 20px;}",
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 80,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 52,
+        "padding_bottom": 22
+      }
+    },
+    "section_richtext_weV8kM": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_b49jqF": {
+          "type": "heading",
+          "settings": {
+            "heading": "What You'll Make",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "heading_b49jqF"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_qz7B8r": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_cTNGpW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_4.53.48_PM.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_Xb7E6M": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "Please Keep in Mind.",
+            "text": "<p>Low priced items under $20 are ineligible for consignment as their processing costs are greater than their payouts. </p><p>You are still welcome to send them in for TriedEq to donate, upcycle, recycle or resell as we see fit.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cTNGpW",
+        "text_Xb7E6M"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "section_hero_xn8RdY": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_feHDHT": {
+          "type": "heading",
+          "settings": {
+            "title": "A DEEPER DIVE...",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_feHDHT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_23.png",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-left",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_hAahb7": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_ExmRAJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose Tried",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_ExmRAJ"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_icons_gwE93B": {
+      "type": "section-icons",
+      "blocks": {
+        "icon_block_T9rQHV": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-basket-return",
+            "icon_alt": "shopify://shop_images/4_7d26614f-6e6d-4c8b-87a3-b71d9400b5e2.png",
+            "icon_color": "#aaaaaa",
+            "title": "IT'S EASY",
+            "text": "<p>Request consignment kits anytime and receive top-level industry expertise and customer service.</p>",
+            "link_text": "",
+            "link_url": "shopify://pages/brands-we-currently-accept"
+          }
+        },
+        "icon_block_LFyh9D": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-leaf",
+            "icon_alt": "shopify://shop_images/5_06146007-6108-4938-85f5-e810b2ac4164.png",
+            "icon_color": "#aaaaaa",
+            "title": "BE GREEN",
+            "text": "<p>We re-home your items, keeping them out of landfills and contributing to a circular economy.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_mkpMeR": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-shipment-world",
+            "icon_alt": "shopify://shop_images/6_fb33ef91-1158-4328-966c-05cc915661cc.png",
+            "icon_color": "#aaaaaa",
+            "title": "WE PRODUCE SALES",
+            "text": "<p>Tailored marketing and expert industry insight get your items sold.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        },
+        "icon_block_3NgwHf": {
+          "type": "icon_block",
+          "settings": {
+            "icon_name": "icon-phone",
+            "icon_alt": "shopify://shop_images/7.png",
+            "icon_color": "#aaaaaa",
+            "title": "CONSIGNOR PORTAL",
+            "text": "<p>Track your items in real time to view listed price, photos, pricing justification and sales.</p>",
+            "link_text": "",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_block_T9rQHV",
+        "icon_block_LFyh9D",
+        "icon_block_mkpMeR",
+        "icon_block_3NgwHf"
+      ],
+      "custom_css": [
+        ".icon__column__icon {display: none;}",
+        "a {color: #354671; font-weight: 700; border: 1px solid black; padding: 5%; display: flex; justify-content: center;}",
+        ".icon__column__heading {font-size: 20px;}",
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "icons_size": 80,
+        "icon_alignment": "icon--top",
+        "layout": "grid--stacked",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 66
+      }
+    },
+    "section_faq_gGTfJc": {
+      "type": "section-faq",
+      "blocks": {
+        "text_TgwwXe": {
+          "type": "text",
+          "settings": {
+            "title": "How will my items be priced?",
+            "content": "<p><a href=\"/pages/condition-and-pricing\" title=\"Condition and Pricing Criteria\">See Our Conditions & Pricing Page</a></p>"
+          }
+        },
+        "text_bqJ9w6": {
+          "type": "text",
+          "settings": {
+            "title": "What is TTE's Buyout Program?",
+            "content": "<p><strong>FROM HORSEBACK TO CASHBACK!<br/><br/></strong>No need to wait to get paid for your items to sell!<br/>The Tried Equestrian now offers quick cash or store credit for select tack and apparel in excellent condition.<br/><br/><strong>BUYOUT PROCESS</strong></p><p>For items that meet The Tried Equestrian's Buyout guidelines, a Buyout Proposal is emailed, outlining each piece we want to purchase and a buyout total in cash or Store Credit. Any items we cannot purchase would fall into our traditional consignment program. If the proposal is accepted, we will send the payment within one week.</p><p><strong><br/>BUYOUT PAYMENT STRUCTURE</strong></p><p>Choose between Store Credit, PayPal or mailed check.</p><ul><li>Check or PayPal payout - consignor receives 25% of TTE price</li><li>Store credit payout - consignor receives 40% of TTE price</li></ul>"
+          }
+        },
+        "text_C4bAYf": {
+          "type": "text",
+          "settings": {
+            "title": "What happens to not accepted items or items that aren't selling?",
+            "content": "<p><strong>Not Accepted Items:</strong></p><p>TTE reserves the right to reject any item for any reason for resale. Items must be in very good to new with tags condition (condition to be determined by TE only). Consignors whose items are deemed unacceptable for resale and who agree to pay for return freight charges, have the option of having such items returned to Consignor. Consignors, who choose not to pre-pay return freight charges forfeit all right, title and interest in such items, which shall be disposed of at the sole discretion of TE including but not limited to recycling, donation, resale, etc.</p><p>If we do not initially accept your items we will also refer to your agreement to see if you would like them donated or returned at your cost. If you have chosen to have them returned we will we send you an invoice for the return shipping. </p><p>Any time we are returning shipments we will charge the lowest market price for the actual shipping costs and any supplies used to ship. </p><p><strong>Discounts:</strong></p><p>All items are consigned for a minimum period of six months (180 days). During this period, TE reserves the right to discount unsold items in order to facilitate a sale at the following rate: 1) Immediately up to 20% for incentive discounts 2) at 3 months the item can be further discounted at 30% of original asking price 3) at 4 months the item can be further discounted at 40% of original asking price 4) at 5 months the item can be further discounted at 50% of original asking price and 5) at 6 months the item can be discounted to any price TE deems will sell the item.</p>"
+          }
+        },
+        "text_ibbmrt": {
+          "type": "text",
+          "settings": {
+            "title": "How does payment work and what are the commissions and fees?",
+            "content": "<p><strong>What Percent Commission Do You Make?</strong></p><ul><li>Consigned items priced by TE at $19.99 & under are ineligible for consignment and will be returned/disposed of according to Section 2 “Unacceptable Items”</li><li>Consignor will receive 20% of sales revenue for sale of a consigned item priced by TE at $20.00-$49.99</li><li>Consignor will receive 40% of sales revenue for sale of a consigned item priced by TE at $50.00--$99.99</li><li>Consignor will receive 50% of sales revenue for sale of a consigned item priced by TE at $100.00-$249.99</li><li>Consignor will receive 60% of sales revenue for sale of a consigned item priced by TE at $250.00 -$499.99</li><li>Consignor will receive 70% of sales revenue for sale of a consigned item priced by TE at $500.00-$999.99</li><li>Consignor will receive 80% of sales revenue for sale of a consigned item priced by TE at $1000.00 or more.</li></ul><p><strong>Additional Fee's</strong></p><ul><li>$20/ shipment processing fee for shipped consignment kits</li><li>All boots not professionally cleaned are subject to a cleaning fee: $15 for paddock boots and $20 for tall boots. </li><li>Items needing dry cleaning or repairs are billed on a case by case basis.</li><li>Miscellaneous fees, never to exceed 10% of the sale price including excess shipping weights and free shipping to the customer</li></ul><p><strong>How Do You Get Paid? </strong></p><p>At the beginning of the month a check will be sent out with an invoice breakdown. We delay sending payments by one month to accommodate any returns. You are able to check the real-time status of your items in our <a href=\"https://tried-eq.herokuapp.com/\" target=\"_blank\" title=\"Consignor Portal\">Consignor Portal</a></p><p>Options to Receive Payment:</p><ul><li><strong>Mailed Check</strong></li><li><strong>PayPal</strong></li><li><strong>TriedEq Store Credit- </strong>Receive 5%-10% more for your items! </li><li><strong>Donate Sales to Charity!</strong></li></ul>"
+          }
+        },
+        "text_bqk7tX": {
+          "type": "text",
+          "settings": {
+            "title": "Our consignment agreement.",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/1735/6525/files/2024_Consignment_Agreement.pdf?v=1708016300\" title=\"https://cdn.shopify.com/s/files/1/1735/6525/files/2024_Consignment_Agreement.pdf?v=1708016300\">See our Consignment Agreement Here</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_TgwwXe",
+        "text_bqJ9w6",
+        "text_C4bAYf",
+        "text_ibbmrt",
+        "text_bqk7tX"
+      ],
+      "settings": {
+        "title": "FAQs",
+        "title_align": "text-left",
+        "title_size": 8,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 26,
+        "padding_bottom": 66
+      }
+    },
+    "section_richtext_Rnmyc6": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_KyW7iz": {
+          "type": "heading",
+          "settings": {
+            "heading": "START SELLING TODAY. REQUEST A CONSIGNMENT KIT.",
+            "text_size": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_KyW7iz"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_contact_zQWbgJ": {
+      "type": "section-contact",
+      "blocks": {
+        "text_yWnyYe": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email_fq8CPX": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "text_6gcm7a": {
+          "type": "text",
+          "settings": {
+            "title": "What will you be consigning?"
+          }
+        },
+        "text_LGAMqj": {
+          "type": "text",
+          "settings": {
+            "title": "Do you have your own box to ship your items in?"
+          }
+        },
+        "body_BzfFkQ": {
+          "type": "body",
+          "settings": {
+            "title": "Please provide complete mailing address."
+          }
+        }
+      },
+      "block_order": [
+        "text_yWnyYe",
+        "email_fq8CPX",
+        "text_6gcm7a",
+        "text_LGAMqj",
+        "body_BzfFkQ"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "button_size": "btn--large",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_izBcqw",
+    "section_richtext_jb4pWj",
+    "section_custom_content_xRwBzE",
+    "section_richtext_zmXCgD",
+    "section_icons_QghCKF",
+    "section_richtext_weV8kM",
+    "section_custom_content_qz7B8r",
+    "section_hero_xn8RdY",
+    "section_richtext_hAahb7",
+    "section_icons_gwE93B",
+    "section_faq_gGTfJc",
+    "section_richtext_Rnmyc6",
+    "section_contact_zQWbgJ"
+  ]
+}

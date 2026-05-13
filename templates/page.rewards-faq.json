@@ -1,0 +1,233 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_JVLbzP": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_bK3x9b": {
+          "type": "heading",
+          "settings": {
+            "title": "TRIEDEQ REWARDS FAQs",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_bK3x9b"
+      ],
+      "custom_css": [
+        ".hero__content{max-width: 100%;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20220714_Tried-Equestrian_0183.jpg",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 15,
+        "overlay_color": "#000",
+        "enable_overlay_text": true,
+        "preload_image": false,
+        "content_width": 2000,
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_BEQVX8": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_PaFAJr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_11.45.56_AM.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_pW8TAw": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p><strong>Is it free? </strong></p><p>﻿Yes! The TriedEq Rewards program is free to join.<br/> </p><p><strong>What are the rewards?</strong></p><p>1000 Eq Points - <em>$10 off</em></p><p>2000 Eq Points - <em>$20 off</em></p><p>5000 Eq Points - <em>$50 off</em><br/><br/><strong>How do you earn TriedEq Points?</strong></p><ul><li>Place an order - <em>2 Eq Points for every $1 spent</em></li><li>Sign Up - <em>500 Eq Points</em></li><li>Celebrate your birthday - <em>500 Eq Points</em></li></ul>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PaFAJr",
+        "text_pW8TAw"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_content_qiMiWy": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_7wH4QW": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p><strong>How do I redeem my rewards?</strong></p><p>Click the \"Rewards\" widget on the bottom right-hand corner of the page.</p><p>If there is an available reward, you will be able to click \"<strong>Redeem</strong>.\"<br/><br/>This will generate a coupon code for the value of your reward. You can also access your available redeemed rewards in the \"Your Rewards\" section. </p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_FFwJzN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_11.59.56_AM.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_7wH4QW",
+        "image_FFwJzN"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 36
+      }
+    },
+    "section_custom_content_wHV7JC": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_gWaMGy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2024-02-15_at_11.55.54_AM.png",
+            "overlay_opacity": 0,
+            "overlay_color": "#000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        },
+        "text_68gxUb": {
+          "type": "text",
+          "settings": {
+            "kicker": "",
+            "title": "",
+            "text": "<p><strong>How do I refer a friend?</strong></p><p>Send your unique referral link to friends. If they place an order via your link, they will receive $10 off on their first order. Once they place their order, you'll get a coupon code for $10 off as well!<br/><br/><strong>Is there a minimum purchase required to use my reward code?</strong></p><p>For redeemed rewards, there is no purchase minimum. For the $10 \"Refer a Friend\" to be applied, the minimum purchase is $50 before tax.</p><p><strong>I didn't receive my points, can you help?</strong></p><p>Yes! If you didn't receive your points, feel free to email us at contact@triedequestrian.com and we will get it figured out.</p><p><strong>Can I get points for my previous purchases?</strong></p><p>We are doing our best to accommodate previous purchases. Email us at contact@triedequestrian.com if you have any questions regarding points.</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gWaMGy",
+        "text_68gxUb"
+      ],
+      "settings": {
+        "height": "use_image",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_JVLbzP",
+    "section_custom_content_BEQVX8",
+    "section_custom_content_qiMiWy",
+    "section_custom_content_wHV7JC"
+  ]
+}

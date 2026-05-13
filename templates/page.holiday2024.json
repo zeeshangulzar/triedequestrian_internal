@@ -1,0 +1,459 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_WLA7wq": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_w8de7C": {
+          "type": "heading",
+          "settings": {
+            "title": "THE SLEIGH LIST",
+            "text_size": 10
+          }
+        },
+        "text_j9RJnh": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Treat the barn, stuff stockings and spread cheer with equestrian gifts curated by TriedEq—all at prices that keep giving accessible and fun!</p>",
+            "text_size": 6
+          }
+        },
+        "button_xYc8C4": {
+          "type": "button",
+          "settings": {
+            "link_text_1": "Shop Stocking Stuffers",
+            "link_1": "shopify://collections/stocking-stuffers",
+            "button_size_1": "btn--long",
+            "button_style_1": "btn",
+            "button_color_1": "btn--white",
+            "link_text_2": "",
+            "link_2": "",
+            "button_size_2": "btn--long",
+            "button_style_2": "btn-text-thick-line",
+            "button_color_2": "btn--white",
+            "link_text_3": "",
+            "link_3": "",
+            "button_size_3": "btn--long",
+            "button_style_3": "btn-text-thick-line",
+            "button_color_3": "btn--white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w8de7C",
+        "text_j9RJnh",
+        "button_xYc8C4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/WEB_HEADER_BANNER_1800_x_1200_px_2_8d13e820-2702-42f5-a6b6-60e624a41a0c.png",
+        "height": "use_screen_two_thirds",
+        "overlay_opacity": 45,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "section_announcement_Ah8fXV": {
+      "type": "section-announcement",
+      "blocks": {
+        "text_rzxzyJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>OH, WHAT FUN IT IS TO RIDE</strong>| Gifts for barn mates, trainers and horses.</p>"
+          }
+        },
+        "icon_block_B9xKbE": {
+          "type": "icon_block",
+          "settings": {
+            "text": "<p><strong>DECK THE STALLS</strong> | Check back often! New items daily.</p>",
+            "icon_name": "icon-star-rating",
+            "icon_color": "#aaaaaa",
+            "icon_alt_width": 33
+          }
+        }
+      },
+      "block_order": [
+        "text_rzxzyJ",
+        "icon_block_B9xKbE"
+      ],
+      "settings": {
+        "bg_color": "#f7f7f7",
+        "color": "#132c6a",
+        "text_size": 7,
+        "padding_top": 18,
+        "padding_bottom": 18
+      }
+    },
+    "section_columns_JrJg6X": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_Hhi3mg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Google_Collection_-_Saddle_Images_3_copy.png",
+            "shape_class": "",
+            "title": "Paper Goods & Ornaments",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/paper-goods-ornaments",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_rURhAk": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Google_Collection_-_Saddle_Images_2_61cdbda8-149a-428c-b274-09d1812992af.png",
+            "shape_class": "",
+            "title": "Lifestyle",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/lifestyle",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_ENmfR8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Google_Collection_-_Saddle_Images_3_d3e9f8b3-abf9-4d0f-9f1d-abac92f115d1.png",
+            "shape_class": "",
+            "title": "Splurge a Little",
+            "text": "",
+            "button_label": "Shop",
+            "button_link": "shopify://collections/splurge-a-little-1",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Hhi3mg",
+        "text_block_rURhAk",
+        "text_block_ENmfR8"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 50,
+        "padding_bottom": 36
+      }
+    },
+    "collection_split_XxgFA8": {
+      "type": "collection-split",
+      "settings": {
+        "collection": "holiday-wishlist-the-new-rider",
+        "product_list": [],
+        "image": "shopify://shop_images/2_846eb602-8152-41a6-bd6c-8f84f2bce0ad.png",
+        "sticky_image_enable": true,
+        "swap": false,
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "Gifts For...",
+        "heading": "The New Rider",
+        "text_color": "text--white",
+        "link_text": "Shop All",
+        "link": "shopify://collections/shop-all-kids",
+        "button_color": "btn--white",
+        "button_style": "btn",
+        "grid_large": 2,
+        "grid_small": 1.2,
+        "limit": 4,
+        "bg": "palette--light bg--neutral",
+        "object_position": "center-center",
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_split_cpnV7G": {
+      "type": "collection-split-reverse",
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.collection-split__item {order: 1; /* Ensure the image appears first */ } .collection-split__products {order: 2; /* Ensure the product grid appears second */ }}"
+      ],
+      "settings": {
+        "collection": "holiday-wishlist-the-enthusiast",
+        "product_list": [],
+        "image": "shopify://shop_images/1_1eee828f-4420-4fe6-bdca-6f542d04cf77.png",
+        "sticky_image_enable": true,
+        "swap": false,
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "Gifts For",
+        "heading": "The Enthusiast",
+        "text_color": "text--white",
+        "link_text": "Shop All",
+        "link": "shopify://collections/apparel",
+        "button_color": "btn--white",
+        "button_style": "btn",
+        "grid_large": 2,
+        "grid_small": 1.2,
+        "limit": 4,
+        "bg": "palette--light bg--accent",
+        "object_position": "center-center",
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_split_nmXyyN": {
+      "type": "collection-split",
+      "settings": {
+        "collection": "holiday-wishlist-the-show-junkie",
+        "product_list": [],
+        "image": "shopify://shop_images/20180728_Tried-Equestrian_0220.jpg",
+        "sticky_image_enable": true,
+        "swap": false,
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "kicker": "Gifts For",
+        "heading": "The Showstopper",
+        "text_color": "text--white",
+        "link_text": "Shop All",
+        "link": "shopify://collections/holiday-wishlist-the-show-junkie",
+        "button_color": "btn--white",
+        "button_style": "btn",
+        "grid_large": 2,
+        "grid_small": 1.2,
+        "limit": 4,
+        "bg": "palette--light bg--neutral",
+        "object_position": "center-center",
+        "width": "wrapper--none",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_columns_4rXqTf": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block_rqbRGf": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/2_846eb602-8152-41a6-bd6c-8f84f2bce0ad.png",
+            "shape_class": "",
+            "title": "New Rider",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/short-sleeve-anique-blowout",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_PVbcAx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/1_1eee828f-4420-4fe6-bdca-6f542d04cf77.png",
+            "shape_class": "",
+            "title": "Enthusiast",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/long-crew-anique-blowout",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        },
+        "text_block_J38aez": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/show_junkie.webp",
+            "shape_class": "",
+            "title": "Show Junkie",
+            "text": "",
+            "button_label": "SHOP",
+            "button_link": "shopify://collections/anique-signature-sunshirts",
+            "button_color": "btn--neutral",
+            "button_style": "btn--soft",
+            "enable_video": false,
+            "video_link": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video_button_color": "text--white"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rqbRGf",
+        "text_block_PVbcAx",
+        "text_block_J38aez"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {font-size: 20px;}"
+      ],
+      "settings": {
+        "title": "GIFTS FOR THE...",
+        "bg": "palette--light bg--neutral",
+        "align_text": "text-center",
+        "scale_image": true,
+        "wh_ratio": 1,
+        "grid_large": 3,
+        "grid_medium": 3,
+        "grid_mobile": 1.2,
+        "progress_bar_mobile": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_yDpCLe": {
+      "type": "section-double",
+      "blocks": {
+        "text_PXmmzD": {
+          "type": "text",
+          "settings": {
+            "kicker": "SNAG YOUR FREE PAIR OF ANIQUE LEGGINGS",
+            "title": "",
+            "text": "<p>Be quick! This deal is available while supplies last. </p><p>Add your selected color and size of Anique leggings to cart with your 3 Anique tops and it will be automatically deducted from the total!</p>",
+            "font_size": 5,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "btn-text-thick-line",
+            "text_color": "text--neutral",
+            "bg_color": ""
+          }
+        },
+        "image_Fadh6U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_22_f81dbcf7-0138-43f4-9c17-8c24b7783e9e.png",
+            "overlay_opacity": 15,
+            "overlay_color": "#000000",
+            "enable_overlay_text": false,
+            "kicker": "",
+            "title": "",
+            "richtext": "",
+            "text_align": "align--middle-center",
+            "text_color": "text--white",
+            "link_text": "Grab Yours",
+            "link": "shopify://collections/blowout-anique-leggings",
+            "button_color": "btn--white",
+            "button_style": "btn"
+          }
+        }
+      },
+      "block_order": [
+        "text_PXmmzD",
+        "image_Fadh6U"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "use_screen_one_half",
+        "brick_gutter": 0,
+        "borders": false,
+        "bg_color": "",
+        "preload_image": false,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_list_collections_products_g7DJjR": {
+      "type": "section-list-collections-products",
+      "blocks": {
+        "collection_atLWgV": {
+          "type": "collection",
+          "settings": {
+            "collection": "show-accessories",
+            "title": "ON OUR WISHLISTS",
+            "link_text": "",
+            "enable_item": true,
+            "text": "",
+            "background_color": "#fcfaf7",
+            "text_color": "text--neutral",
+            "link_size": 3
+          }
+        }
+      },
+      "block_order": [
+        "collection_atLWgV"
+      ],
+      "settings": {
+        "title": "",
+        "bg": "palette--light bg--neutral",
+        "grid": 4,
+        "rows": 1,
+        "enable_scroll_mobile": true,
+        "grid_small": 1.2,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_WLA7wq",
+    "section_announcement_Ah8fXV",
+    "section_columns_JrJg6X",
+    "collection_split_XxgFA8",
+    "collection_split_cpnV7G",
+    "collection_split_nmXyyN",
+    "section_columns_4rXqTf",
+    "section_double_yDpCLe",
+    "section_list_collections_products_g7DJjR"
+  ]
+}

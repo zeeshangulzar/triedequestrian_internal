@@ -1,0 +1,302 @@
+<!-- /sections/section-columns.liquid -->
+{% style %}
+  .section-columns-{{ section.id }} .grid__item{
+    position: relative;
+  }
+  .section-columns-{{ section.id }} .column__image{
+    height:100%
+  }
+  .section-columns-{{ section.id }} .column__image img{
+    aspect-ratio:0.7
+  }
+  .section-columns-{{ section.id }} .js-grid {
+    --gutter: 15px;
+  }
+{% endstyle %}
+
+<div class="section-columns-{{ section.id }} section-columns {{ section.settings.bg }} section-{{ section.settings.section-show }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="section-columns"
+  style="--PT: {{ section.settings.padding_top }}px; --PB: {{ section.settings.padding_bottom }}px;">
+  <div class="{{ section.settings.width }} section-padding">
+    {% if section.settings.title != blank %}
+      {% assign heading_size_class = section.settings.text_size | prepend: 'heading-size-' %}
+      <h2 class="text-center mb-7 {{ heading_size_class }}">{{ section.settings.title | escape }}</h2>
+    {% endif %}
+    <div class="grid js-grid" data-grid-large="{{ section.settings.grid_large }}" data-grid-small="{{ section.settings.grid__mobile }}">
+      {% for block in section.blocks %}
+        <div
+          class="p-0 grid__item slide-item text-center"
+          data-item
+          {{ block.shopify_attributes }}>
+            <div class="column__image mb-0" data-grid-slide>
+              {%- capture sizes -%}
+                {%- render 'image-grid-sizes',
+                  columns_desktop: section.settings.grid_large,
+                  columns_tablet: section.settings.grid_large,
+                  columns_mobile: section.settings.grid_mobile,
+                  section_width: section.settings.width
+                %}
+              {%- endcapture -%}
+              {%- capture srcset -%}
+                {%- render 'image-grid-srcset',
+                  image: block.settings.image,
+                  columns_desktop: section.settings.grid_large,
+                  columns_tablet: section.settings.grid_large,
+                  columns_mobile: section.settings.grid_mobile,
+                  section_width: section.settings.width
+                %}
+              {%- endcapture -%}
+              {%- if section.settings.scale_image -%}
+                {%- render 'image', cover: true, img_object: block.settings.image, srcset: srcset, sizes: sizes, loading: 'lazy', class: block.settings.shape_class, wh_ratio: section.settings.wh_ratio -%}
+              {%- else -%}
+                {%- render 'image', cover: true, img_object: block.settings.image, srcset: srcset, sizes: sizes, loading: 'lazy', class: block.settings.shape_class -%}
+              {%- endif -%}
+              {% comment %}
+                If there is a video add a play button over the image
+                If there is a non video link and no button label just
+                link the image to the link destination
+              {% endcomment %}
+            </div>
+          {% if block.settings.title != blank %}
+            <div class="accent__title absolute bottom-0 left-0 right-0 p-4">
+              <a href="{% if block.settings.link != blank %}{{ block.settings.link }}{% else %}javascript:void(0){% endif %}" style="background-color:{{ section.settings.bg_color }};color:{{ section.settings.color }}" class="block accent-title-large strong rounded-md p-3">{{ block.settings.title | escape }}</a>
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}  
+        </div>
+    {% if section.blocks.size == 0 %}
+      <div class="text-center">{{ 'home_page.onboarding.no_content' | t }}</div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Categories Section",
+    "settings": [
+      {
+        "type": "select",
+        "id": "section-show",
+        "label": "Section Show",
+        "options": [
+          {
+            "label":"None",
+            "value":"none"
+          },
+          {
+            "label":"Desktop",
+            "value":"desktop"
+          },
+          {
+            "label":"Mobile",
+            "value":"mobile"
+          },
+          {
+            "label":"Desktop/Mobile",
+            "value":"both"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Kicker",
+        "default": "Categories Section"
+      },
+      {
+        "type":  "range",
+        "id":    "text_size",
+        "label": "Text size",
+        "min":    1,
+        "max":    15,
+        "step":   1,
+        "default": 10
+      },
+      {
+        "type": "select",
+        "id": "bg",
+        "label": "Background color",
+        "default": "palette--light bg--neutral",
+        "options": [
+          { "value": "palette--light bg--neutral", "label": "Default"},
+          { "value": "palette--light bg--accent", "label": "Light"},
+          { "value": "palette--dark bg--invert", "label": "Dark"},
+          { "value": "palette--dark bg--invert--accent", "label": "Dark accent"},
+          { "value": "palette--bright bg--bright", "label": "Bright"},
+          { "value": "palette--bright bg--bright--accent", "label": "Bright accent"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Images"
+      },
+      {
+        "type": "checkbox",
+        "id": "scale_image",
+        "label": "Scale images",
+        "default": true
+      },
+      {
+        "type": "range",
+        "id": "wh_ratio",
+        "min": 0.5,
+        "max": 5,
+        "step": 0.1,
+        "unit": ":1",
+        "label": "Image scaling ratio",
+        "info": "Tall to wide",
+        "default": 1
+      },
+      {
+        "type": "header",
+        "content": "Item Style"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background Color",
+        "default":"#fff"
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Color",
+        "default":"#000"
+      },
+      {
+        "type": "header",
+        "content": "Items per row"
+      },
+      {
+        "type":    "range",
+        "id":      "grid_large",
+        "min":     2,
+        "max":     5,
+        "step":    1,
+        "label":   "Desktop",
+        "default": 3
+      },
+      {
+        "type": "select",
+        "id": "grid__mobile",
+        "label":   "Mobile",
+        "options": [
+          {
+            "label": "Column 1",
+            "value": "1"
+          },
+          {
+            "label": "Column 2",
+            "value": "2"
+          }
+        ],
+        "default":"1"
+      },
+      {
+        "type": "header",
+        "content": "Section spacing"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wrapper",
+        "options": [
+          { "value": "wrapper--full", "label": "Full width padded" },
+          { "value": "wrapper", "label": "Page width" },
+          { "value": "wrapper--narrow", "label": "Page width narrow" },
+          { "value": "wrapper--tiny", "label": "Page width extra narrow" }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 180,
+        "step": 2,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 36
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text_block",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "shape_class",
+            "label": "Shape",
+            "default": "",
+            "options": [
+              {"value": "", "label": "None"},
+              {"value": "rounded-md", "label": "Rounded"},
+              {"value": "radius-keyhole", "label": "Keyhole"},
+              {"value": "rounded-full", "label": "Circle"},
+              {"value": "clip-sunburst", "label": "Sunburst"},
+              {"value": "clip-hexagon", "label": "Hexagon"},
+              {"value": "clip-octagon", "label": "Octagon"},
+              {"value": "clip-parallelogram", "label": "Parallelogram"},
+              {"value": "radius-blob-1", "label": "Blob 1"},
+              {"value": "radius-blob-2", "label": "Blob 2"},
+              {"value": "radius-blob-3", "label": "Blob 3"},
+              {"value": "radius-blob-4", "label": "Blob 4"},
+              {"value": "mask-stamp-sharp", "label": "Stamp sharp"},
+              {"value": "mask-stamp-rounded", "label": "Stamp rounded"},
+              {"value": "mask-ticket-stub", "label": "Ticket"}
+            ]
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Feature images or videos"
+          },
+          {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Categories Section",
+        "category": "Text",
+        "blocks": [
+          {
+            "type": "text_block"
+          },
+          {
+            "type": "text_block"
+          },
+          {
+            "type": "text_block"
+          }
+        ]
+      }
+    ],
+    "disabled_on": {
+      "groups": ["header","aside"]
+    }
+  }
+{% endschema %}

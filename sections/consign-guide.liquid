@@ -1,0 +1,267 @@
+<section class="consign-guide padding-y-80">
+  <div class="consign-guide__header-bar padding-x-16 ">
+      <p class="section-container">CONSIGNMENT ACCEPTANCE GUIDE</p>
+    </div>
+  <div class="section-container padding-x-16">
+    <div class="consign-guide__intro bg-brand-blush">
+      <h3>How we decide what we can (and can't) accept</h3>
+      <p>
+        At Tried Equestrian, our goal is simple: help your items sell, not sit. We review thousands of pieces every month and make acceptance decisions based on real sell-through data, customer demand, and resale performance — not personal preference.
+      </p>
+
+      <div class="consign-guide__howto">
+        <div class="d-flex">
+          <div class="consign-guide__howto-icon">
+            {% if section.settings.howto_icon != blank %}
+              {{ section.settings.howto_icon
+                | image_url: width: 40
+                | image_tag:
+                  loading: 'lazy',
+                  widths: '24,32,40',
+                  sizes: '40px'
+              }}
+            {% endif %}
+          </div>
+          <span class="text-primary heading-md">How to Use this Guide</span>
+        </div>
+        <span class="span-sm-muted">
+          Review this first to see whether your items are a good fit for consignment right now. This helps ensure faster sell-through and avoids unnecessary shipping or processing fees.
+        </span>
+      </div>
+    </div>
+
+    <!-- General Criteria -->
+    <details class="consign-guide__collapse consign-guide__collapse--styled">
+      <summary class="consign-guide__collapse-summary">
+        <div class="consign-guide__collapse-left">
+          <div class="consign-guide__collapse-icon">
+            {% if section.settings.criteria_icon != blank %}
+              {{ section.settings.criteria_icon
+                | image_url: width: 48
+                | image_tag:
+                  loading: 'lazy',
+                  widths: '24,32,48',
+                  sizes: '48px'
+              }}
+            {% endif %}
+          </div>
+          <div>
+            <span class="consign-guide__collapse-title">General Consignment Criteria</span>
+            <small class="font-4">Items must meet these standards to be accepted</small>
+          </div>
+        </div>
+
+        <span class="consign-guide__collapse-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </span>
+      </summary>
+
+      <div class="consign-guide__grid">
+        {% for block in section.blocks %}
+          {% if block.type == 'criteria_item' %}
+            <div class="consign-guide__criteria-item">
+              <div class="custom-class">
+                {% if block.settings.icon != blank %}
+                  {{ block.settings.icon
+                    | image_url: width: 24
+                    | image_tag:
+                      loading: 'lazy',
+                      widths: '24,32,40',
+                      sizes: '24px'
+                  }}
+                {% endif %}
+              </div>
+              <div>
+                <strong>{{ block.settings.title }}</strong>
+                <span>{{ block.settings.description }}</span>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+    <!-- Always Accepted -->
+    <details class="consign-guide__collapse consign-guide__collapse--styled">
+      <summary class="consign-guide__collapse-summary">
+        <div class="consign-guide__collapse-left">
+          <div class="consign-guide__collapse-icon">
+            {% if section.settings.always_icon != blank %}
+              {{ section.settings.always_icon
+                | image_url: width: 48
+                | image_tag:
+                  loading: 'lazy',
+                  widths: '24,32,48',
+                  sizes: '48px'
+              }}
+            {% endif %}
+          </div>
+
+          <div>
+            <span class="consign-guide__collapse-title">Always Accepted</span>
+            <small class="font-4">These brands sell fast, send them our way!</small>
+          </div>
+        </div>
+
+        <span class="consign-guide__collapse-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </span>
+      </summary>
+
+      <!-- Benefits -->
+      <p class="consign-guide__section-label">What this means for you:</p>
+      <div class="consign-guide__benefits d-flex">
+        {% for block in section.blocks %}
+          {% if block.type == 'always_benefit' %}
+            <div class="consign-guide__benefit" {{ block.shopify_attributes }}>
+              {% if block.settings.icon != blank %}
+                <div class="consign-guide__benefit-icon">
+                  <span class="custom-class-s">
+                    {{ block.settings.icon | image_url: width: 24 | image_tag: loading: 'lazy' }}
+                  </span>
+                  <span>{{ block.settings.text }}</span>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Brands -->
+      {% assign green_brands = "Alfa Jump|American Equus|Antares|Asmar|Aztec Diamond|Back on Track|Bobby's English Tack|Bomber Bits|Bruno Delgrange|Butet|Callidae|Cavalleria Toscana|Charles Ancona|Correct Connect|County|Criniere|CWD|Dada Sport|DeNiro|Devoucoux|Dover|Duftler|Dy'on|Edgewood|EGO7|EIS|Ellany|Equestrian Club|Equestrian Stockholm|EquiFit|Equiline|Euphoric|Equisite|Essex Classics|Fager|Fleeceworks|For Horses|Free Ride|FreeJump|Goode Rider|Halter Ego|Harcour|HDR|Herm Sprenger|Horse Pilot|Iago|Kastel|Kavallerie|Kismet|LeMieux|Majyk|Mattes|MDC|Milton Menasco|Myers|Nathe|Novella|Nunn Finer|Ogilvy|Oughton|Parlanti|Pénélope|Pessoa|Pomme|Popincini|Prestige|PS of Sweden|Red Barn|RJ Classics|Romfh|Romitelli|Samshield|SanSoleil|Schockemöhle|Solid Citizen|Struck|Stubben|Tailored Sportsman|Tech Stirrups|Thinline|Tipperary|TKEQ|Toklat|Tory Leather|Total Saddle Fit|Trust Bits|Tucci|Vespucci|Vestrum|Voltaire|Walsh|Winderen|Winston|Yagya" | split: "|" %}
+
+      <div class="consign-guide__brands-grid">
+        {% for brand in green_brands %}
+          <span class="consign-guide__brand">{{ brand }}</span>
+        {% endfor %}
+      </div>
+    </details>
+    <!-- Conditionally Accepted -->
+    <details class="consign-guide__collapse consign-guide__collapse--styled">
+      <summary class="consign-guide__collapse-summary">
+        <div class="consign-guide__collapse-left">
+          <div class="consign-guide__collapse-icon">
+            {% if section.settings.conditional_icon != blank %}
+              {{ section.settings.conditional_icon
+                | image_url: width: 48
+                | image_tag:
+                  loading: 'lazy',
+                  widths: '24,32,48',
+                  sizes: '48px'
+              }}
+            {% endif %}
+          </div>
+
+          <div>
+            <span class="consign-guide__collapse-title">Conditionally Accepted</span>
+            <small class="font-4">We accept select styles only, check requirements below</small>
+          </div>
+        </div>
+
+        <span class="consign-guide__collapse-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200">
+            <path d="m6 9 6 6 6-6"></path>
+          </svg>
+        </span>
+      </summary>
+
+      <!-- Common Exclusions -->
+      <p class="consign-guide__section-label">Common exclusions may include:</p>
+
+      <div class="consign-guide__benefits d-flex">
+        {% for block in section.blocks %}
+          {% if block.type == 'conditional_exclusion' %}
+            <div class="consign-guide__benefit" {{ block.shopify_attributes }}>
+              <div class="consign-guide__benefit-icon">
+                <span class="custom-class-s">
+                  {{ block.settings.icon | image_url: width: 24 | image_tag: loading: 'lazy' }}
+                </span>
+                <span>{{ block.settings.text }}</span>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Two Column Brands -->
+      {% assign brand_index = 0 %}
+
+      <div class="consign-guide__conditions-grid">
+        {% for block in section.blocks %}
+          {% if block.type == 'conditional_brand' %}
+            {% assign brand_index = brand_index | plus: 1 %}
+
+            <div class="consign-guide__condition-card" {{ block.shopify_attributes }}>
+              <strong>{{ brand_index }}. {{ block.settings.title }}</strong>
+              <p>{{ block.settings.description }}</p>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <!-- Photo Review CTA -->
+      <div class="consign-guide__cta d-flex">
+        {% if section.settings.conditional_cta_icon != blank %}
+          {{ section.settings.conditional_cta_icon | image_url: width: 24 | image_tag: loading: 'lazy' }}
+        {% endif %}
+        <span>{{ section.settings.conditional_cta_text }}</span>
+      </div>
+    </details>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Consign – Guide",
+  "settings": [
+    { "type": "image_picker", "id": "howto_icon", "label": "How-to icon" },
+    { "type": "image_picker", "id": "criteria_icon", "label": "Criteria Header Icon" },
+    { "type": "image_picker", "id": "always_icon", "label": "Always Accepted Icon" },
+    { "type": "image_picker", "id": "conditional_icon", "label": "Conditionally Accepted Icon" },
+    { "type": "image_picker", "id": "conditional_cta_icon", "label": "CTA Icon" },
+    { "type": "text", "id": "conditional_cta_text", "label": "CTA Text", "default": "Not sure if your item qualifies? Send photos before shipping." }
+  ],
+  "blocks": [
+    {
+      "type": "criteria_item",
+      "name": "Criteria Item",
+      "settings": [
+        { "type": "image_picker", "id": "icon", "label": "Icon" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "textarea", "id": "description", "label": "Description" }
+      ]
+    },
+    {
+      "type": "always_benefit",
+      "name": "Always Accepted Benefit",
+      "settings": [
+        { "type": "image_picker", "id": "icon", "label": "Icon" },
+        { "type": "text", "id": "text", "label": "Text" }
+      ]
+    },
+    {
+      "type": "conditional_exclusion",
+      "name": "Conditional Exclusion",
+      "settings": [
+        { "type": "image_picker", "id": "icon", "label": "Icon" },
+        { "type": "text", "id": "text", "label": "Text" }
+      ]
+    },
+    {
+      "type": "conditional_brand",
+      "name": "Conditional Brand",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Brand Name" },
+        { "type": "textarea", "id": "description", "label": "Acceptance Rules" }
+      ]
+    }
+  ],
+  "presets": [
+    { "name": "Consign – Guide" }
+  ]
+}
+{% endschema %}
+

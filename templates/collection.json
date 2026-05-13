@@ -1,0 +1,199 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-hero",
+      "settings": {
+        "text_align": "align--middle-center",
+        "show_title": true,
+        "show_title_below": false,
+        "show_description": true,
+        "show_description_below": false,
+        "color_bg": "palette--light bg--neutral",
+        "show_image": true,
+        "bg_position": "center-center",
+        "image_height": "use_screen_one_third",
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "enable_overlay_text": false,
+        "text_color": "text--white",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "width_text": "wrapper",
+        "padding_top_text": 36,
+        "padding_bottom_text": 0
+      }
+    },
+    "subcollections": {
+      "type": "collection-sub",
+      "settings": {
+        "subcollections": [],
+        "limit": 6,
+        "color_bg": "palette--light bg--neutral",
+        "text_color": "text--white",
+        "text_align": "align--middle-center",
+        "select_image": "collection",
+        "bg_position": "center-center",
+        "wh_ratio": 1.7,
+        "overlay_opacity": 20,
+        "overlay_color": "#000000",
+        "grid_mobile": 1.2,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "collections": {
+          "type": "collections",
+          "disabled": true,
+          "settings": {
+            "title": "All collections"
+          }
+        },
+        "filters": {
+          "type": "filters",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "collections",
+        "filters"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".filter__button input:disabled ~ label {display: none;}",
+        ".sidebar__filter__group .filter__button label {display: block; position: relative; z-index: 5; float: left; border: 1px solid; padding: 2%; margin: 2%; width: auto;}",
+        ".icon-box {display: none;}",
+        "input[type=\"checkbox\"]:checked + label {background: #eaebed !important;}"
+      ],
+      "settings": {
+        "product_limit": 6,
+        "grid_large": 3,
+        "grid_mobile": "2",
+        "enable_layout_toggle": false,
+        "color_bg": "palette--light bg--neutral",
+        "collection_sorting": false,
+        "hide_sidebar": false,
+        "collapse_filters": false,
+        "show_products_count": false,
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 64
+      }
+    },
+    "section_html_PVgHjX": {
+      "type": "section-html",
+      "disabled": true,
+      "settings": {
+        "html": "<style>\ninput[name=\"filter.p.vendor\"] +\n label {\n  display: contents !important;\nfloat: none;\n}\n\n\ninput[name=\"filter.p.vendor\"] + .stateful-filter-icons .icon-box {\ntop: auto !important;\ndisplay: block !important;\nmargin-top: -6%;\n}\n\n</style>",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_collection_grid_WYHwBi": {
+      "type": "custom-collection-grid",
+      "blocks": {
+        "collection_FyhTPc": {
+          "type": "collection",
+          "settings": {
+            "collection": "tall-boots"
+          }
+        },
+        "collection_6YFTVh": {
+          "type": "collection",
+          "settings": {
+            "collection": "paddock-boots"
+          }
+        },
+        "collection_Cp9EDt": {
+          "type": "collection",
+          "settings": {
+            "collection": "shoes"
+          }
+        },
+        "collection_QEQxpq": {
+          "type": "collection",
+          "settings": {
+            "collection": "half-chaps"
+          }
+        },
+        "collection_4Ncxmw": {
+          "type": "collection",
+          "settings": {
+            "collection": "socks-1"
+          }
+        },
+        "collection_QRqRYc": {
+          "type": "collection",
+          "settings": {
+            "collection": "spurs-accessories"
+          }
+        },
+        "collection_gyYUNL": {
+          "type": "collection",
+          "settings": {
+            "collection": "kids-camp"
+          }
+        }
+      },
+      "block_order": [
+        "collection_FyhTPc",
+        "collection_6YFTVh",
+        "collection_Cp9EDt",
+        "collection_QEQxpq",
+        "collection_4Ncxmw",
+        "collection_QRqRYc",
+        "collection_gyYUNL"
+      ],
+      "disabled": true,
+      "name": "Custom Collection Grid",
+      "settings": {
+        "title": "Featured Collection",
+        "columns": 4,
+        "sidebar_title": "Browse Categories",
+        "show_all_link": true,
+        "show_counts": true
+      }
+    },
+    "1751563362e00ae3d5": {
+      "type": "apps",
+      "blocks": {
+        "searchanise_search_filter_app_block_ywEgVc": {
+          "type": "shopify://apps/searchanise-search-filter/blocks/app-block/d8f24ada-02b1-458a-bbeb-5bf16d5c921e",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "searchanise_search_filter_app_block_ywEgVc"
+      ],
+      "settings": {
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main",
+    "section_html_PVgHjX",
+    "custom_collection_grid_WYHwBi",
+    "1751563362e00ae3d5"
+  ]
+}

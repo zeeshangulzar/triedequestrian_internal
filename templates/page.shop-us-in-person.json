@@ -1,0 +1,188 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_richtext_NHVbi8": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_Xghm6z": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Shop In Person",
+            "enable_line": true,
+            "text_size": 8
+          }
+        },
+        "heading_y8bQJJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "The TriedEquestrian",
+            "text_size": 8
+          }
+        },
+        "text_UPrKxg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>23120 Lyons Ave. #22</p><p>Newhall, CA 91321</p>",
+            "text_size": 8,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_Xghm6z",
+        "heading_y8bQJJ",
+        "text_UPrKxg"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_b4BmKT": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_WVrWCr": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "Hours",
+            "enable_line": true,
+            "text_size": 8
+          }
+        },
+        "text_XFQnRp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Monday-Friday: 10am-6pm</p><p>Saturday: 10am-4pm</p><p>Sunday: Closed</p>",
+            "text_size": 8,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_WVrWCr",
+        "text_XFQnRp"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_richtext_DkTMGy": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_q3wrVN": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "We're Easy to Reach",
+            "enable_line": true,
+            "text_size": 8
+          }
+        },
+        "text_zwynbQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call or text: 661-877-5392</p><p>Email: mckenna@triedequestrian.com</p>",
+            "text_size": 8,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_q3wrVN",
+        "text_zwynbQ"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_contact_NXU4FL": {
+      "type": "section-contact",
+      "blocks": {
+        "text_LP64Px": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email_8rAgfL": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "body_N9Dw7D": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "text_LP64Px",
+        "email_8rAgfL",
+        "body_N9Dw7D"
+      ],
+      "settings": {
+        "title": "Contact Us",
+        "align_text": "text-left",
+        "button_size": "btn--long",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "section_richtext_NHVbi8",
+    "section_richtext_b4BmKT",
+    "section_richtext_DkTMGy",
+    "section_contact_NXU4FL",
+    "main"
+  ]
+}

@@ -1,0 +1,532 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "consign-hero",
+      "settings": {
+        "heading_line_1": "Consign with",
+        "heading_line_2": "The Tried Equestrian",
+        "hero_image": "shopify://shop_images/Untitled_design_22_62435499-e1d1-4dd3-9bf2-46ce7ccf5d75.png",
+        "subheading": "Sell with TriedEq. It's easy!",
+        "description": "Our specialty is helping to extend the lifecycle of items in production."
+      }
+    },
+    "process": {
+      "type": "consign-process",
+      "blocks": {
+        "step_Ph7xfE": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/test.svg",
+            "title": "GATHER TACK & APPAREL TO CONSIGN",
+            "description": "Make sure to double check our list of accepted items and conditions."
+          }
+        },
+        "step_nUbKxe": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/truck_7efb0153-a019-4c13-8314-e486423c932b.svg",
+            "title": "SHIP TO TTE",
+            "description": "Made easy with a shipping bag and prepaid return label."
+          }
+        },
+        "step_BwEUbX": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/desktop.svg",
+            "title": "CONSIGNOR PORTAL",
+            "description": "See views, likes, item sales, stated condition, and our list price."
+          }
+        },
+        "step_Rjf34q": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/camera_e07bcdd5-0f01-4be9-95ac-e86a51541868.svg",
+            "title": "YOUR ITEMS ARE PRICED, PHOTOGRAPHED, POSTED & PROMOTED",
+            "description": "Leave all the heavy lifting to us."
+          }
+        },
+        "step_wPKbxc": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/doller_4e14397b-8548-472a-9d94-f9995eb19b97.svg",
+            "title": "GET PAID!",
+            "description": "Claim items via credit, PayPal, or Check. Delayed one month to account for returns."
+          }
+        },
+        "step_XxtDRb": {
+          "type": "step",
+          "settings": {
+            "icon": "shopify://shop_images/repeat_4fa8395d-d06e-47db-9314-9f3f579c6c86.svg",
+            "title": "REPEAT OFTEN",
+            "description": "Request a kit whenever you need it and help keep waste out of landfills."
+          }
+        }
+      },
+      "block_order": [
+        "step_Ph7xfE",
+        "step_nUbKxe",
+        "step_BwEUbX",
+        "step_Rjf34q",
+        "step_wPKbxc",
+        "step_XxtDRb"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "OUR PROCESS",
+        "button_label": "CONSIGN NOW",
+        "button_link": "shopify://pages/request-a-consignment-kit"
+      }
+    },
+    "pricing": {
+      "type": "consign-pricing",
+      "blocks": {
+        "row_68CGAE": {
+          "type": "row",
+          "settings": {
+            "condition": "New with Tags",
+            "tack": "25%+ off",
+            "apparel": "30%+ off",
+            "footwear": "30%+ off"
+          }
+        },
+        "row_XVhgBb": {
+          "type": "row",
+          "settings": {
+            "condition": "Excellent",
+            "tack": "30%+ off",
+            "apparel": "30%+ off",
+            "footwear": "30%+ off"
+          }
+        },
+        "row_8GBeyp": {
+          "type": "row",
+          "settings": {
+            "condition": "Great",
+            "tack": "45%+ off",
+            "apparel": "40%+ off",
+            "footwear": "35%+ off"
+          }
+        },
+        "row_9x4kT7": {
+          "type": "row",
+          "settings": {
+            "condition": "Good",
+            "tack": "55%+ off",
+            "apparel": "60%+ off",
+            "footwear": "55%+ off"
+          }
+        }
+      },
+      "block_order": [
+        "row_68CGAE",
+        "row_XVhgBb",
+        "row_8GBeyp",
+        "row_9x4kT7"
+      ],
+      "settings": {
+        "title": "HOW WE PRICE",
+        "icon_resale": "shopify://shop_images/resale_6ba01d03-ed21-44c7-8daf-9d11c2a9e858.svg",
+        "icon_market": "shopify://shop_images/markets-trend.svg"
+      }
+    },
+    "guide": {
+      "type": "consign-guide",
+      "blocks": {
+        "conditional_brand_NMRxFg": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Ariat",
+            "description": "Select apparel only. Please double check styles are within 3 years. Not accepted styles include Heritage and Pro Series apparel."
+          }
+        },
+        "conditional_brand_FD76mV": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Fits",
+            "description": "Breeches with deerskin-paneled styles are excluded."
+          }
+        },
+        "conditional_brand_MfjLnH": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Grand Prix",
+            "description": "Backpacks and Saltare-style show jackets only."
+          }
+        },
+        "conditional_brand_Bq9TYF": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Helite",
+            "description": "Air vests must be new with original tags attached."
+          }
+        },
+        "conditional_brand_HWQgyG": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Hermès",
+            "description": "Equestrian items only. Fashion and non-equestrian accessories are not accepted."
+          }
+        },
+        "conditional_brand_THQzJL": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Kask",
+            "description": "Helmets must be new with original tags attached."
+          }
+        },
+        "conditional_brand_pTzx34": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Kensington",
+            "description": "Horse blankets are excluded. Accessories are all accepted."
+          }
+        },
+        "conditional_brand_bpjV9K": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Kentucky",
+            "description": "Horse blankets and large stable fixtures are excluded. Accessories are all accepted."
+          }
+        },
+        "conditional_brand_e3y9G3": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Kerrits",
+            "description": "Technical riding apparel only. Performance styles accepted; casual or lifestyle pieces are not."
+          }
+        },
+        "conditional_brand_JytqN7": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Kingsland",
+            "description": "Show and performance apparel only. Sweatshirt-style jackets, tights, and children's items are not accepted."
+          }
+        },
+        "conditional_brand_QBLTEc": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Lululemon",
+            "description": "Zip-front outerwear and seamless Swiftly long- and short-sleeve tops only."
+          }
+        },
+        "conditional_brand_b9XDCW": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Ovation",
+            "description": "Tack items only. Apparel is not currently accepted."
+          }
+        },
+        "conditional_brand_dKMjtF": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Pikeur",
+            "description": "Select apparel only. Please double check styles are within 3 years. Not accepted styles include cotton based breeches."
+          }
+        },
+        "conditional_brand_wfNFkC": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Professional's Choice",
+            "description": "Must be specifically English. No medicine boots."
+          }
+        },
+        "conditional_brand_rRri7w": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Shires",
+            "description": "Tack items only. Apparel is not currently accepted."
+          }
+        },
+        "conditional_brand_L9gnDr": {
+          "type": "conditional_brand",
+          "settings": {
+            "title": "Tredstep",
+            "description": "Select apparel only. Styles must be current; please double check styles are within 3 years."
+          }
+        },
+        "conditional_exclusion_MYYtpX": {
+          "type": "conditional_exclusion",
+          "settings": {
+            "icon": "shopify://shop_images/save.svg",
+            "text": "Older collections"
+          }
+        },
+        "conditional_exclusion_UYgY3f": {
+          "type": "conditional_exclusion",
+          "settings": {
+            "icon": "shopify://shop_images/test.svg",
+            "text": "Entry-level or basic styles"
+          }
+        },
+        "conditional_exclusion_zRUJNd": {
+          "type": "conditional_exclusion",
+          "settings": {
+            "icon": "shopify://shop_images/layers_f73cf5d4-8c6d-4e68-bb71-2e2ad5496bc0.svg",
+            "text": "Entry-level or basic styles"
+          }
+        },
+        "conditional_exclusion_arnFg9": {
+          "type": "conditional_exclusion",
+          "settings": {
+            "icon": "shopify://shop_images/divide.svg",
+            "text": "Items heavily discounted on the brand's own website"
+          }
+        },
+        "always_benefit_YaHEyY": {
+          "type": "always_benefit",
+          "settings": {
+            "icon": "shopify://shop_images/grow.svg",
+            "text": "Fast sell-through"
+          }
+        },
+        "always_benefit_n8c7gx": {
+          "type": "always_benefit",
+          "settings": {
+            "icon": "shopify://shop_images/people.svg",
+            "text": "Strong buyer demand"
+          }
+        },
+        "always_benefit_bMgTbg": {
+          "type": "always_benefit",
+          "settings": {
+            "icon": "shopify://shop_images/doller_4e14397b-8548-472a-9d94-f9995eb19b97.svg",
+            "text": "Reliable resale value"
+          }
+        },
+        "criteria_item_TedV97": {
+          "type": "criteria_item",
+          "settings": {
+            "icon": "shopify://shop_images/star_ea686e2b-3749-47e4-8e59-4a884a119656.svg",
+            "title": "Fresh & Ready",
+            "description": "Clean, laundered, and smelling show-ring worthy"
+          }
+        },
+        "criteria_item_rrG76F": {
+          "type": "criteria_item",
+          "settings": {
+            "icon": "shopify://shop_images/eye.svg",
+            "title": "Looking Sharp",
+            "description": "No major flaws, stains, or signs of heavy wear"
+          }
+        },
+        "criteria_item_wqMLrc": {
+          "type": "criteria_item",
+          "settings": {
+            "icon": "shopify://shop_images/save.svg",
+            "title": "On Trend",
+            "description": "From recent seasons (within 3 years for apparel)"
+          }
+        },
+        "criteria_item_ybBaqr": {
+          "type": "criteria_item",
+          "settings": {
+            "icon": "shopify://shop_images/yours_8018cd3c-0712-49d5-8010-284beb8cfa19.svg",
+            "title": "Truly Yours",
+            "description": "Free of monograms or personalization that can't be removed"
+          }
+        },
+        "criteria_item_gPptNx": {
+          "type": "criteria_item",
+          "settings": {
+            "icon": "shopify://shop_images/cross.svg",
+            "title": "What We Skip",
+            "description": "Horse blankets (except Back on Track), men's apparel & crops"
+          }
+        },
+        "criteria_item_ndxdHW": {
+          "type": "criteria_item",
+          "settings": {
+            "icon": "shopify://shop_images/check.svg",
+            "title": "Safety First",
+            "description": "Air vests and helmets must be brand new with tags attached"
+          }
+        }
+      },
+      "block_order": [
+        "conditional_brand_NMRxFg",
+        "conditional_brand_FD76mV",
+        "conditional_brand_MfjLnH",
+        "conditional_brand_Bq9TYF",
+        "conditional_brand_HWQgyG",
+        "conditional_brand_THQzJL",
+        "conditional_brand_pTzx34",
+        "conditional_brand_bpjV9K",
+        "conditional_brand_e3y9G3",
+        "conditional_brand_JytqN7",
+        "conditional_brand_QBLTEc",
+        "conditional_brand_b9XDCW",
+        "conditional_brand_dKMjtF",
+        "conditional_brand_wfNFkC",
+        "conditional_brand_rRri7w",
+        "conditional_brand_L9gnDr",
+        "conditional_exclusion_MYYtpX",
+        "conditional_exclusion_UYgY3f",
+        "conditional_exclusion_zRUJNd",
+        "conditional_exclusion_arnFg9",
+        "always_benefit_YaHEyY",
+        "always_benefit_n8c7gx",
+        "always_benefit_bMgTbg",
+        "criteria_item_TedV97",
+        "criteria_item_rrG76F",
+        "criteria_item_wqMLrc",
+        "criteria_item_ybBaqr",
+        "criteria_item_gPptNx",
+        "criteria_item_ndxdHW"
+      ],
+      "custom_css": [],
+      "settings": {
+        "howto_icon": "shopify://shop_images/book.svg",
+        "criteria_icon": "shopify://shop_images/general.svg",
+        "always_icon": "shopify://shop_images/always.svg",
+        "conditional_icon": "shopify://shop_images/conditional.svg",
+        "conditional_cta_icon": "shopify://shop_images/camera_4f4a3cdf-7006-403c-9ec1-a61a0bd3b4f4.svg",
+        "conditional_cta_text": "Not sure if your item qualifies? Send photos before shipping."
+      }
+    },
+    "payout": {
+      "type": "consign-payout",
+      "blocks": {
+        "payout_row_ma6TAa": {
+          "type": "payout_row",
+          "settings": {
+            "price": "$1000+",
+            "cash": "80%",
+            "credit": "85%"
+          }
+        },
+        "payout_row_tzjkXN": {
+          "type": "payout_row",
+          "settings": {
+            "price": "$500-$1000",
+            "cash": "70%",
+            "credit": "80%"
+          }
+        },
+        "payout_row_yGxjWT": {
+          "type": "payout_row",
+          "settings": {
+            "price": "$250-$500",
+            "cash": "60%",
+            "credit": "70%"
+          }
+        },
+        "payout_row_WaTDeg": {
+          "type": "payout_row",
+          "settings": {
+            "price": "$100-$250",
+            "cash": "50%",
+            "credit": "60%"
+          }
+        },
+        "payout_row_w383wi": {
+          "type": "payout_row",
+          "settings": {
+            "price": "$50-$100",
+            "cash": "40%",
+            "credit": "50%"
+          }
+        },
+        "payout_row_UDXYFV": {
+          "type": "payout_row",
+          "settings": {
+            "price": "$20-$50",
+            "cash": "20%",
+            "credit": "30%"
+          }
+        }
+      },
+      "block_order": [
+        "payout_row_ma6TAa",
+        "payout_row_tzjkXN",
+        "payout_row_yGxjWT",
+        "payout_row_WaTDeg",
+        "payout_row_w383wi",
+        "payout_row_UDXYFV"
+      ],
+      "settings": {
+        "title": "WHAT YOU'LL EARN",
+        "notice_icon": "shopify://shop_images/info.svg",
+        "notice_title": "Please Keep in Mind...",
+        "notice_text": "<p>Our pricing guidelines are <strong>rough estimates</strong>. Seasonality and style will affect pricing and your end payout.</p><p>Low priced items under <strong>$20 are ineligible</strong> for consignment as their processing costs are greater than their payouts.</p><p>You are still welcome to send them in for TriedEq to donate, upcycle, recycle or resell as we see fit.</p>",
+        "payment_description": "At the beginning of the month, a check will be sent out with an invoice breakdown. We delay sending payments by one month to accommodate any returns. You are able to check the real-time status of your items in our Consignor Portal.",
+        "cta_text": "CONSIGN NOW",
+        "cta_link": "shopify://pages/request-a-consignment-kit"
+      }
+    },
+    "faq": {
+      "type": "consign-faq",
+      "blocks": {
+        "faq_item_attrdm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How many items should I consign at a time?",
+            "answer": "We recommend starting with 10-20 items to get familiar with the process. You can always send more once you're comfortable with how everything works."
+          }
+        },
+        "faq_item_AEzqT8": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What is your consignment agreement?",
+            "answer": "Our consignment agreement outlines the terms of our partnership, including payout rates, item handling, and return policies. You can view the full agreement in your Consignor Portal."
+          }
+        },
+        "faq_item_jDUEhJ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What happens to not accepted items or items that aren't selling?",
+            "answer": "Items that don't sell or aren't accepted can be returned to you (shipping fee applies), donated to equestrian charities, upcycled, or recycled. You can specify your preference in your portal."
+          }
+        },
+        "faq_item_n7UQG6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What brands do you accept?",
+            "answer": "We accept a wide range of premium equestrian brands. Check our Consignment Acceptance Guide above for the full list of always-accepted and conditionally-accepted brands."
+          }
+        },
+        "faq_item_gxPKgc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How does payment work and what are the commissions and fees?",
+            "answer": "Payouts are sent at the beginning of each month for the previous month's sales, delayed by one month for returns. Commission rates range from 20-85% based on selling price, with store credit earning an additional 10% bonus."
+          }
+        },
+        "faq_item_BrGntn": {
+          "type": "faq_item",
+          "settings": {
+            "question": "I didn't get the payout I expected.",
+            "answer": "Please check your Consignor Portal for a detailed breakdown of your sales and payouts. If you still have questions, contact us and we'll be happy to review your account."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_attrdm",
+        "faq_item_AEzqT8",
+        "faq_item_jDUEhJ",
+        "faq_item_n7UQG6",
+        "faq_item_gxPKgc",
+        "faq_item_BrGntn"
+      ],
+      "settings": {
+        "title": "FREQUENTLY ASKED QUESTIONS"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "process",
+    "pricing",
+    "guide",
+    "payout",
+    "faq"
+  ]
+}

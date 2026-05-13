@@ -1,0 +1,377 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "section-hero",
+      "blocks": {
+        "heading-block": {
+          "type": "heading",
+          "settings": {
+            "title": "FAQs",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading-block"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Excited_1_copy.JPG",
+        "height": "use_screen_one_fifth",
+        "overlay_opacity": 40,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "preload_image": true,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper--none",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": false,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper--narrow",
+        "padding_top": 64,
+        "padding_bottom": 32
+      }
+    },
+    "section_faq_HgUUzP": {
+      "type": "section-faq",
+      "blocks": {
+        "text_wFdxzV": {
+          "type": "text",
+          "settings": {
+            "title": "What condition are items accepted in and how is pricing determined?",
+            "content": "<p><a href=\"/pages/condition-and-pricing\" title=\"Condition and Pricing Criteria\"><strong>Click Here to Find Out</strong></a></p>"
+          }
+        },
+        "text_tdfF8m": {
+          "type": "text",
+          "settings": {
+            "title": "Can I be notified when a specific item comes in I am looking for?",
+            "content": "<p>Our <a href=\"https://www.triedequestrian.com/pages/waitlist\" title=\"Waitlist \">WAITLIST</a> feature allows you to be emailed about availability when there is a specific brand and product you would like to be notified about.</p><p>Due to many different size charts from brand to brand, we have simplified apparel sizing from XS-XL. Size charts showing the conversions will appear in <a href=\"https://www.triedequestrian.com/pages/waitlist\" title=\"Waitlist\">WAITLIST </a>to help guide you.</p><p>If there is more than one brand or product you would like to be notified about, you can create unlimited <a href=\"https://www.triedequestrian.com/pages/waitlist\" title=\"Waitlist\">WAITLIST</a> notifications.</p><p>Example: You are looking for size 24 tan show breeches. You could create a listing for Tailored Sportsman, Equiline, and Cavalleria Toscana breeches. </p><p><a href=\"https://www.triedequestrian.com/pages/waitlist\" title=\"Waitlist\">Join our WAITLIST today!</a></p>"
+          }
+        },
+        "text_rqRnaJ": {
+          "type": "text",
+          "settings": {
+            "title": "What is the TriedEq Rewards Program and how does it work?",
+            "content": "<p><strong>Is it free? </strong></p><p>﻿Yes! The TriedEq Rewards program is free to join. </p><p><strong>How do you earn TriedEq Points?</strong></p><ul><li>Place an order - <em>2 Eq Points for every $1 spent</em></li><li>Sign Up - <em>500 Eq Points</em></li><li>Celebrate your birthday - <em>500 Eq Points</em></li></ul><p><strong>What are the rewards?</strong></p><ul><li>1000 Eq Points - <em>$10 off</em></li><li>2000 Eq Points - <em>$20 off</em></li><li>5000 Eq Points - <em>$50 off</em></li></ul><p><em><br/></em><em><strong>Click the teal star \"Rewards\" button at the bottom right of your screen to sign up or access your rewards!</strong></em></p>"
+          }
+        },
+        "text_C9j8y3": {
+          "type": "text",
+          "settings": {
+            "title": "What is ShopPay Installments and how does it work?",
+            "content": "<p>ShopPay Installments payment platform gives shoppers the choice to pay for their purchases over time. You will be able to select the method that works best for you ranging from 4 simple, interest-free installments to a year long plan with some interest added ShopPay is a platform built for shoppers, that empowers them to buy now, pay over time. You will see this option available at checkout as a payment option.</p><p><a href=\"https://shoppay.affirm.com/help/s/article/about-sp\" title=\"https://shoppay.affirm.com/help/s/article/about-sp\"><strong>Click Here to Learn More</strong></a></p>"
+          }
+        },
+        "text_Ehnqc8": {
+          "type": "text",
+          "settings": {
+            "title": "What frequency do items come in at and how long are products available for?",
+            "content": "<p>We receive hundreds of items a week and sell hundreds of items a week. We aim to price items to sell within 2 months time. We maintain a constant flow of high-quality and brand name equestrian tack and apparel. </p><p>To not miss out, we recommend acting fast when an item you want is in stock. We see ultra-desirable brands sell as quickly as 10 minutes!</p>"
+          }
+        },
+        "text_9FgBqb": {
+          "type": "text",
+          "settings": {
+            "title": "How does TTE shipping work?",
+            "content": "<p>We offer several different shipping options from USPS and UPS. Shipping rates are determined by weight and your location. </p><p>* Same Day Shipping for orders placed by 2pm. Later orders may be delayed to the following business day.</p><p><strong>Domestic Orders:</strong></p><p><strong>      </strong> Orders over $199 receive free shipping</p><p>       Orders under $199 are charged discounted market rates provided by each carrier.</p><p>       We cannot guarantee delivery dates, they are approximations</p><p><strong>International Orders:</strong></p><p>Shipping Pries are calculated at checkout</p><p>Duties and taxes are assessed by customs and are the responsibility of the customer</p><p>International shipping rates are determined by weight and location</p><p><strong>Please note for California residents:</strong></p><p>We only collect the CA tax rate of 7.25%. You are responsible to pay any district taxes or use taxes above 7.25% on the item. If you are located in Los Angeles county you are subject to an additional 2% charge for our district tax rate of 9.25%. Please see <a href=\"https://www.boe.ca.gov/lawguides/business/current/btlg/vol1/tutr/1823-4.html\">Regulation 1823.4</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_wFdxzV",
+        "text_tdfF8m",
+        "text_rqRnaJ",
+        "text_C9j8y3",
+        "text_Ehnqc8",
+        "text_9FgBqb"
+      ],
+      "custom_css": [
+        "a {color: #2e403d;}"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "title_align": "text-left",
+        "title_size": 8,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 36
+      }
+    },
+    "accordion-section-1": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_1_1": {
+          "type": "text",
+          "settings": {
+            "title": "Is my payment data safe with you?",
+            "content": "<p>All direct payment gateways adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, MasterCard, American Express, and Discover.</p>"
+          }
+        },
+        "accordion_block_1_2": {
+          "type": "text",
+          "settings": {
+            "title": "Do you accept online payments?",
+            "content": "<p>Yes, we accept online payments. All payment processing and vital customer information is quick, easy, and secure.<br/></p><p>Learn more about our store's safe checkout experience (powered by Shopify) <a href=\"https://www.shopify.com/legal/terms#DataProtection\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms#DataProtection\">here</a>.</p>"
+          }
+        },
+        "accordion_block_1_3": {
+          "type": "text",
+          "settings": {
+            "title": "Where can I learn more about the payment and processing on your store?",
+            "content": "<p>For more insight, you may also want to read Shopify’s Terms of Service <a href=\"https://www.shopify.com/legal/terms\" target=\"_blank\" title=\"https://www.shopify.com/legal/terms\">here</a> or Privacy Statement <a href=\"https://www.shopify.com/legal/privacy\" target=\"_blank\" title=\"https://www.shopify.com/legal/privacy\">here</a>.</p>"
+          }
+        },
+        "text_GKzzbV": {
+          "type": "text",
+          "settings": {
+            "title": "Frequently asked question",
+            "content": "<p>Share details about your shipping policies, item returns, or customer service.</p>"
+          }
+        },
+        "accordion_block_1_4": {
+          "type": "text",
+          "settings": {
+            "title": "What forms of payment do you accept?",
+            "content": "<p>We accept payments from major credit card companies like Visa, Mastercard, and American Express. We also accept PayPal, Apple Pay, and ShopPay Installments.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_1_1",
+        "accordion_block_1_2",
+        "accordion_block_1_3",
+        "text_GKzzbV",
+        "accordion_block_1_4"
+      ],
+      "settings": {
+        "title": "Payments & Safety",
+        "title_align": "text-left",
+        "title_size": 8,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "accordion-section-2": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_2_0": {
+          "type": "text",
+          "settings": {
+            "title": "How long does it take to get my products?",
+            "content": "<p>Domestic shipping can take up to 7 business days.<br/><br/>Foreign shipping could take up to 14 business days.<br/><br/>Due to global supply chain challenges, shipping times could be longer than usual.</p>"
+          }
+        },
+        "accordion_block_2_1": {
+          "type": "text",
+          "settings": {
+            "title": "How much does it cost?",
+            "content": "<p>Shipping rates can vary depending on your region and are calculated at checkout.<br/><br/>Here are the full details of our <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">Shipping Policy</a>.</p>"
+          }
+        },
+        "accordion_block_2_2": {
+          "type": "text",
+          "settings": {
+            "title": "Is there free shipping?",
+            "content": "<p>Yes, we offer free shipping on domestic orders over $199.  Check the cart to see the current deal on free shipping..</p>"
+          }
+        },
+        "accordion_block_2_3": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "content": "<p>Yes, we ship our products all over the globe.<br/><br/>Please note that free shipping is not applicable for international orders and that shipping rates could vary depending on your region.</p>"
+          }
+        },
+        "accordion_block_2_4": {
+          "type": "text",
+          "settings": {
+            "title": "Do you ship to my area?",
+            "content": "<p>A full list of all of our shipping areas can be found <a href=\"/policies/shipping-policy\" title=\"Shipping Policy\">here</a>.<br/><br/>If your country or region is not mentioned, please feel free to reach out to see if we can work out the details.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_2_0",
+        "accordion_block_2_1",
+        "accordion_block_2_2",
+        "accordion_block_2_3",
+        "accordion_block_2_4"
+      ],
+      "settings": {
+        "title": "Shipping & Delivery",
+        "title_align": "text-left",
+        "title_size": 8,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "accordion-section-4": {
+      "type": "section-faq",
+      "blocks": {
+        "accordion_block_4_0": {
+          "type": "text",
+          "settings": {
+            "title": "Do you offer refunds?",
+            "content": "<p>Yes, we always offer returns to give you full confidence in shopping pre-owned and discount!<br/><br/>You can view our full return policy <a href=\"/pages/return-policy-1\" title=\"Return Policy\">HERE</a>.</p>"
+          }
+        },
+        "accordion_block_4_1": {
+          "type": "text",
+          "settings": {
+            "title": "How long after I complete a purchase can I ask for a refund?",
+            "content": "<p>A refund request can be submitted within 2 weeks after the purchase is delivered, confirmed by tracking.</p>"
+          }
+        },
+        "accordion_block_4_3": {
+          "type": "text",
+          "settings": {
+            "title": "Who pays the shipping costs in the case of a refund when the order doesn't have free shipping?",
+            "content": "<p>When an order does not include free shipping, all shipping costs (including the return shipping) are handled by the customer.</p>"
+          }
+        },
+        "accordion_block_4_4": {
+          "type": "text",
+          "settings": {
+            "title": "Who pays the shipping costs in the case of a refund when the order has free shipping?",
+            "content": "<p>When an order includes free shipping, only the cost of the return shipping is handled by the customer. *Excludes Saddles</p>"
+          }
+        },
+        "text_cCtzw3": {
+          "type": "text",
+          "settings": {
+            "title": "Expected Refund Times",
+            "content": "<p><em>Returns can take up to a week to be processed.</em></p><ol><li><strong>Credit Card</strong> - Once processed, expect 3-7 business for the refund to be credited to your credit card account.</li><li><strong>Store Credit</strong> - Store Credit will be emailed same day the return is processed.</li><li><strong>Exchange</strong> - Any excess payment will be returned to the customer via store credit. If additional payment is needed on an exchange, an invoice will be emailed to the customer. The item(s) requested for exchange will be mailed the next business day after full payment is received.</li></ol>"
+          }
+        },
+        "text_fTpeBn": {
+          "type": "text",
+          "settings": {
+            "title": "Accepted Returns & Return Window",
+            "content": "<p>The Tried Equestrian offers a 2 week return window, from the date of delivery, for all items excluding saddles. We offer a 5 day trial period for saddles from the date of delivery. Return requests must be emailed to TTE within return window. Return requests must be emailed to Mckenna@triedequestrian.com. The item(s) must arrive back in the same condition sent with the initial tags attached.</p>"
+          }
+        },
+        "text_qqUtdB": {
+          "type": "text",
+          "settings": {
+            "title": "Return Process for Saddles",
+            "content": "<ol><li>Request a return within 5 days by emailing contact@triedequestrian.com</li><li>You will be emailed a prepaid return shipping label and return form. </li><li>$120 will be deducted from your return when your item is processed to cover the cost of initial shipping and the return shipment.  </li></ol>"
+          }
+        }
+      },
+      "block_order": [
+        "accordion_block_4_0",
+        "accordion_block_4_1",
+        "accordion_block_4_3",
+        "accordion_block_4_4",
+        "text_cCtzw3",
+        "text_fTpeBn",
+        "text_qqUtdB"
+      ],
+      "settings": {
+        "title": "Returns & Refunds",
+        "title_align": "text-left",
+        "title_size": 8,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 66
+      }
+    },
+    "section_contact_NxLEMh": {
+      "type": "section-contact",
+      "blocks": {
+        "text_n3UDP8": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email_jD9tFV": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "body_a6ceky": {
+          "type": "body",
+          "settings": {
+            "title": "Message"
+          }
+        }
+      },
+      "block_order": [
+        "text_n3UDP8",
+        "email_jD9tFV",
+        "body_a6ceky"
+      ],
+      "custom_css": [
+        ".standard__kicker {font-size: calc(var(--font-8) * var(--FONT-ADJUST-ACCENT));}"
+      ],
+      "settings": {
+        "title": "Have Another Question?",
+        "align_text": "text-left",
+        "button_size": "btn--large btn--full",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "width": "wrapper--narrow",
+        "padding_top": 66,
+        "padding_bottom": 66
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "section_faq_HgUUzP",
+    "accordion-section-1",
+    "accordion-section-2",
+    "accordion-section-4",
+    "section_contact_NxLEMh"
+  ]
+}

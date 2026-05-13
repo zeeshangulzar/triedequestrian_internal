@@ -1,0 +1,72 @@
+<section class="consign-faq section-container section-padding-consign">
+  <div class="page-width">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="section-divider"></div>
+    <p class="text-muted-foreground mt-4">Everything you need to know about consigning with us</p>
+
+    <!-- FAQ Section -->
+    <div class="py-16 md:py-20 bg-secondary mt-10">
+      <div class="container mx-auto px-4">
+
+        <!-- FAQ Questions -->
+        <div class="space-y-4">
+          {% for block in section.blocks %}
+            <details class="consign-faq__item box-shadow">
+              <summary class="consign-faq__question consign-faq__question-summary box-shadow">
+                <div class="consign-faq__question-left">
+                  <div>
+                    <span class="consign-faq__question-title">{{ block.settings.question }}</span>
+                  </div>
+                </div>
+
+                <span class="consign-faq__collapse-arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200">
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </span>
+              </summary>
+
+              <div class="consign-faq__answer">
+                {{ block.settings.answer }}
+              </div>
+            </details>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Consign – FAQ",
+  "settings": [
+    { "type": "text", "id": "title", "label": "Title", "default": "FAQs" }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question",
+          "default": "How many items should I consign at a time?"
+        },
+        {
+          "type": "textarea",
+          "id": "answer",
+          "label": "Answer",
+          "default": "We recommend starting with 10-20 items to get familiar with the process. You can always send more once you're comfortable with how everything works."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Consign – FAQ"
+    }
+  ]
+}
+{% endschema %}

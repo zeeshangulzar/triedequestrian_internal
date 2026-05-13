@@ -1,0 +1,249 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+        "kicker": "",
+        "kicker_size": 3,
+        "show_title": true,
+        "title_size": 8,
+        "show_content": true,
+        "content_size": 5,
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_hero_izBcqw": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_6yYqBg": {
+          "type": "heading",
+          "settings": {
+            "title": "Request a Consignment Kit",
+            "text_size": 10
+          }
+        }
+      },
+      "block_order": [
+        "heading_6yYqBg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FullSizeRender-preview.heic",
+        "height": "use_screen_one_half",
+        "overlay_opacity": 15,
+        "overlay_color": "#000000",
+        "enable_overlay_text": true,
+        "preload_image": false,
+        "content_width": 2000,
+        "link_3": "",
+        "text_align": "align--middle-center",
+        "text_color": "text--white",
+        "color_bg": "hero__content--transparent",
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_jb4pWj": {
+      "type": "section-richtext",
+      "blocks": {
+        "heading_KcMExc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get ready to sell!",
+            "text_size": 9
+          }
+        }
+      },
+      "block_order": [
+        "heading_KcMExc"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 66,
+        "padding_bottom": 0
+      }
+    },
+    "section_richtext_raThEB": {
+      "type": "section-richtext",
+      "blocks": {
+        "kicker_gypybi": {
+          "type": "kicker",
+          "settings": {
+            "kicker": "",
+            "enable_line": true,
+            "text_size": 4
+          }
+        },
+        "heading_XNqXah": {
+          "type": "heading",
+          "settings": {
+            "heading": "In the spirit of sustainability, we’ve made a small change!",
+            "text_size": 6
+          }
+        },
+        "text_3yTenM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are no longer mailing shipping supplies to consignors. Instead, you’ll receive the same great service with a pre-paid shipping label and digital agreement—just pack your items in any box you have on hand and send them our way!</p>",
+            "text_size": 4,
+            "text_columns": 1
+          }
+        }
+      },
+      "block_order": [
+        "kicker_gypybi",
+        "heading_XNqXah",
+        "text_3yTenM"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "content_width": 2000,
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_contact_zQWbgJ": {
+      "type": "section-contact",
+      "blocks": {
+        "text_yWnyYe": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name"
+          }
+        },
+        "email_fq8CPX": {
+          "type": "email",
+          "settings": {
+            "title": "Email"
+          }
+        },
+        "text_6gcm7a": {
+          "type": "text",
+          "settings": {
+            "title": "Please list some of the items you are consigning."
+          }
+        },
+        "checkbox_Y6NnCJ": {
+          "type": "checkbox",
+          "settings": {
+            "title": "I am consigning a saddle."
+          }
+        },
+        "text_LGAMqj": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Do you have your own box to ship your items in?"
+          }
+        },
+        "body_BzfFkQ": {
+          "type": "body",
+          "settings": {
+            "title": "Please provide your complete mailing address."
+          }
+        }
+      },
+      "block_order": [
+        "text_yWnyYe",
+        "email_fq8CPX",
+        "text_6gcm7a",
+        "checkbox_Y6NnCJ",
+        "text_LGAMqj",
+        "body_BzfFkQ"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "text-left",
+        "button_size": "btn--large",
+        "button_color": "btn--neutral",
+        "button_style": "btn--outline",
+        "text_color": "text--neutral",
+        "bg": "palette--bright bg--bright",
+        "width": "wrapper",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section_faq_gGTfJc": {
+      "type": "section-faq",
+      "blocks": {
+        "text_bqJ9w6": {
+          "type": "text",
+          "settings": {
+            "title": "What is TTE's Buyout Program?",
+            "content": "<p><strong>FROM HORSEBACK TO CASHBACK!<br/><br/></strong>No need to wait to get paid for your items to sell!<br/>The Tried Equestrian now offers quick cash or store credit for select tack and apparel in excellent condition.<br/><br/><strong>BUYOUT PROCESS</strong></p><p>For items that meet The Tried Equestrian's Buyout guidelines, a Buyout Proposal is emailed, outlining each piece we want to purchase and a buyout total in cash or Store Credit. Any items we cannot purchase would fall into our traditional consignment program. If the proposal is accepted, we will send the payment within one week.</p><p><strong><br/>BUYOUT PAYMENT STRUCTURE</strong></p><p>Choose between Store Credit, PayPal or mailed check.</p><ul><li>Check or PayPal payout - consignor receives 25% of TTE price</li><li>Store credit payout - consignor receives 40% of TTE price</li></ul>"
+          }
+        },
+        "text_cWyTkk": {
+          "type": "text",
+          "settings": {
+            "title": "How many items should I consign at a time?",
+            "content": "<p>We ask for a minimum of 5 acceptable items, as we charge a $20 Processing Fee that covers the shipping of your items to us. With only one or 2 items, the fee can become cumbersome on a payout and is not absorbed well.</p>"
+          }
+        },
+        "text_bqk7tX": {
+          "type": "text",
+          "settings": {
+            "title": "What is your consignment aggreement?",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/1735/6525/files/2024_Consignment_Agreement.pdf?v=1708016300\" title=\"https://cdn.shopify.com/s/files/1/1735/6525/files/2024_Consignment_Agreement.pdf?v=1708016300\">See our Consignment Agreement Here</a></p>"
+          }
+        },
+        "text_C4bAYf": {
+          "type": "text",
+          "settings": {
+            "title": "What happens to not accepted items or items that aren't selling?",
+            "content": "<p><strong>Not Accepted Items:</strong></p><p>TTE reserves the right to reject any item for any reason for resale. Items must be in very good to new with tags condition (condition to be determined by TE only). Consignors whose items are deemed unacceptable for resale and who agree to pay for return freight charges, have the option of having such items returned to Consignor. Consignors, who choose not to pre-pay return freight charges forfeit all right, title and interest in such items, which shall be disposed of at the sole discretion of TE including but not limited to recycling, donation, resale, etc.</p><p>If we do not initially accept your items we will also refer to your agreement to see if you would like them donated or returned at your cost. If you have chosen to have them returned we will we send you an invoice for the return shipping. </p><p>Any time we are returning shipments we will charge the lowest market price for the actual shipping costs and any supplies used to ship. </p><p><strong>Discounts:</strong></p><p>All items are consigned for a minimum period of six months (180 days). During this period, TE reserves the right to discount unsold items in order to facilitate a sale at the following rate: 1) Immediately up to 20% for incentive discounts 2) at 3 months the item can be further discounted at 30% of original asking price 3) at 4 months the item can be further discounted at 40% of original asking price 4) at 5 months the item can be further discounted at 50% of original asking price and 5) at 6 months the item can be discounted to any price TE deems will sell the item.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_bqJ9w6",
+        "text_cWyTkk",
+        "text_bqk7tX",
+        "text_C4bAYf"
+      ],
+      "settings": {
+        "title": "Additional FAQs",
+        "title_align": "text-left",
+        "title_size": 8,
+        "heading_size": 5,
+        "text_size": 5,
+        "text_color": "text--neutral",
+        "bg": "palette--light bg--neutral",
+        "width": "wrapper",
+        "padding_top": 26,
+        "padding_bottom": 66
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_hero_izBcqw",
+    "section_richtext_jb4pWj",
+    "section_richtext_raThEB",
+    "section_contact_zQWbgJ",
+    "section_faq_gGTfJc"
+  ]
+}
